@@ -1,4 +1,4 @@
-# fasion
+# fashion
 
 ## Project setup
 ```
