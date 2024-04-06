@@ -153,4 +153,20 @@ export default {
   position: absolute;
   top: 40px;
 }
+
+.macbook-air .team-list:hover{
+  text-decoration: underline;
+}
+.macbook-air .show-info:hover{
+  text-decoration: underline;
+}
+.macbook-air .runway:hover{
+  text-decoration: underline;
+}
+.macbook-air .look-book:hover{
+  text-decoration: underline;
+}
+.macbook-air .behind-story:hover{
+  text-decoration: underline;
+}
 </style>
