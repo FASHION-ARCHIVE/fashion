@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import IncompView from '@/views/IncompView.vue'
+import TeamListView from '@/views/TeamListView.vue'
 
 const routes = [
   {
@@ -12,6 +13,11 @@ const routes = [
     path: '/coming-soon',
     name: 'coming-soon',
     component: IncompView
+  },
+  {
+    path:'/team-list',
+    name: 'team-list',
+    component: TeamListView
   }
 ]
 
