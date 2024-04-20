@@ -2,7 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import IncompView from '@/views/IncompView.vue'
 import TeamListView from '@/views/TeamListView.vue'
-import bugreportView from '@/views/teams/bugreport/bugreportView'
+import bugreportView from '@/views/teams/bugreport/bugreportView.vue'
+import ByunSangYoon from '@/views/teams/bugreport/members/ByunSangYoonView.vue'
 
 const routes = [
   {
@@ -24,6 +25,11 @@ const routes = [
     path:'/bugreport',
     name: 'bugreport',
     component: bugreportView
+  },
+  {
+    path:'/bugreport/byun-sangyoon',
+    name: 'ByunSangyoon',
+    component: ByunSangYoon
   }
 ]
 
