@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import IncompView from '@/views/IncompView.vue'
 import TeamListView from '@/views/TeamListView.vue'
-import bugreportView from '@/views/teams/bugreportView'
+import bugreportView from '@/views/teams/bugreport/bugreportView'
 
 const routes = [
   {
