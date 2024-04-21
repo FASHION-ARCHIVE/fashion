@@ -79,7 +79,7 @@
 }
 
 .nav-links a:hover {
-    color: gold; /* 호버 시 글씨 색상 변경 */
+    color: gray; /* 호버 시 글씨 색상 변경 */
 }
 
 .top1 {
