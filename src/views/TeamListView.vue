@@ -7,7 +7,7 @@
       <div class="team-list-text">TEAM LIST</div>
       <div class ="image-grid">
         <div class="image-item">
-          <router-link to = "/coming-soon"><img class="team 1" alt="team 1" src="@/assets/images/yy.jpeg" /></router-link>
+          <router-link to = "/bugreport"><img class="team 1" alt="team 1" src="@/assets/images/yy.jpeg" /></router-link>
           <div class="caption">BUG REPORT</div>
         </div>
         <div class="image-item">
@@ -40,7 +40,7 @@
 <script>
     import mainHeader from '@/components/TopCategory.vue';
     export default {
-       name: 'App',
+       name: 'TeamList',
        components: {
          mainHeader
        }
@@ -69,11 +69,9 @@
   width: 1130px;
   display: flex;
   flex-direction: column;
-  margin-top:30px;
 }
 .team-list-text {
   display: flex;
-  position: relative;
   font-size: 28px;
   font-family: 'Custom'; /* 필요한 경우 폰트 스타일 지정 */
 }
@@ -82,7 +80,6 @@
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   justify-content: space-between;
 }

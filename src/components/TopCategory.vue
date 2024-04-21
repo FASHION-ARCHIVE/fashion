@@ -32,7 +32,6 @@
     width: 100%;
     background-color: whitesmoke;
     font-family: "Custom", Helvetica;
-    z-index: 100;
 }
 
 .menu2{
