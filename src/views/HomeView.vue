@@ -111,7 +111,7 @@ export default {
 .home-background .element-KUAD-GRADUATION {
   color: #000000;
   font-family: "Custom", Helvetica;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 300;
   height: 58px;
   left: 0;
