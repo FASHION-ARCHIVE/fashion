@@ -1,13 +1,43 @@
 
-
 <template>
     <mainHeader/>
-  </template>
+    <div class ="team-brochure-background">
+        <div class="team-brochure-container">
+            <div class="team-brochure-text">TEAM BROCHURE</div>
+            <div class="team-brochure-image-container">
+                <div class="image-item">
+                    <router-link to = "/bugreport"><img class="team 1" alt="team 1" src="@/assets/images/yy.jpeg" /></router-link>
+                    <div class="caption">BUG REPORT</div>
+                </div>
+                <div class="image-item">
+                    <router-link to = "/coming-soon"><img class="team 2" alt="team 2" src="@/assets/images/yy.jpeg" /></router-link>
+                    <div class="caption">ANACHRONIA</div>
+                </div>
+                <div class="image-item">
+                    <router-link to = "/coming-soon"><img class="team 3" alt="team 3" src="@/assets/images/yy.jpeg" /></router-link>
+                    <div class="caption">PROTOPHOBIA</div>
+                </div>
+                <div class="image-item">
+                    <router-link to = "/coming-soon"><img class="team 4" alt="team 4" src="@/assets/images/yy.jpeg" /></router-link>
+                    <div class="caption">팀 4</div>
+                </div>
+                <div class="image-item">
+                    <router-link to = "/coming-soon"><img class="team 5" alt="team 5" src="@/assets/images/yy.jpeg" /></router-link>
+                    <div class="caption">팀 5</div>
+                </div>
+                <div class="image-item">
+                    <router-link to = "/coming-soon"><img class="team 6" alt="team 6" src="@/assets/images/yy.jpeg" /></router-link>
+                    <div class="caption">팀 6</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
   
   <script>
       import mainHeader from '@/components/TopCategory.vue';
       export default {
-         name: 'TeamBrochure',
+         name: 'team-brochuer',
          components: {
            mainHeader
          }
@@ -20,7 +50,8 @@
     src: url('../assets/fonts/TitilliumWeb-Regular.ttf') format('truetype');
     font-weight: 400;
   }
-  .team-background{
+
+  .team-brochure-background{
     /* 배경 이미지 적용 */
     display: flex;
     height: auto;
@@ -32,25 +63,26 @@
     margin-top: 144px;
   }
   
-  .team-list-container{
+  .team-brochure-container{
     width: 1130px;
     display: flex;
     flex-direction: column;
   }
-  .team-list-text {
+  .team-brochure-text {
     display: flex;
     font-size: 28px;
     font-family: 'Custom'; /* 필요한 경우 폰트 스타일 지정 */
     margin-top: 30px;
   }
   
-  .image-grid {
+  .team-brochure-image-container {
     width: 100%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
   .image-item img {
     margin-top: 30px;
     display: block;
