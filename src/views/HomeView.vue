@@ -1,6 +1,6 @@
 <template>
   <div class="home-background">
-    <img class="rectangle" alt="Rectangle" src="/images/home.png" />
+    <img class="rectangle" alt="Rectangle" src="@/assets/images/home.png" />
     <div class="text-group">
       <router-link to = "/team-list"><div class="project">PROJECT</div></router-link>
       <router-link to = "/team-brochuer"><div class="look-book">LOOK BOOK</div></router-link>
