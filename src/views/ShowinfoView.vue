@@ -123,7 +123,7 @@
         background-size: cover;
         background-position: center;
         justify-content: center;
-        margin-top: 100px;
+        margin-top: 144px;
     }
 
 
