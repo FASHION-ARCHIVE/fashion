@@ -4,6 +4,7 @@ import IncompView from '@/views/IncompView.vue'
 import TeamListView from '@/views/TeamListView.vue'
 import bugreportView from '@/views/teams/bugreport/bugreportView.vue'
 import ByunSangYoon from '@/views/teams/bugreport/members/ByunSangYoonView.vue'
+import TeamBrochureView from '@/views/TeamBrochureView.vue'
 
 const routes = [
   {
@@ -30,6 +31,11 @@ const routes = [
     path:'/bugreport/byun-sangyoon',
     name: 'ByunSangyoon',
     component: ByunSangYoon
+  },
+  {
+    path: '/team-brochuer',
+    name: 'team-brochuer',
+    component: TeamBrochureView
   }
 ]
 
