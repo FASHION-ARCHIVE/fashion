@@ -6,6 +6,7 @@
                 <div class="top-menu">
                     <div class="title">TITLE</div>
                     <div class="nav-links">
+                        <router-link to="/coming-soon"><div class="top0">PROJECTS</div></router-link>
                         <router-link to="/coming-soon"><div class="top1">LOOK BOOK</div></router-link>
                         <router-link to="/coming-soon"><div class="top2">RUNWAY</div></router-link>
                         <router-link to="/coming-soon"><div class="top3">SHOW INFO</div></router-link>
@@ -80,6 +81,10 @@
 
 .nav-links a:hover {
     color: gray; /* 호버 시 글씨 색상 변경 */
+}
+
+.top0 {
+    margin-right: 20px;
 }
 
 .top1 {
