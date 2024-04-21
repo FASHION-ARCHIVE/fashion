@@ -4,9 +4,8 @@
             <div class="menu2">
                 <div class="text-1">2024 KUAD GRADUATION FASHION SHOW</div>
                 <div class="top-menu">
-                    <router-link to="/"><div class="title">TITLE</div></router-link>
+                    <div class="title">TITLE</div>
                     <div class="nav-links">
-                        <router-link to="/coming-soon"><div class="top0">PROJECT</div></router-link>
                         <router-link to="/coming-soon"><div class="top1">LOOK BOOK</div></router-link>
                         <router-link to="/coming-soon"><div class="top2">RUNWAY</div></router-link>
                         <router-link to="/coming-soon"><div class="top3">SHOW INFO</div></router-link>
@@ -29,8 +28,7 @@
     position: fixed;
     display: flex;
     justify-content: center;
-    height: 100px;
-    /* height: 144px;  */
+    height: 144px;
     width: 100%;
     background-color: whitesmoke;
     font-family: "Custom", Helvetica;
@@ -65,8 +63,6 @@
 .title{
     display: flex;
     font-size: 44px;
-    text-decoration: none;
-    color: black; 
 }
 
 
@@ -85,9 +81,6 @@
     color: gold; /* 호버 시 글씨 색상 변경 */
 }
 
-.top0 {
-    margin-right: 20px;
-}
 .top1 {
     margin-right: 20px;
 }

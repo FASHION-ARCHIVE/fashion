@@ -2,7 +2,9 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import IncompView from '@/views/IncompView.vue'
 import ShowinfoView from '@/views/ShowinfoView.vue'
-
+import TeamListView from '@/views/TeamListView.vue'
+import bugreportView from '@/views/teams/bugreport/bugreportView.vue'
+import ByunSangYoon from '@/views/teams/bugreport/members/ByunSangYoonView.vue'
 
 const routes = [
   {
@@ -19,6 +21,21 @@ const routes = [
     path: '/showinfo',
     name: 'showinfo',
     component: ShowinfoView
+  },
+  {
+    path:'/team-list',
+    name: 'team-list',
+    component: TeamListView
+  },
+  {
+    path:'/bugreport',
+    name: 'bugreport',
+    component: bugreportView
+  },
+  {
+    path:'/bugreport/byun-sangyoon',
+    name: 'ByunSangyoon',
+    component: ByunSangYoon
   }
 ]
 

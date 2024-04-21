@@ -1,12 +1,11 @@
 <template>
   <div class="home-background">
-    <img class="rectangle" alt="Rectangle" src="@/assets/images/home.png" />
+    <img class="rectangle" alt="Rectangle" src="/images/home.png" />
     <div class="text-group">
-      
       <router-link to = "/team-list"><div class="project">PROJECT</div></router-link>
       <router-link to = "/coming-soon"><div class="look-book">LOOK BOOK</div></router-link>
       <router-link to = "/coming-soon"><div class="runway">RUNWAY</div></router-link>
-      <router-link to = "/showinfo"><div class="show-info">SHOW INFO</div></router-link>
+      <router-link to = "/coming-soon"><div class="show-info">SHOW INFO</div></router-link>
       <router-link to = "/coming-soon"><div class="behind">BEHIND</div></router-link>
       <div class="element-KUAD-GRADUATION">
         2024 KUAD
@@ -25,12 +24,6 @@ export default {
 </script>
 
 <style>
-@font-face {
-  font-family:'Custom';
-  src: url('../assets/fonts/Orbitron-VariableFont_wght.ttf') format('truetype');
-  font-weight: 400;
-}
-
 
 .home-background {
   background-color: #ffffff;
@@ -77,9 +70,8 @@ export default {
   top: 350px;
 }
 
-.home-background .runway {
+.home-background .show-info {
   color: #000000;
-  font-family: "Custom", Helvetica;
   font-size: 50px;
   font-weight: 300;
   letter-spacing: 0;
@@ -88,8 +80,9 @@ export default {
   top: 450px;
 }
 
-.home-background .show-info {
+.home-background .runway {
   color: #000000;
+  font-family: "Custom", Helvetica;
   font-size: 50px;
   font-weight: 300;
   letter-spacing: 0;
@@ -124,22 +117,17 @@ export default {
 }
 
 .home-background .project:hover{
-  text-decoration: line-through;
-}
-
-.home-background .look-book:hover{
   text-decoration: underline;
 }
-
-.home-background .runway:hover{
-  text-decoration: underline;
-}
-
 .home-background .show-info:hover{
   text-decoration: underline;
 }
-
-
+.home-background .runway:hover{
+  text-decoration: underline;
+}
+.home-background .look-book:hover{
+  text-decoration: underline;
+}
 .home-background .behind:hover{
   text-decoration: underline;
 }
