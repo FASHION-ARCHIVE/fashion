@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import IncompView from '@/views/IncompView.vue'
 import ShowinfoView from '@/views/ShowinfoView.vue'
 
+
 const routes = [
   {
     path: '/',

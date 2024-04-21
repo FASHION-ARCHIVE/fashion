@@ -1,12 +1,13 @@
 <template>
-  <div class="background">
-    <img class="rectangle" alt="Rectangle" src="/images/home.png" />
+  <div class="home-background">
+    <img class="rectangle" alt="Rectangle" src="@/assets/images/home.png" />
     <div class="text-group">
-      <router-link to = "/coming-soon"><div class="team-list">TEAM LIST</div></router-link>
-      <router-link to = "/coming-soon"><div class="show-info">SHOW INFO</div></router-link>
+      
+      <router-link to = "/team-list"><div class="project">PROJECT</div></router-link>
       <router-link to = "/coming-soon"><div class="look-book">LOOK BOOK</div></router-link>
       <router-link to = "/coming-soon"><div class="runway">RUNWAY</div></router-link>
-      <router-link to = "/coming-soon"><div class="behind-story">BEHIND STORY</div></router-link>
+      <router-link to = "/showinfo"><div class="show-info">SHOW INFO</div></router-link>
+      <router-link to = "/coming-soon"><div class="behind">BEHIND</div></router-link>
       <div class="element-KUAD-GRADUATION">
         2024 KUAD
         <br />
@@ -31,7 +32,7 @@ export default {
 }
 
 
-.background {
+.home-background {
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
@@ -39,7 +40,7 @@ export default {
   width: 100%;
 }
 
-.background .rectangle {
+.home-background .rectangle {
   height: 100%;
   right: 0;
   object-fit: cover;
@@ -49,14 +50,14 @@ export default {
   opacity: 0.8;
 }
 
-.background .text-group {
+.home-background .text-group {
   left: 5%;
   position: relative;
   width: 100%;
   font-family: "Custom", Helvetica;
 }
 
-.background .team-list {
+.home-background .project {
   color: #000000;
   font-size: 50px;
   font-weight: 300;
@@ -66,7 +67,7 @@ export default {
   top: 250px;
 }
 
-.background .show-info {
+.home-background .look-book {
   color: #000000;
   font-size: 50px;
   font-weight: 300;
@@ -76,8 +77,9 @@ export default {
   top: 350px;
 }
 
-.background .runway {
+.home-background .runway {
   color: #000000;
+  font-family: "Custom", Helvetica;
   font-size: 50px;
   font-weight: 300;
   letter-spacing: 0;
@@ -86,9 +88,8 @@ export default {
   top: 450px;
 }
 
-.background .look-book {
+.home-background .show-info {
   color: #000000;
-  font-family: "Custom", Helvetica;
   font-size: 50px;
   font-weight: 300;
   letter-spacing: 0;
@@ -97,7 +98,7 @@ export default {
   top: 550px;
 }
 
-.background .behind-story {
+.home-background .behind {
   color: #000000;
   font-size: 50px;
   font-weight: 300;
@@ -109,7 +110,7 @@ export default {
 
 
 
-.background .element-KUAD-GRADUATION {
+.home-background .element-KUAD-GRADUATION {
   color: #000000;
   font-family: "Custom", Helvetica;
   font-size: 24px;
@@ -122,19 +123,24 @@ export default {
   top: 50px;
 }
 
-.background .team-list:hover{
+.home-background .project:hover{
+  text-decoration: line-through;
+}
+
+.home-background .look-book:hover{
   text-decoration: underline;
 }
-.background .show-info:hover{
+
+.home-background .runway:hover{
   text-decoration: underline;
 }
-.background .runway:hover{
+
+.home-background .show-info:hover{
   text-decoration: underline;
 }
-.background .look-book:hover{
-  text-decoration: underline;
-}
-.background .behind-story:hover{
+
+
+.home-background .behind:hover{
   text-decoration: underline;
 }
 </style>
