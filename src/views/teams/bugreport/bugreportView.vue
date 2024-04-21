@@ -2,7 +2,7 @@
     <mainHeader/>
     <div class = "bugreport-background">
         <div class ="br-container">
-            <div class="br-poster-container">
+            <div class="br-poster-container" data-aos="fade-up">
                 <img class="br-poster" alt="poster" src="@/assets/images/bugreport/poster.jpeg" />
                 <div class ="br-info-container">
                     <div class="br-name">BUG REPORT</div>
@@ -12,7 +12,7 @@
                     <div class="br-info4">#사랑 #평화 #자유 #소망</div>
                 </div>
             </div>
-            <div class="br-youtube-container">
+            <div class="br-youtube-container" data-aos="fade-up">
                 <div id="br-youtube">
                     <iframe
                     :style="{ width: state.width, height: state.height }"
@@ -27,8 +27,8 @@
                     <div class="br-yt-info2">뉴진스 이쁘네요</div>
                 </div>
             </div>
-            <div class="br-team-members">TEAM MEMBERS</div>
-            <div class="br-members">
+            <div class="br-team-members" data-aos="fade-up">TEAM MEMBERS</div>
+            <div class="br-members" data-aos="fade-up">
                 <div class="br-image-item">
                     <router-link to = "/coming-soon"><img class="br-member1" alt="member 1" src="@/assets/images/yy.jpeg" /></router-link>
                     <div class="caption">TEAM LEADER<br>변상윤</div>
@@ -79,6 +79,7 @@
 import { defineComponent, reactive, onMounted, onUnmounted } from 'vue';
 import mainHeader from '@/components/TopCategory.vue'; // mainHeader 컴포넌트를 정확한 경로에서 import
 
+
 export default defineComponent({
     components: {
         mainHeader // 컴포넌트 등록
@@ -112,7 +113,7 @@ export default defineComponent({
         onUnmounted(() => {
             window.removeEventListener('resize', resizeVideo); // 컴포넌트 언마운트 시 이벤트 리스너 제거
         });
-    
+
         return {
             state,
         };
@@ -142,7 +143,8 @@ export default defineComponent({
         display: flex;
         flex-direction: column;
         justify-content: center;
-        font-family: 'Custom'
+        font-family: 'Custom';
+        z-index: 0;
     }
 
     .br-poster-container{
