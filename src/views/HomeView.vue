@@ -3,7 +3,7 @@
     <img class="rectangle" alt="Rectangle" src="/images/home.png" />
     <div class="text-group">
       <router-link to = "/team-list"><div class="project">PROJECT</div></router-link>
-      <router-link to = "/coming-soon"><div class="look-book">LOOK BOOK</div></router-link>
+      <router-link to = "/team-brochuer"><div class="look-book">LOOK BOOK</div></router-link>
       <router-link to = "/coming-soon"><div class="runway">RUNWAY</div></router-link>
       <router-link to = "/coming-soon"><div class="show-info">SHOW INFO</div></router-link>
       <router-link to = "/coming-soon"><div class="behind">BEHIND</div></router-link>
@@ -17,7 +17,6 @@
 </template>
 
 <script>
-
 export default {
   name: "HomePage",
 };

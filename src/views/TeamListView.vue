@@ -32,8 +32,6 @@
         </div>
       </div>
     </div>
-    
-    
   </div> 
 </template>
 
@@ -74,6 +72,7 @@
   display: flex;
   font-size: 28px;
   font-family: 'Custom'; /* 필요한 경우 폰트 스타일 지정 */
+  margin-top: 30px;
 }
 
 .image-grid {
@@ -87,7 +86,7 @@
   margin-top: 30px;
   display: block;
   width: 300px; /* 이미지의 너비 */
-  height: 300px; /* 이미지의 높이 */
+  height: 400px; /* 이미지의 높이 */
   object-fit: cover;
   border: 4px solid whitesmoke;
 }
