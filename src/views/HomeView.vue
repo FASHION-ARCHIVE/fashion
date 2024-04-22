@@ -2,11 +2,11 @@
   <div class="home-background">
     <img class="rectangle" alt="Rectangle" src="@/assets/images/home.png" />
     <div class="text-group">
-      <router-link to = "/team-list"><div class="project">PROJECT</div></router-link>
-      <router-link to = "/team-brochuer"><div class="look-book">LOOK BOOK</div></router-link>
-      <router-link to = "/coming-soon"><div class="runway">RUNWAY</div></router-link>
-      <router-link to = "/coming-soon"><div class="show-info">SHOW INFO</div></router-link>
-      <router-link to = "/coming-soon"><div class="behind">BEHIND</div></router-link>
+      <router-link to = "/team-list"><div class="project" data-aos="fade-right" data-aos-delay="50">PROJECTS</div></router-link>
+      <router-link to = "/team-brochuer"><div class="look-book" data-aos="fade-right" data-aos-delay="250">LOOK BOOK</div></router-link>
+      <router-link to = "/coming-soon"><div class="runway" data-aos="fade-right" data-aos-delay="450">RUNWAY</div></router-link>
+      <router-link to = "/showinfo"><div class="show-info" data-aos="fade-right" data-aos-delay="650">SHOW INFO</div></router-link>
+      <router-link to = "/coming-soon"><div class="behind" data-aos="fade-right" data-aos-delay="1000">BEHIND</div></router-link>
       <div class="element-KUAD-GRADUATION">
         2024 KUAD
         <br />
@@ -30,6 +30,7 @@ export default {
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  
 }
 
 .home-background .rectangle {
@@ -56,11 +57,22 @@ export default {
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 250px;
+  top: 150px;
 }
 
 .home-background .look-book {
   color: #000000;
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 250px;
+}
+
+.home-background .runway {
+  color: #000000;
+  font-family: "Custom", Helvetica;
   font-size: 50px;
   font-weight: 300;
   letter-spacing: 0;
@@ -79,17 +91,6 @@ export default {
   top: 450px;
 }
 
-.home-background .runway {
-  color: #000000;
-  font-family: "Custom", Helvetica;
-  font-size: 50px;
-  font-weight: 300;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 550px;
-}
-
 .home-background .behind {
   color: #000000;
   font-size: 50px;
@@ -97,7 +98,7 @@ export default {
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 650px;
+  top: 550px;
 }
 
 
@@ -118,16 +119,20 @@ export default {
 .home-background .project:hover{
   text-decoration: underline;
 }
-.home-background .show-info:hover{
+
+.home-background .look-book:hover{
   text-decoration: underline;
 }
+
 .home-background .runway:hover{
   text-decoration: underline;
 }
-.home-background .look-book:hover{
+
+.home-background .show-info:hover{
   text-decoration: underline;
 }
 .home-background .behind:hover{
   text-decoration: underline;
 }
+
 </style>
