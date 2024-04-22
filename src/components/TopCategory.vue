@@ -7,7 +7,7 @@
                     <div class="title">TITLE</div>
                     <div class="nav-links">
                         <router-link to="/coming-soon"><div class="top0">PROJECTS</div></router-link>
-                        <router-link to="/coming-soon"><div class="top1">LOOK BOOK</div></router-link>
+                        <router-link to="/coming-soon"><div class="top1">LOOKBOOK</div></router-link>
                         <router-link to="/coming-soon"><div class="top2">RUNWAY</div></router-link>
                         <router-link to="/coming-soon"><div class="top3">SHOW INFO</div></router-link>
                         <router-link to="/coming-soon"><div class="top4">BEHIND</div></router-link>
