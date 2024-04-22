@@ -9,8 +9,8 @@
                         <router-link to="/team-list"><div class="top0">PROJECTS</div></router-link>
                         <router-link to="/team-brochuer"><div class="top1">LOOKBOOK</div></router-link>
                         <router-link to="/coming-soon"><div class="top2">RUNWAY</div></router-link>
-                        <router-link to="/coming-soon"><div class="top3">SHOW INFO</div></router-link>
-                        <router-link to="/coming-soon"><div class="top4">BEHIND</div></router-link>
+                        <router-link to="/showinfo"><div class="top3">SHOW INFO</div></router-link>
+                        <router-link to="/behind"><div class="top4">BEHIND</div></router-link>
                     </div>   
                 </div>
             </div>
@@ -88,7 +88,6 @@
 .top0 {
     margin-right: 20px;
 }
-
 .top1 {
     margin-right: 20px;
 }

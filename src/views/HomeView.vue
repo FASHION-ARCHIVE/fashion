@@ -1,6 +1,5 @@
 <template>
   <div class="home-background">
-    
     <div class="text-group">
       <div class="element-KUAD-GRADUATION">
         2024 KUAD
@@ -109,16 +108,20 @@ export default {
 .home-background .project:hover{
   text-decoration: underline;
 }
-.home-background .show-info:hover{
+
+.home-background .look-book:hover{
   text-decoration: underline;
 }
+
 .home-background .runway:hover{
   text-decoration: underline;
 }
-.home-background .look-book:hover{
+
+.home-background .show-info:hover{
   text-decoration: underline;
 }
 .home-background .behind:hover{
   text-decoration: underline;
 }
+
 </style>
