@@ -32,46 +32,46 @@
                 </div>
             </div>
             <div class="br-team-members" data-aos="fade-up">TEAM MEMBERS</div>
-            <div class="br-members" data-aos="fade-up">
+            <div class="br-members">
                 <div class="br-image-item">
-                    <router-link to = "/coming-soon"><img class="br-member1" alt="member 1" src="@/assets/images/yy.jpeg" /></router-link>
-                    <div class="caption">TEAM LEADER<br>변상윤</div>
+                    <router-link to = "/coming-soon"><img class="br-member1" data-aos="fade-up" alt="member 1" src="@/assets/images/yy.jpeg" /></router-link>
+                    <div class="caption" data-aos="fade-up">TEAM LEADER<br>변상윤</div>
                 </div>
                 <div class="br-image-item">
-                    <router-link to = "/coming-soon"><img class="br-member2" alt="member 2" src="@/assets/images/yy.jpeg" /></router-link>
-                    <div class="caption">SUB LEADER<br>강소원</div>
+                    <router-link to = "/coming-soon"><img class="br-member2" data-aos="fade-up" alt="member 2" src="@/assets/images/yy.jpeg" /></router-link>
+                    <div class="caption" data-aos="fade-up">SUB LEADER<br>강소원</div>
                 </div>
                 <div class="br-image-item">
-                    <router-link to = "/coming-soon"><img class="br-member3" alt="member 3" src="@/assets/images/yy.jpeg" /></router-link>
-                    <div class="caption">TEAM MEMBER<br>오승민</div>
+                    <router-link to = "/coming-soon"><img class="br-member3" data-aos="fade-up" alt="member 3" src="@/assets/images/yy.jpeg" /></router-link>
+                    <div class="caption" data-aos="fade-up">TEAM MEMBER<br>오승민</div>
                 </div>
                 <div class="br-image-item">
-                    <router-link to = "/coming-soon"><img class="br-member4" alt="member 4" src="@/assets/images/yy.jpeg" /></router-link>
-                    <div class="caption">TEAM MEMBER<br>김상은</div>
+                    <router-link to = "/coming-soon"><img class="br-member4" data-aos="fade-up" alt="member 4" src="@/assets/images/yy.jpeg" /></router-link>
+                    <div class="caption" data-aos="fade-up">TEAM MEMBER<br>김상은</div>
                 </div>
                 <div class="br-image-item">
-                    <router-link to = "/coming-soon"><img class="br-member5" alt="member 5" src="@/assets/images/yy.jpeg" /></router-link>
-                    <div class="caption">TEAM MEMBER<br>유하영</div>
+                    <router-link to = "/coming-soon"><img class="br-member5" data-aos="fade-up" alt="member 5" src="@/assets/images/yy.jpeg" /></router-link>
+                    <div class="caption" data-aos="fade-up">TEAM MEMBER<br>유하영</div>
                 </div>
                 <div class="br-image-item">
-                    <router-link to = "/coming-soon"><img class="br-member6" alt="member 6" src="@/assets/images/yy.jpeg" /></router-link>
-                    <div class="caption">TEAM MEMBER<br>이주영</div>
+                    <router-link to = "/coming-soon"><img class="br-member6" data-aos="fade-up" alt="member 6" src="@/assets/images/yy.jpeg" /></router-link>
+                    <div class="caption" data-aos="fade-up">TEAM MEMBER<br>이주영</div>
                 </div>
                 <div class="br-image-item">
-                    <router-link to = "/coming-soon"><img class="br-member7" alt="member 7" src="@/assets/images/yy.jpeg" /></router-link>
-                    <div class="caption">TEAM MEMBER<br>이지현</div>
+                    <router-link to = "/coming-soon"><img class="br-member7" data-aos="fade-up" alt="member 7" src="@/assets/images/yy.jpeg" /></router-link>
+                    <div class="caption" data-aos="fade-up">TEAM MEMBER<br>이지현</div>
                 </div>
                 <div class="br-image-item">
-                    <router-link to = "/coming-soon"><img class="br-member8" alt="member 8" src="@/assets/images/yy.jpeg" /></router-link>
-                    <div class="caption">TEAM MEMBER<br>최지영</div>
+                    <router-link to = "/coming-soon"><img class="br-member8" data-aos="fade-up" alt="member 8" src="@/assets/images/yy.jpeg" /></router-link>
+                    <div class="caption" data-aos="fade-up">TEAM MEMBER<br>최지영</div>
                 </div>
                 <div class="br-image-item">
-                    <router-link to = "/coming-soon"><img class="br-member9" alt="member 9" src="@/assets/images/yy.jpeg" /></router-link>
-                    <div class="caption">TEAM MEMBER<br>유지민</div>
+                    <router-link to = "/coming-soon"><img class="br-member9" data-aos="fade-up" alt="member 9" src="@/assets/images/yy.jpeg" /></router-link>
+                    <div class="caption" data-aos="fade-up">TEAM MEMBER<br>유지민</div>
                 </div>
                 <div class="br-image-item">
-                    <router-link to = "/coming-soon"><img class="br-member10" alt="member 10" src="@/assets/images/yy.jpeg" /></router-link>
-                    <div class="caption">TEAM MEMBER<br>하나경</div>
+                    <router-link to = "/coming-soon"><img class="br-member10" data-aos="fade-up" alt="member 10" src="@/assets/images/yy.jpeg" /></router-link>
+                    <div class="caption" data-aos="fade-up">TEAM MEMBER<br>하나경</div>
                 </div>
             </div>
         </div>
