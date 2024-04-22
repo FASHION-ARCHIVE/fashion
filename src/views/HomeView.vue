@@ -6,7 +6,7 @@
       <router-link to = "/team-brochuer"><div class="look-book" data-aos="fade-right" data-aos-delay="250">LOOK BOOK</div></router-link>
       <router-link to = "/coming-soon"><div class="runway" data-aos="fade-right" data-aos-delay="450">RUNWAY</div></router-link>
       <router-link to = "/showinfo"><div class="show-info" data-aos="fade-right" data-aos-delay="650">SHOW INFO</div></router-link>
-      <router-link to = "/coming-soon"><div class="behind" data-aos="fade-right" data-aos-delay="1000">BEHIND</div></router-link>
+      <router-link to = "/behind"><div class="behind" data-aos="fade-right" data-aos-delay="1000">BEHIND</div></router-link>
       <div class="element-KUAD-GRADUATION">
         2024 KUAD
         <br />
