@@ -6,24 +6,14 @@
     
 
     <div class = "showinfo-background">
-        <!-- <div class="aside">
-        <h3>Menu</h3>
-        <h4>1</h4>
-        <h4>2</h4>
-        <h4>3</h4>
-        <h4>4</h4>
-        <h4>5</h4>
-        <h4>6</h4>
-        <h4>7</h4>
-        </div> -->
 
         <div class = "theme-container">
         <div class="theme-poster-container">
-            <div  data-aos-delay="750" ><img class = "theme-poster" alt = "poster" src="@/assets/images/home.png"/></div>
+            <div data-aos = "zoom-out"><img class = "theme-poster" alt = "poster" src="@/assets/images/showinfo/tmp_poster.png"/></div>
             <div class ="theme-info-container">
-                    <div class="theme-name">PROTOTYPE</div>
-                    <div class="theme-info1">: The first impression as a designer in society</div>
-                    <div class="theme-info2">프로토타입은 어떠한 한가지의 색을 강하게 띄지 않는 모든 것들의 기본이자 원형입니다. 또 프로토타입은 최초의 인상이라는 뜻을 가지고 있습니다. 저는 이 프로토타입이라는 단어가 가진 최초의 인상이라는 의미를 2024 졸업 쇼에 참여한 우리 모두의 디자이너로서 처음 사회에 내어보이는 첫 인상이라 풀어내보았습니다 또한 이 단어를 쪼개어 각각에 의미를 부여해 본다면 프로. 어떠한 것에 찬성 또는 지지하는 투. 무엇무엇에 대하여 타입. 형태 혹은 유형</div>
+                    <div class="theme-name" data-aos="fade-left" data-aos-delay = 1000>PROTOTYPE</div>
+                    <div class="theme-info1" data-aos="fade-left" data-aos-delay = 2000>: The first impression as a <br>designer in society</div>
+                    <div class="theme-info2"  data-aos="fade-left" data-aos-delay = 3000>프로토타입은 어떠한 한가지의 색을 강하게 띄지 않는 모든 것들의 기본이자 원형입니다. 또 프로토타입은 최초의 인상이라는 뜻을 가지고 있습니다. 저는 이 프로토타입이라는 단어가 가진 최초의 인상이라는 의미를 2024 졸업 쇼에 참여한 우리 모두의 디자이너로서 처음 사회에 내어보이는 첫 인상이라 풀어내보았습니다 또한 이 단어를 쪼개어 각각에 의미를 부여해 본다면 프로. 어떠한 것에 찬성 또는 지지하는 투. 무엇무엇에 대하여 타입. 형태 혹은 유형</div>
                     <!-- <div class="br-info1">JOURNEY TO PERFECT</div>
                     <div class="br-info2">버그 리포트는 사용자나 테스터가 발견한 소프트웨어의 버그를 개발 팀에 알리기 위한 문서입니다. 이 문서는 버그의 상세한 설명, 재현 방법, 그리고 발생한 환경을 포함해야 합니다. 이러한 개념을 확장하여, 우리의 세계에서 발견되는 다양한 버그', 즉 불완전성이나 오류들을 발견하고 이를 세상에 알리는 행위를 '버그 리포트'라 칭할 수 있습니다. 이는 더 나은, 발전된 세계를 향한 시행 착오의 과정이자, 현재의 세계에 대한 깊은 성찰을 의미합니다.</div>
                     <div class="br-info3">KEY WORD</div>
@@ -47,7 +37,10 @@
                 </div>
             </div>
         </div>
+        
+        <div>
 
+        </div>
     </div>
     
 <!-- 
@@ -63,11 +56,14 @@
     import { defineComponent, reactive, onMounted, onUnmounted } from 'vue';
     import mainHeader from '@/components/TopCategory.vue'; // mainHeader 컴포넌트를 정확한 경로에서 import
 
+    
     export default defineComponent({
     components: {
         mainHeader // 컴포넌트 등록
     },
     setup() {
+
+
         const state = reactive({
             videoId: 'UTH1VNHLjng',
             width: '1130',
@@ -148,12 +144,13 @@
     flex-direction: column;  
 }
 .theme-name{
-        line-height: 0.7;
-        font-size:65px;
+        line-height: 1;
+        font-size:80px;
+        font-weight: bold;
 }
 .theme-info1{
-    font-size: 45px;
-    line-height: 100%;
+    font-size: 40px;
+    line-height: 1;
     }
 .theme-info2{
     margin-top: 170px;
