@@ -4,10 +4,10 @@
             <div class="menu2">
                 <div class="text-1">2024 KUAD GRADUATION FASHION SHOW</div>
                 <div class="top-menu">
-                    <div class="title">TITLE</div>
+                    <router-link to="/"><img class="logo" alt="logo" src="@/assets/images/KUAD-logo.png"/></router-link>
                     <div class="nav-links">
-                        <router-link to="/coming-soon"><div class="top0">PROJECTS</div></router-link>
-                        <router-link to="/coming-soon"><div class="top1">LOOKBOOK</div></router-link>
+                        <router-link to="/team-list"><div class="top0">PROJECTS</div></router-link>
+                        <router-link to="/team-brochuer"><div class="top1">LOOKBOOK</div></router-link>
                         <router-link to="/coming-soon"><div class="top2">RUNWAY</div></router-link>
                         <router-link to="/coming-soon"><div class="top3">SHOW INFO</div></router-link>
                         <router-link to="/coming-soon"><div class="top4">BEHIND</div></router-link>
@@ -31,7 +31,7 @@
     justify-content: center;
     height: 144px;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: white;
     font-family: "Custom", Helvetica;
     z-index:100;
 }
@@ -61,7 +61,9 @@
 }
 
 
-
+.logo{
+    width: 180px;
+}
 .title{
     display: flex;
     font-size: 44px;

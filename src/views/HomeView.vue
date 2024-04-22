@@ -61,6 +61,7 @@ export default {
   height: 100%;
   gap:20px;
   justify-content: center;
+  
 }
 
 .home-background .element-KUAD-GRADUATION {
@@ -71,28 +72,32 @@ export default {
   font-size: 16px;
 }
 
-.home-background .project {
+.project {
+  display: inline-flex;
   color: #000000;
   font-size: 50px;
 }
 
-.home-background .look-book {
+.look-book {
+  display: inline-flex;
   color: #000000;
   font-size: 50px;
 }
 
-.home-background .show-info {
+.show-info {
+  display: inline-flex;
   color: #000000;
   font-size: 50px;
 }
 
-.home-background .runway {
+.runway {
+  display: inline-flex;
   color: #000000;
-  font-family: "Custom", Helvetica;
   font-size: 50px;
 }
 
-.home-background .behind {
+.behind {
+  display: inline-flex;
   color: #000000;
   font-size: 50px;
 }
