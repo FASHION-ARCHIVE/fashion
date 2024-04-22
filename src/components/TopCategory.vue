@@ -6,10 +6,11 @@
                 <div class="top-menu">
                     <div class="title">TITLE</div>
                     <div class="nav-links">
-                        <router-link to="/coming-soon"><div class="top1">LOOK BOOK</div></router-link>
+                        <router-link to="/team-list"><div class="top0">PROJECTS</div></router-link>
+                        <router-link to="/team-brochuer"><div class="top1">LOOK BOOK</div></router-link>
                         <router-link to="/coming-soon"><div class="top2">RUNWAY</div></router-link>
-                        <router-link to="/coming-soon"><div class="top3">SHOW INFO</div></router-link>
-                        <router-link to="/coming-soon"><div class="top4">BEHIND</div></router-link>
+                        <router-link to="/showinfo"><div class="top3">SHOW INFO</div></router-link>
+                        <router-link to="/behind"><div class="top4">BEHIND</div></router-link>
                     </div>   
                 </div>
             </div>
@@ -30,7 +31,7 @@
     justify-content: center;
     height: 144px;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: white;
     font-family: "Custom", Helvetica;
     z-index:100;
 }
@@ -79,9 +80,12 @@
 }
 
 .nav-links a:hover {
-    color: gold; /* 호버 시 글씨 색상 변경 */
+    color: gray; /* 호버 시 글씨 색상 변경 */
 }
 
+.top0 {
+    margin-right: 20px;
+}
 .top1 {
     margin-right: 20px;
 }
