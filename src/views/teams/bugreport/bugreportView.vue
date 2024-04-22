@@ -5,11 +5,15 @@
             <div class="br-poster-container" data-aos="fade-up">
                 <img class="br-poster" alt="poster" src="@/assets/images/bugreport/poster.jpeg" />
                 <div class ="br-info-container">
-                    <div class="br-name">BUG REPORT</div>
-                    <div class="br-info1">JOURNEY TO PERFECT</div>
-                    <div class="br-info2">버그 리포트는 사용자나 테스터가 발견한 소프트웨어의 버그를 개발 팀에 알리기 위한 문서입니다. 이 문서는 버그의 상세한 설명, 재현 방법, 그리고 발생한 환경을 포함해야 합니다. 이러한 개념을 확장하여, 우리의 세계에서 발견되는 다양한 버그', 즉 불완전성이나 오류들을 발견하고 이를 세상에 알리는 행위를 '버그 리포트'라 칭할 수 있습니다. 이는 더 나은, 발전된 세계를 향한 시행 착오의 과정이자, 현재의 세계에 대한 깊은 성찰을 의미합니다.</div>
-                    <div class="br-info3">KEY WORD</div>
-                    <div class="br-info4">#사랑 #평화 #자유 #소망</div>
+                    <div class="br-title">
+                        <div class="br-name">BUG REPORT</div>
+                        <div class="br-info1">JOURNEY TO PERFECT</div>
+                    </div>
+                    <div class="br-context">버그 리포트는 사용자나 테스터가 발견한 소프트웨어의 버그를 개발 팀에 알리기 위한 문서입니다. 이 문서는 버그의 상세한 설명, 재현 방법, 그리고 발생한 환경을 포함해야 합니다. 이러한 개념을 확장하여, 우리의 세계에서 발견되는 다양한 버그', 즉 불완전성이나 오류들을 발견하고 이를 세상에 알리는 행위를 '버그 리포트'라 칭할 수 있습니다. 이는 더 나은, 발전된 세계를 향한 시행 착오의 과정이자, 현재의 세계에 대한 깊은 성찰을 의미합니다.</div>
+                    <div class="br-keyword">
+                        <div class="br-info3">KEY WORD</div>
+                        <div class="br-info4">#사랑 #평화 #자유 #소망</div>
+                    </div>
                 </div>
             </div>
             <div class="br-youtube-container" data-aos="fade-up">
@@ -28,46 +32,46 @@
                 </div>
             </div>
             <div class="br-team-members" data-aos="fade-up">TEAM MEMBERS</div>
-            <div class="br-members" data-aos="fade-up">
+            <div class="br-members">
                 <div class="br-image-item">
-                    <router-link to = "/coming-soon"><img class="br-member1" alt="member 1" src="@/assets/images/yy.jpeg" /></router-link>
-                    <div class="caption">TEAM LEADER<br>변상윤</div>
+                    <router-link to = "/coming-soon"><img class="br-member1" data-aos="fade-up" alt="member 1" src="@/assets/images/yy.jpeg" /></router-link>
+                    <div class="caption" data-aos="fade-up">TEAM LEADER<br>변상윤</div>
                 </div>
                 <div class="br-image-item">
-                    <router-link to = "/coming-soon"><img class="br-member2" alt="member 2" src="@/assets/images/yy.jpeg" /></router-link>
-                    <div class="caption">SUB LEADER<br>강소원</div>
+                    <router-link to = "/coming-soon"><img class="br-member2" data-aos="fade-up" alt="member 2" src="@/assets/images/yy.jpeg" /></router-link>
+                    <div class="caption" data-aos="fade-up">SUB LEADER<br>강소원</div>
                 </div>
                 <div class="br-image-item">
-                    <router-link to = "/coming-soon"><img class="br-member3" alt="member 3" src="@/assets/images/yy.jpeg" /></router-link>
-                    <div class="caption">TEAM MEMBER<br>오승민</div>
+                    <router-link to = "/coming-soon"><img class="br-member3" data-aos="fade-up" alt="member 3" src="@/assets/images/yy.jpeg" /></router-link>
+                    <div class="caption" data-aos="fade-up">TEAM MEMBER<br>오승민</div>
                 </div>
                 <div class="br-image-item">
-                    <router-link to = "/coming-soon"><img class="br-member4" alt="member 4" src="@/assets/images/yy.jpeg" /></router-link>
-                    <div class="caption">TEAM MEMBER<br>김상은</div>
+                    <router-link to = "/coming-soon"><img class="br-member4" data-aos="fade-up" alt="member 4" src="@/assets/images/yy.jpeg" /></router-link>
+                    <div class="caption" data-aos="fade-up">TEAM MEMBER<br>김상은</div>
                 </div>
                 <div class="br-image-item">
-                    <router-link to = "/coming-soon"><img class="br-member5" alt="member 5" src="@/assets/images/yy.jpeg" /></router-link>
-                    <div class="caption">TEAM MEMBER<br>유하영</div>
+                    <router-link to = "/coming-soon"><img class="br-member5" data-aos="fade-up" alt="member 5" src="@/assets/images/yy.jpeg" /></router-link>
+                    <div class="caption" data-aos="fade-up">TEAM MEMBER<br>유하영</div>
                 </div>
                 <div class="br-image-item">
-                    <router-link to = "/coming-soon"><img class="br-member6" alt="member 6" src="@/assets/images/yy.jpeg" /></router-link>
-                    <div class="caption">TEAM MEMBER<br>이주영</div>
+                    <router-link to = "/coming-soon"><img class="br-member6" data-aos="fade-up" alt="member 6" src="@/assets/images/yy.jpeg" /></router-link>
+                    <div class="caption" data-aos="fade-up">TEAM MEMBER<br>이주영</div>
                 </div>
                 <div class="br-image-item">
-                    <router-link to = "/coming-soon"><img class="br-member7" alt="member 7" src="@/assets/images/yy.jpeg" /></router-link>
-                    <div class="caption">TEAM MEMBER<br>이지현</div>
+                    <router-link to = "/coming-soon"><img class="br-member7" data-aos="fade-up" alt="member 7" src="@/assets/images/yy.jpeg" /></router-link>
+                    <div class="caption" data-aos="fade-up">TEAM MEMBER<br>이지현</div>
                 </div>
                 <div class="br-image-item">
-                    <router-link to = "/coming-soon"><img class="br-member8" alt="member 8" src="@/assets/images/yy.jpeg" /></router-link>
-                    <div class="caption">TEAM MEMBER<br>최지영</div>
+                    <router-link to = "/coming-soon"><img class="br-member8" data-aos="fade-up" alt="member 8" src="@/assets/images/yy.jpeg" /></router-link>
+                    <div class="caption" data-aos="fade-up">TEAM MEMBER<br>최지영</div>
                 </div>
                 <div class="br-image-item">
-                    <router-link to = "/coming-soon"><img class="br-member9" alt="member 9" src="@/assets/images/yy.jpeg" /></router-link>
-                    <div class="caption">TEAM MEMBER<br>유지민</div>
+                    <router-link to = "/coming-soon"><img class="br-member9" data-aos="fade-up" alt="member 9" src="@/assets/images/yy.jpeg" /></router-link>
+                    <div class="caption" data-aos="fade-up">TEAM MEMBER<br>유지민</div>
                 </div>
                 <div class="br-image-item">
-                    <router-link to = "/coming-soon"><img class="br-member10" alt="member 10" src="@/assets/images/yy.jpeg" /></router-link>
-                    <div class="caption">TEAM MEMBER<br>하나경</div>
+                    <router-link to = "/coming-soon"><img class="br-member10" data-aos="fade-up" alt="member 10" src="@/assets/images/yy.jpeg" /></router-link>
+                    <div class="caption" data-aos="fade-up">TEAM MEMBER<br>하나경</div>
                 </div>
             </div>
         </div>
@@ -160,7 +164,8 @@ export default defineComponent({
 
     .br-info-container{
         display: flex;
-        flex-direction: column;   
+        flex-direction: column;
+        justify-content: space-between; 
     }
 
     .br-name{
@@ -172,7 +177,7 @@ export default defineComponent({
         font-size: 25px;
     }
 
-    .br-info2{
+    .br-context{
         font-size:20px;
     }
 
@@ -223,9 +228,8 @@ export default defineComponent({
         margin-top: 30px;
         display: block;
         width: 300px;
-        object-fit: cover;
-        border: 4px solid whitesmoke;
-        
+        height: 400px;
+        object-fit: cover;   
     }
 
     .caption{

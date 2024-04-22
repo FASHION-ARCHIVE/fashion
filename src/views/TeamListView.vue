@@ -88,13 +88,11 @@
   width: 300px; /* 이미지의 너비 */
   height: 400px; /* 이미지의 높이 */
   object-fit: cover;
-  border: 4px solid whitesmoke;
 }
 
 
 .caption{
   color: black;
   margin-top: 10px;
-  text-align: center;
 }
 </style>

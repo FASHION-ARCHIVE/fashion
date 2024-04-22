@@ -1,16 +1,17 @@
 <template>
   <div class="home-background">
-    <img class="rectangle" alt="Rectangle" src="@/assets/images/home.png" />
     <div class="text-group">
-      <router-link to = "/team-list"><div class="project" data-aos="fade-right" data-aos-delay="50">PROJECTS</div></router-link>
-      <router-link to = "/team-brochuer"><div class="look-book" data-aos="fade-right" data-aos-delay="250">LOOK BOOK</div></router-link>
-      <router-link to = "/coming-soon"><div class="runway" data-aos="fade-right" data-aos-delay="450">RUNWAY</div></router-link>
-      <router-link to = "/showinfo"><div class="show-info" data-aos="fade-right" data-aos-delay="650">SHOW INFO</div></router-link>
-      <router-link to = "/behind"><div class="behind" data-aos="fade-right" data-aos-delay="1000">BEHIND</div></router-link>
       <div class="element-KUAD-GRADUATION">
         2024 KUAD
         <br />
         GRADUATION FASHION SHOW
+      </div>
+      <div class="home-category">
+        <router-link to = "/team-list"><div class="project">PROJECTS</div></router-link>
+        <router-link to = "/team-brochuer"><div class="look-book">LOOKBOOK</div></router-link>
+        <router-link to = "/coming-soon"><div class="runway">RUNWAY</div></router-link>
+        <router-link to = "/coming-soon"><div class="show-info">SHOW INFO</div></router-link>
+        <router-link to = "/coming-soon"><div class="behind">BEHIND</div></router-link>
       </div>
     </div>
   </div>
@@ -23,98 +24,86 @@ export default {
 </script>
 
 <style>
+@font-face {
+  font-family:'Custom';
+  src: url('../assets/fonts/Orbitron-VariableFont_wght.ttf') format('truetype');
+  font-weight: 400;
+}
 
 .home-background {
   background-color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  display: flex; /* 또는 position: relative; 배경 이미지를 추가하기 위해 변경 */
+  flex-direction: column;
   width: 100%;
+  height: 100vh; /* 화면의 전체 높이를 차지하도록 설정 */
+  background-image: linear-gradient(to right, #ffffff 30%, transparent 30%),url('@/assets/images/home.png'); /* 배경 이미지 추가 */
+  background-position: right center; /* 이미지를 오른쪽 중앙에 배치 */
+  background-size: cover; /* 이미지가 컨테이너를 완전히 채우도록 확장 */
+  background-repeat: no-repeat; /* 이미지 반복 없음 */
+  background-attachment: fixed; /* 스크롤 시 이미지 고정 */
+}
+
+
+.text-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  font-family: "Custom", Helvetica;
+  justify-content: flex-start;
+}
+
+.home-category{
+  margin-left:30px;
+  display:flex;
+  flex-direction: column;
+  height: 100%;
+  gap:20px;
+  justify-content: center;
   
 }
 
-.home-background .rectangle {
-  height: 100%;
-  right: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  width: 70%;
-  opacity: 0.8;
-}
-
-.home-background .text-group {
-  left: 5%;
-  position: relative;
-  width: 100%;
-  font-family: "Custom", Helvetica;
-}
-
-.home-background .project {
-  color: #000000;
-  font-size: 50px;
-  font-weight: 300;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 150px;
-}
-
-.home-background .look-book {
-  color: #000000;
-  font-size: 50px;
-  font-weight: 300;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 250px;
-}
-
-.home-background .runway {
-  color: #000000;
-  font-family: "Custom", Helvetica;
-  font-size: 50px;
-  font-weight: 300;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 350px;
-}
-
-.home-background .show-info {
-  color: #000000;
-  font-size: 50px;
-  font-weight: 300;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 450px;
-}
-
-.home-background .behind {
-  color: #000000;
-  font-size: 50px;
-  font-weight: 300;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 550px;
-}
-
-
-
 .home-background .element-KUAD-GRADUATION {
+  margin-top: 30px;
+  margin-left: 30px;
   color: #000000;
   font-family: "Custom", Helvetica;
-  font-size: 24px;
-  font-weight: 300;
-  height: 58px;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 50px;
+  font-size: 16px;
 }
+
+.project {
+  display: inline-flex;
+  color: #000000;
+  font-size: 50px;
+}
+
+.look-book {
+  display: inline-flex;
+  color: #000000;
+  font-size: 50px;
+}
+
+.show-info {
+  display: inline-flex;
+  color: #000000;
+  font-size: 50px;
+}
+
+.runway {
+  display: inline-flex;
+  color: #000000;
+  font-size: 50px;
+}
+
+.behind {
+  display: inline-flex;
+  color: #000000;
+  font-size: 50px;
+}
+
+
+
+
 
 .home-background .project:hover{
   text-decoration: underline;
