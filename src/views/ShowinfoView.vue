@@ -19,7 +19,7 @@
 
         <div class = "theme-container">
         <div class="theme-poster-container">
-            <img class = "theme-poster" alt = "poster" src="@/assets/images/home.png"/>
+            <div  data-aos-delay="750" ><img class = "theme-poster" alt = "poster" src="@/assets/images/home.png"/></div>
             <div class ="theme-info-container">
                     <div class="theme-name">PROTOTYPE</div>
                     <div class="theme-info1">: The first impression as a designer in society</div>
@@ -71,7 +71,7 @@
     },
     setup() {
         const state = reactive({
-            videoId: 'COz9lDCFHjw',
+            videoId: 'UTH1VNHLjng',
             width: '1130',
             height: '662',
         });
