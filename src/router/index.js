@@ -1,3 +1,4 @@
+
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import IncompView from '@/views/IncompView.vue'
@@ -52,8 +53,11 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
-  routes
+  history: createWebHistory(), 
+  routes,
+  scrollBehavior() { 
+    return { top: 0 }
+    },
 })
 
 export default router
