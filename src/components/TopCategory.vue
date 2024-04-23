@@ -25,6 +25,7 @@
 </script>
 
 <style>
+
 .menu {
     position: fixed;
     display: flex;
@@ -34,6 +35,7 @@
     background-color: white;
     font-family: "Custom", Helvetica;
     z-index:100;
+
 }
 
 .menu2{
@@ -97,4 +99,5 @@
 .top3 {
     margin-right: 20px; 
 }
+
 </style>
