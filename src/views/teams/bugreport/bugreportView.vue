@@ -138,7 +138,7 @@ export default defineComponent({
         background-size: cover;
         background-position: center;
         justify-content: center;
-        margin-top: 144px;     
+        margin-top: 144px;
     }
 
     .br-container{
