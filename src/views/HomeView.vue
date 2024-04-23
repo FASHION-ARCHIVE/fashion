@@ -1,17 +1,18 @@
 <template>
-  <div class="home-background">
+  
+  <div class="home-background" data-aos="fade-right">
     <div class="text-group">
-      <div class="element-KUAD-GRADUATION">
+      <div class="element-KUAD-GRADUATION" data-aos="fade-right" data-aos-delay="500">
         2024 KUAD
         <br />
         GRADUATION FASHION SHOW
       </div>
       <div class="home-category">
-        <router-link to = "/team-list"><div class="project">PROJECTS</div></router-link>
-        <router-link to = "/team-brochuer"><div class="look-book">LOOKBOOK</div></router-link>
-        <router-link to = "/coming-soon"><div class="runway">RUNWAY</div></router-link>
-        <router-link to = "/coming-soon"><div class="show-info">SHOW INFO</div></router-link>
-        <router-link to = "/coming-soon"><div class="behind">BEHIND</div></router-link>
+        <router-link to = "/team-list"><div class="menulist" data-aos="fade-right" data-aos-delay="1000">PROJECTS</div></router-link>
+        <router-link to = "/team-brochuer"><div class="menulist" data-aos="fade-right" data-aos-delay="1300">LOOKBOOK</div></router-link>
+        <router-link to = "/coming-soon"><div class="menulist" data-aos="fade-right" data-aos-delay="1500">RUNWAY</div></router-link>
+        <router-link to = "/showinfo"><div class="menulist" data-aos="fade-right" data-aos-delay="1700">SHOW INFO</div></router-link>
+        <router-link to = "/behind"><div class="menulist" data-aos="fade-right" data-aos-delay="2000">BEHIND</div></router-link>
       </div>
     </div>
   </div>
@@ -26,7 +27,7 @@ export default {
 <style>
 @font-face {
   font-family:'Custom';
-  src: url('../assets/fonts/Orbitron-VariableFont_wght.ttf') format('truetype');
+  src: url('../assets/fonts/TitilliumWeb-Regular.ttf') format('truetype');
   font-weight: 400;
 }
 
@@ -71,10 +72,38 @@ export default {
   font-size: 16px;
 }
 
-.project {
-  display: inline-flex;
+.menulist {
+  /* display: inline-flex; */
   color: #000000;
   font-size: 50px;
+  position: relative;
+ display: inline-flex;
+ text-decoration: none;
+}
+
+.menulist:after{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #000;
+  content: '';
+  opacity: 0;
+  -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+  -moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s;
+  transition: height 0.3s, opacity 0.3s, transform 0.3s;
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+
+.menulist:hover:after, .menulist:focus:after {
+  height: 5px;
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  transform: translateY(0px);
 }
 
 .look-book {
@@ -101,13 +130,9 @@ export default {
   font-size: 50px;
 }
 
-
-
-
-
-.home-background .project:hover{
+/* .home-background .project:hover{
   text-decoration: underline;
-}
+} */
 
 .home-background .look-book:hover{
   text-decoration: underline;
