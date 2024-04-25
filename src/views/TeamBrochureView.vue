@@ -6,7 +6,7 @@
             <div class="team-brochure-text">TEAM BROCHURE</div>
             <div class="team-brochure-image-container">
                 <div class="image-item">
-                    <router-link to = "/bugreport"><img class="team 1" alt="team 1" src="@/assets/images/yy.jpeg" /></router-link>
+                    <router-link to = "/bugreport/lookbook"><img class="team 1" alt="team 1" src="@/assets/images/yy.jpeg" /></router-link>
                     <div class="caption">BUG REPORT</div>
                 </div>
                 <div class="image-item">
