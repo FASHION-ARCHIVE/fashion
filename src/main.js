@@ -2,7 +2,6 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 import AOS from 'aos';
-import Flipbook from 'flipbook-vue'
 import "aos/dist/aos.css";
 
 createApp(App).use(router).mount('#app')
@@ -24,8 +23,6 @@ AOS.init({
 
 // AOS 플러그인 사용
 app.use(AOSPlugin)
-
-app.use(Flipbook)
 
 // 라우터 사용
 app.use(router)
