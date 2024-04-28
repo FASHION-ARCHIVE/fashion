@@ -34,7 +34,7 @@
     width: 100%;
     background-color: white;
     font-family: "Custom", Helvetica;
-    z-index:100;
+    z-index:1;
 
 }
 

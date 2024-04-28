@@ -55,7 +55,7 @@
   /* 배경 이미지 적용 */
   display: flex;
   height: auto;
-  background-image: url('@/assets/images/01_KUAD_background.png'); 
+  background-image: url('@/assets/images/background_img.jpg'); 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

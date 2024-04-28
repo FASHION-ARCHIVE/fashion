@@ -1,19 +1,12 @@
 <template>
     <mainHeader/>
-    
-    <!-- <div class = box>프로토타입은 어떠한 한가지의 색을 강하게 띄지 않는 모든 것들의 기본이자 원형입니다. 또 프로토타입은 최초의 인상이라는 뜻을 가지고 있습니다. 저는 이 프로토타입이라는 단어가 가진 최초의 인상이라는 의미를 2024 졸업 쇼에 참여한 우리 모두의 디자이너로서 처음 사회에 내어보이는 첫 인상이라 풀어내보았습니다 또한 이 단어를 쪼개어 각각에 의미를 부여해 본다면 프로. 어떠한 것에 찬성 또는 지지하는 투. 무엇무엇에 대하여 타입. 형태 혹은 유형</div> -->
-    <!-- <div class = proto>PROTOTYPE : The first impression as a designer in society</div> -->
-    
-
-    
-
     <div class = "showinfo-background">
         <div class = "remote">
-        <button @click="click1()">1</button>
-        <br>
-        <button @click="click2()">2</button>
-        <br>
-        <button @click="click3()">3</button>
+            <ui style="display: block;">
+                <li style="display: block;"><button class = "show-button" @click="click1()"></button></li>
+                <li style="display: block;"><button class = "show-button" @click="click2()"></button></li>
+                <li style="display: block;"><button class = "show-button" @click="click3()"></button></li>
+            </ui>
         </div>
     <vue-scroll-snap :fullscreen="true">
    
@@ -24,9 +17,9 @@
                     <img class = "theme-poster" alt = "poster" src="@/assets/images/showinfo/tmp_poster.png"/>
                 </div>
                 <div class ="theme-info-container">
-                    <div class="theme-name" data-aos="fade-left" data-aos-delay = 1000>PROTOTYPE</div>
-                    <div class="theme-info1" data-aos="fade-left" data-aos-delay = 2000>: The first impression as a <br>designer in society</div>
-                    <div class="theme-info2"  data-aos="fade-left" data-aos-delay = 3000>프로토타입은 단순한 기본형을 넘어 모든 창조의 본질적 출발점입니다. 
+                    <div class="theme-name" data-aos="fade-left" data-aos-delay = 500>PROTOTYPE</div>
+                    <div class="theme-info1" data-aos="fade-left" data-aos-delay = 500>: The first impression as a <br>designer in society</div>
+                    <div class="theme-info2"  data-aos="fade-left" data-aos-delay = 500>프로토타입은 단순한 기본형을 넘어 모든 창조의 본질적 출발점입니다. 
                         <br><br>이는 우리 디자이너들이 사회에 첫 선을 보이는 작품이자, 자신을 대표하는 첫 인상이라 할 수 있습니다. 
                         '프로'는 지지, '투'는 대상에 대하여, '타입'은 형태를 의미하며, 이를 통해 우리는 모든 형태를 지지한다는 의미를 담고 있습니다. 
                         2024년 졸업 전시를 통해, 우리는 다양한 분야의 프로토타입을 발견하고, 이를 독특한 주제로 발전시켜 나갈 것입니다. 
@@ -58,7 +51,7 @@
             <div class="theme-youtube">
                 <iframe
                 :style="{ width: state.width, height: state.height }"
-                :src ="`https://www.youtube.com/embed/${state.videoId}`"
+                :src ="`https://www.youtube.com/embed/E-8pyVBvCPQ`"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -71,14 +64,7 @@
     </div>
 
     </vue-scroll-snap>
-</div>
-
-<!-- 
-    <div class = "youtube-container">
-        <iframe width="1130" height="662"
-        src="https://www.youtube.com/embed/E-8pyVBvCPQ?si=pCrxocg2l-zlwYsR">
-        </iframe>
-    </div> -->
+    </div>
 
 </template>
 
@@ -144,15 +130,46 @@
 </script>
 
 <style scoped>
-@font-face {
-  font-family:'Custom';
-  src: url('../assets/fonts/TitilliumWeb-Regular.ttf') format('truetype');
-  font-weight: 400;
-}
+    @font-face {
+    font-family:'Custom';
+    src: url('../assets/fonts/TitilliumWeb-Regular.ttf') format('truetype');
+    font-weight: 400;
+    }
+    
+    .show-button{
+        cursor: pointer;
+        border: none;
+        display: block;
+        width: 36px;
+        height: 36px;
+        margin-bottom: 24px;
+        background: url(@/assets/images/bt_gray.png) 0% 0% / 100% 100% no-repeat;
+    }
+
+    .show-button:hover{
+        cursor: pointer;
+        border: none;
+        display: block;
+        width: 36px;
+        height: 36px;
+        margin-bottom: 24px;
+        background: url(@/assets/images/bt_white.png) 0% 0% / 100% 100% no-repeat;
+    }
+
+    .show-button:focus{
+        cursor: pointer;
+        border: none;
+        display: block;
+        width: 36px;
+        height: 36px;
+        margin-bottom: 24px;
+        background: url(@/assets/images/bt_white.png) 0% 0% / 100% 100% no-repeat;
+    }
+
     .remote{
         position: fixed;
-        margin-right: 1200px;
-        margin-top: 200px;
+        margin-left: 1250px;
+        margin-top: 250px;
         z-index: 300;
         display: flex;
         flex-direction: column;
@@ -160,17 +177,23 @@
     }
 
     .item{
-    height: 100%;
-    background-image: url('@/assets/images/01_KUAD_background.png'); 
-    background-repeat: repeat;
-    background-size: cover;
-    background-position: center;
+        height: 100%;
+        /* background-image: url('@/assets/images/01_KUAD_background.png');  */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
     }
 
-  .scroll-snap-container {
-    height: 50%;
-    width: 100%;
-  }
+    .scroll-snap-container {
+        height: 50%;
+        width: 100%;
+        background-image: url('@/assets/images/background_img.jpg'); 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-position-y: -144px; */
+    }
 
     .showinfo-background{
         /* 배경 이미지 적용 */
@@ -183,79 +206,80 @@
         background-position: center;
         justify-content: center;
         margin-top: 144px;
-
     }
 
    ::-webkit-scrollbar{
-    display:none;
+        /* display:none; */
     }
+    
 
-
-.theme-container{
-        
+    .theme-container{     
         padding-top:174px;
-
         width: 1130px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         font-family: 'Custom';
-        margin: 0 auto;
+        margin: 0 auto;     
+    }
 
-        
-}
+    .theme-poster-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap:40px;
+    }
 
-.theme-poster-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap:40px;
-}
-.theme-poster{
+    .theme-poster{
         width: 400px;
+        height: auto;
+    }
 
-}
-.theme-info-container{
-    display: flex;
-    flex-direction: column;  
-}
-.theme-name{
+    .theme-info-container{
+        display: flex;
+        flex-direction: column;
+        width: 550px;
+    }
+
+    .theme-name{
         line-height: 1;
         font-size:80px;
         font-weight: bold;
-}
-.theme-info1{
-    font-size: 40px;
-    line-height: 1;
     }
-.theme-info2{
-    margin-top: 100px;
-    font-size: 20px;
-}
 
-.theme-youtube-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 144px;
-    border-bottom: 100px;
-}
+    .theme-info1{
+        font-size: 40px;
+        line-height: 1;
+    }
+    
+    .theme-info2{
+        margin-top: 100px;
+        font-size: 20px;
+    }
 
-.theme-youtube{
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-}
-
-.theme-youtube-info-container{
+    .theme-youtube-container{
         display: flex;
-        margin-top: 5px;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
-}
+        margin-top: 144px;
+        border-bottom: 100px;
+    }
 
-.theme-yt-info1{
-        font-size:30px;
-}
+    .theme-youtube{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .theme-youtube-info-container{
+            display: flex;
+            margin-top: 5px;
+            flex-direction: row;
+            justify-content: center;
+    }
+
+    .theme-yt-info1{
+            font-size:30px;
+    }
 
 </style>
