@@ -10,7 +10,7 @@
       <div class="home-category">
         <router-link to = "/team-list"><div class="menulist" data-aos="fade-right" data-aos-delay="1000">PROJECTS</div></router-link>
         <router-link to = "/team-brochuer"><div class="menulist" data-aos="fade-right" data-aos-delay="1300">LOOKBOOK</div></router-link>
-        <router-link to = "/coming-soon"><div class="menulist" data-aos="fade-right" data-aos-delay="1500">RUNWAY</div></router-link>
+        <router-link to = "/runway"><div class="menulist" data-aos="fade-right" data-aos-delay="1500">RUNWAY</div></router-link>
         <router-link to = "/showinfo"><div class="menulist" data-aos="fade-right" data-aos-delay="1700">SHOW INFO</div></router-link>
         <router-link to = "/behind"><div class="menulist" data-aos="fade-right" data-aos-delay="2000">BEHIND</div></router-link>
       </div>
