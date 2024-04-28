@@ -15,6 +15,7 @@ const AOSPlugin = {
   }
 }
 
+
 AOS.init({
     delay: 200,
     duration: 2000
