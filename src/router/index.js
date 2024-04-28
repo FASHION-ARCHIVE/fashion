@@ -8,7 +8,10 @@ import bugreportView from '@/views/teams/bugreport/bugreportView.vue'
 import ByunSangYoon from '@/views/teams/bugreport/members/ByunSangYoonView.vue'
 import TeamBrochureView from '@/views/TeamBrochureView.vue'
 import BehindView from '@/views/BehindView.vue'
+import RunwayView from '@/views/RunwayView.vue'
 import bugreportLookbookView from '@/views/teams/bugreport/bugreportLookbookView.vue'
+
+
 
 const routes = [
   {
@@ -30,6 +33,11 @@ const routes = [
     path:'/team-list',
     name: 'team-list',
     component: TeamListView
+  },
+  {
+    path: '/runway',
+    name: 'runway',
+    component: RunwayView
   },
   {
     path:'/bugreport',
