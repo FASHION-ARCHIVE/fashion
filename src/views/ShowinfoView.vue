@@ -13,13 +13,13 @@
     <div class="item" ref = "stage1">
         <div class = "theme-container">
             <div class="theme-poster-container">
-                <div data-aos = "zoom-out">
+                <div data-aos = "zoom-out" data-aos-once="true">
                     <img class = "theme-poster" alt = "poster" src="@/assets/images/showinfo/tmp_poster.png"/>
                 </div>
                 <div class ="theme-info-container">
-                    <div class="theme-name" data-aos="fade-left" data-aos-delay = 500>PROTOTYPE</div>
-                    <div class="theme-info1" data-aos="fade-left" data-aos-delay = 500>: The first impression as a <br>designer in society</div>
-                    <div class="theme-info2"  data-aos="fade-left" data-aos-delay = 500>프로토타입은 단순한 기본형을 넘어 모든 창조의 본질적 출발점입니다. 
+                    <div class="theme-name" data-aos="fade-left" data-aos-delay = 300 data-aos-once="false">PROTOTYPE</div>
+                    <div class="theme-info1" data-aos="fade-left" data-aos-delay = 300 data-aos-once="false">: The first impression as a <br>designer in society</div>
+                    <div class="theme-info2"  data-aos="fade-left" data-aos-delay = 300 data-aos-once="false">프로토타입은 단순한 기본형을 넘어 모든 창조의 본질적 출발점입니다. 
                         <br><br>이는 우리 디자이너들이 사회에 첫 선을 보이는 작품이자, 자신을 대표하는 첫 인상이라 할 수 있습니다. 
                         '프로'는 지지, '투'는 대상에 대하여, '타입'은 형태를 의미하며, 이를 통해 우리는 모든 형태를 지지한다는 의미를 담고 있습니다. 
                         2024년 졸업 전시를 통해, 우리는 다양한 분야의 프로토타입을 발견하고, 이를 독특한 주제로 발전시켜 나갈 것입니다. 

@@ -42,6 +42,7 @@ export default {
   background-position: center;
   justify-content: center;
   margin-top: 144px;
+  overflow: hidden;
 }
 .flipbook {
   width: 100vw;
