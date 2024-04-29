@@ -5,20 +5,21 @@
 
     <div class = "black-bg" v-if = " 모달창열림 == true">
         <div class = "white-bg">
-            <button class="close-button" @click = "모달창닫기" style=""></button>
-            <p>정제영</p>
+            <button class="close-button" @click = "모달창닫기"></button>
+            
             <div class = "modal-swiper">
                 <swiper
                     :navigation="true"
                     :modules="modules"
                     class="mySwiper"
                 >
-                <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/bh_test1.jpeg"/></swiper-slide>
-                <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/bh_test2.jpeg"/></swiper-slide>
-                <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/bh_test3.jpeg"/></swiper-slide>
-                <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/bh_test4.jpeg"/></swiper-slide>
+                <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+                <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+                <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+                <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
                 </swiper>
             </div>
+            <div class = "designer-name"><router-link to = "/team-list">정제영</router-link></div>
         </div>
     </div>
 
@@ -32,6 +33,10 @@
                  <li style="display: block;"><button class = "show-button" @click="click1()"></button></li>
                  <li style="display: block;"><button class = "show-button" @click="click2()"></button></li>
                  <li style="display: block;"><button class = "show-button" @click="click3()"></button></li>
+                 <li style="display: block;"><button class = "show-button" @click="click4()"></button></li>
+                 <li style="display: block;"><button class = "show-button" @click="click5()"></button></li>
+                 <li style="display: block;"><button class = "show-button" @click="click6()"></button></li>
+                 <li style="display: block;"><button class = "show-button" @click="click7()"></button></li>
              </ui>
         </div>
 
@@ -71,7 +76,7 @@
             </div>
         </div>
 
-        <div class = "image-slide-container" ref = "stage3">
+        <div class = "image-slide-container">
             <swiper
                 :slidesPerView = "4"
                 :grid="{
@@ -82,13 +87,61 @@
                 class="mySwiper"
             >
 
-            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/bh_test0.png" @click = "모달창열기"/></swiper-slide>
-            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/bh_test1.jpeg"/></swiper-slide>
-            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/bh_test2.jpeg"/></swiper-slide>
-            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/bh_test3.jpeg"/></swiper-slide>
-            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/bh_test4.jpeg"/></swiper-slide>
-            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/bh_test5.jpeg"/></swiper-slide>
-            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/bh_test0.png"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg" @click = "모달창열기"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide>Slide 8</swiper-slide>
+            <swiper-slide>Slide 9</swiper-slide>
+            <swiper-slide>Slide 10</swiper-slide>
+            <swiper-slide>Slide 11</swiper-slide>
+            <swiper-slide>Slide 12</swiper-slide>
+            <swiper-slide>Slide 13</swiper-slide>
+            <swiper-slide>Slide 14</swiper-slide>
+            <swiper-slide>Slide 15</swiper-slide>
+            <swiper-slide>Slide 16</swiper-slide>
+
+            </swiper>
+        </div>
+        
+
+        <div class="runway-youtube-container" ref = "stage3">
+            <div class="runway-youtube">
+                <iframe
+                :style="{ width: state.width, height: state.height }"
+                :src ="`https://www.youtube.com/embed/xQht_yN7yPE`"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen/>
+            </div>
+
+            <div class="runway-youtube-info-container">
+                <div class="runway-yt-info1"> BROCHURE BEHIND FILM</div>
+            </div>
+        </div>
+
+        <div class = "image-slide-container">
+            <swiper
+                :slidesPerView = "4"
+                :grid="{
+                    rows: 2, 
+                }"
+                :navigation="true"
+                :modules="modules"
+                class="mySwiper"
+            >
+
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg" @click = "모달창열기"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
             <swiper-slide>Slide 8</swiper-slide>
             <swiper-slide>Slide 9</swiper-slide>
             <swiper-slide>Slide 10</swiper-slide>
@@ -102,6 +155,193 @@
             </swiper>
         </div>
 
+        <div class="runway-youtube-container" ref = "stage4">
+            <div class="runway-youtube">
+                <iframe
+                :style="{ width: state.width, height: state.height }"
+                :src ="`https://www.youtube.com/embed/xQht_yN7yPE`"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen/>
+            </div>
+
+            <div class="runway-youtube-info-container">
+                <div class="runway-yt-info1"> BROCHURE BEHIND FILM</div>
+            </div>
+        </div>
+
+        <div class = "image-slide-container">
+            <swiper
+                :slidesPerView = "4"
+                :grid="{
+                    rows: 2, 
+                }"
+                :navigation="true"
+                :modules="modules"
+                class="mySwiper"
+            >
+
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg" @click = "모달창열기"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide>Slide 8</swiper-slide>
+            <swiper-slide>Slide 9</swiper-slide>
+            <swiper-slide>Slide 10</swiper-slide>
+            <swiper-slide>Slide 11</swiper-slide>
+            <swiper-slide>Slide 12</swiper-slide>
+            <swiper-slide>Slide 13</swiper-slide>
+            <swiper-slide>Slide 14</swiper-slide>
+            <swiper-slide>Slide 15</swiper-slide>
+            <swiper-slide>Slide 16</swiper-slide>
+
+            </swiper>
+        </div>
+
+        <div class="runway-youtube-container" ref = "stage5">
+            <div class="runway-youtube">
+                <iframe
+                :style="{ width: state.width, height: state.height }"
+                :src ="`https://www.youtube.com/embed/xQht_yN7yPE`"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen/>
+            </div>
+
+            <div class="runway-youtube-info-container">
+                <div class="runway-yt-info1"> BROCHURE BEHIND FILM</div>
+            </div>
+        </div>
+
+        <div class = "image-slide-container">
+            <swiper
+                :slidesPerView = "4"
+                :grid="{
+                    rows: 2, 
+                }"
+                :navigation="true"
+                :modules="modules"
+                class="mySwiper"
+            >
+
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg" @click = "모달창열기"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide>Slide 8</swiper-slide>
+            <swiper-slide>Slide 9</swiper-slide>
+            <swiper-slide>Slide 10</swiper-slide>
+            <swiper-slide>Slide 11</swiper-slide>
+            <swiper-slide>Slide 12</swiper-slide>
+            <swiper-slide>Slide 13</swiper-slide>
+            <swiper-slide>Slide 14</swiper-slide>
+            <swiper-slide>Slide 15</swiper-slide>
+            <swiper-slide>Slide 16</swiper-slide>
+
+            </swiper>
+        </div>
+
+        <div class="runway-youtube-container" ref = "stage6">
+            <div class="runway-youtube">
+                <iframe
+                :style="{ width: state.width, height: state.height }"
+                :src ="`https://www.youtube.com/embed/xQht_yN7yPE`"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen/>
+            </div>
+
+            <div class="runway-youtube-info-container">
+                <div class="runway-yt-info1"> BROCHURE BEHIND FILM</div>
+            </div>
+        </div>
+
+        <div class = "image-slide-container">
+            <swiper
+                :slidesPerView = "4"
+                :grid="{
+                    rows: 2, 
+                }"
+                :navigation="true"
+                :modules="modules"
+                class="mySwiper"
+            >
+
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg" @click = "모달창열기"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide>Slide 8</swiper-slide>
+            <swiper-slide>Slide 9</swiper-slide>
+            <swiper-slide>Slide 10</swiper-slide>
+            <swiper-slide>Slide 11</swiper-slide>
+            <swiper-slide>Slide 12</swiper-slide>
+            <swiper-slide>Slide 13</swiper-slide>
+            <swiper-slide>Slide 14</swiper-slide>
+            <swiper-slide>Slide 15</swiper-slide>
+            <swiper-slide>Slide 16</swiper-slide>
+
+            </swiper>
+        </div>
+
+        <div class="runway-youtube-container" ref = "stage7">
+            <div class="runway-youtube">
+                <iframe
+                :style="{ width: state.width, height: state.height }"
+                :src ="`https://www.youtube.com/embed/xQht_yN7yPE`"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen/>
+            </div>
+
+            <div class="runway-youtube-info-container">
+                <div class="runway-yt-info1"> BROCHURE BEHIND FILM</div>
+            </div>
+        </div>
+
+        <div class = "image-slide-container">
+            <swiper
+                :slidesPerView = "4"
+                :grid="{
+                    rows: 2, 
+                }"
+                :navigation="true"
+                :modules="modules"
+                class="mySwiper"
+            >
+
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg" @click = "모달창열기"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+            <swiper-slide>Slide 8</swiper-slide>
+            <swiper-slide>Slide 9</swiper-slide>
+            <swiper-slide>Slide 10</swiper-slide>
+            <swiper-slide>Slide 11</swiper-slide>
+            <swiper-slide>Slide 12</swiper-slide>
+            <swiper-slide>Slide 13</swiper-slide>
+            <swiper-slide>Slide 14</swiper-slide>
+            <swiper-slide>Slide 15</swiper-slide>
+            <swiper-slide>Slide 16</swiper-slide>
+
+            </swiper>
+        </div>
     </div>
  </div>
  
@@ -139,6 +379,18 @@
     },
     click3(){
     this.$refs.stage3.scrollIntoView({ behavior:"smooth"});
+    },
+    click4(){
+    this.$refs.stage4.scrollIntoView({ behavior:"smooth"});
+    },
+    click5(){
+    this.$refs.stage5.scrollIntoView({ behavior:"smooth"});
+    },
+    click6(){
+    this.$refs.stage6.scrollIntoView({ behavior:"smooth"});
+    },
+    click7(){
+    this.$refs.stage7.scrollIntoView({ behavior:"smooth"});
     },
 
     모달창열기(){
@@ -193,8 +445,14 @@
      src: url('../assets/fonts/TitilliumWeb-Regular.ttf') format('truetype');
      font-weight: 400;
      }
-    .modal-swiper{
+
+    .designer-name{
+        float: right;
+    }
+
+     .modal-swiper{
         height: 80%;
+        margin-bottom: 20px;
     }
 
 
@@ -208,11 +466,11 @@
     }
 
     .white-bg{
-        width: 50%;
-        height: 70%;
+        width: 30%;
+        height: 80%;
         background: white;
         border-radius: 8px;
-        padding: 20px;
+        padding: 0px 20px 0px 20px;
 
         margin: auto;
         margin-top: 3%;
@@ -223,6 +481,7 @@
 
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 
     .close-button{
@@ -230,7 +489,7 @@
         border: none;
         width: 24px;
         height: 24px;
-        margin-bottom: 24px;
+
         background: url(@/assets/images/bt_black.png) 0% 0% / 100% 100% no-repeat;
     }
 
@@ -257,7 +516,7 @@
     .remote{
         position: fixed;
         margin-left: 1250px;
-        margin-top: 250px;
+        margin-top: 7%;
         z-index: 1;
         display: flex;
         flex-direction: column;
@@ -303,20 +562,23 @@
         display: flex;
         margin-top: 5px;
         flex-direction: row;
-        justify-content: center;
+        justify-content: left;
     }
 
     .runway-yt-info1{
         font-size:30px;
+        justify-content: left;
     }
  
 
     .image-slide-container{
-        width: 1130px;
-        height: 500px;
+        width: 1000px;
+        height: 750px;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        
+        margin: auto;
         margin-bottom: 100px;
     }
 
@@ -328,7 +590,7 @@
     .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #808080;
+    background: #fff;
 
     /* Center slide text vertically */
     display: flex;
