@@ -345,12 +345,13 @@
     </div>
  </div>
  
- 
+ <mainFooter/>
  </template>
  
  <script>
     import { defineComponent, reactive, onMounted, onUnmounted } from 'vue';
     import mainHeader from '@/components/TopCategory.vue';
+    import mainFooter from '@/components/Footer.vue';
     import {Swiper, SwiperSlide} from 'swiper/vue';
 
     import 'swiper/css';
@@ -363,7 +364,7 @@
 
     export default defineComponent({
     components: {
-        mainHeader, Swiper, SwiperSlide
+        mainHeader, Swiper, SwiperSlide, mainFooter,
     },
     data() {
         return {
