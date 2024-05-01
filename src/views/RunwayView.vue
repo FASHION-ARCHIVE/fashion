@@ -1,25 +1,38 @@
 <template>
     <mainHeader/>
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
 
 
     <div class = "black-bg" v-if = " 모달창열림 == true">
         <div class = "white-bg">
-            <button class="close-button" @click = "모달창닫기"></button>
+            <span class="material-symbols-outlined" @click = "모달창닫기">close</span>
+            <!-- <button class="close-button" @click = "모달창닫기"></button> -->
             
             <div class = "modal-swiper">
                 <swiper
                     :navigation="true"
+                    :hashNavigation="{
+                    watchState: true,
+                    getSlideIndex,
+                    }"
+                    :history="{
+                    enable: true,
+                    key: '', 
+                    root: '/runway'
+                    }"
                     :modules="modules"
-                    class="mySwiper"
+                    class="modal_swiper"
                 >
-                <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
-                <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
-                <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
-                <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+                <swiper-slide data-history = "1"><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+                <swiper-slide data-history = "2"><img alt = "behind-img" src="@/assets/images/behind/bh_test1.jpeg"/></swiper-slide>
+                <swiper-slide data-history = "3"><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+                <swiper-slide data-history = "4"><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
                 </swiper>
             </div>
-            <div class = "designer-name"><router-link to = "/team-list">정제영</router-link></div>
+            <div class = "designer-info">
+                <div class = "designer-name"><router-link to = "/team-list">정제영</router-link></div>
+            </div>
+            
         </div>
     </div>
 
@@ -30,13 +43,13 @@
 
         <div class = "remote">
              <ui style="display: block;">
-                 <li style="display: block;"><button class = "show-button" @click="click1()"></button></li>
-                 <li style="display: block;"><button class = "show-button" @click="click2()"></button></li>
-                 <li style="display: block;"><button class = "show-button" @click="click3()"></button></li>
-                 <li style="display: block;"><button class = "show-button" @click="click4()"></button></li>
-                 <li style="display: block;"><button class = "show-button" @click="click5()"></button></li>
-                 <li style="display: block;"><button class = "show-button" @click="click6()"></button></li>
-                 <li style="display: block;"><button class = "show-button" @click="click7()"></button></li>
+                 <li style="display: block;"><div data-title = "전체 영상" class = "tooltip"><button class = "show-button" @click="click1()"></button></div></li>
+                 <li style="display: block;"><div data-title = "BUG REPORT" class = "tooltip"><button class = "show-button" @click="click2()"></button></div></li>
+                 <li style="display: block;"><div data-title = "ANACHRONIA" class = "tooltip"><button class = "show-button" @click="click3()"></button></div></li>
+                 <li style="display: block;"><div data-title = "protophobia" class = "tooltip"><button class = "show-button" @click="click4()"></button></div></li>
+                 <li style="display: block;"><div data-title = "Loft 1.0" class = "tooltip"><button class = "show-button" @click="click5()"></button></div></li>
+                 <li style="display: block;"><div data-title = "oak" class = "tooltip"><button class = "show-button" @click="click6()"></button></div></li>
+                 <li style="display: block;"><div data-title = "Deja vu" class = "tooltip"><button class = "show-button" @click="click7()"></button></div></li>
              </ui>
         </div>
 
@@ -75,38 +88,36 @@
                 <div class="runway-yt-info1"> BROCHURE BEHIND FILM</div>
             </div>
         </div>
+            <div class = "image-slide-container">
+                <swiper
+                    :slidesPerView = "4"
+                    :grid="{
+                        rows: 2, 
+                    }"
+                    :navigation="true"
+                    :modules="modules"
+                    class="mySwiper"
+                >
 
-        <div class = "image-slide-container">
-            <swiper
-                :slidesPerView = "4"
-                :grid="{
-                    rows: 2, 
-                }"
-                :navigation="true"
-                :modules="modules"
-                class="mySwiper"
-            >
+                <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg" @click = "모달창열기"/></swiper-slide>
+                <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+                <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+                <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+                <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+                <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+                <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+                <swiper-slide>Slide 8</swiper-slide>
+                <swiper-slide>Slide 9</swiper-slide>
+                <swiper-slide>Slide 10</swiper-slide>
+                <swiper-slide>Slide 11</swiper-slide>
+                <swiper-slide>Slide 12</swiper-slide>
+                <swiper-slide>Slide 13</swiper-slide>
+                <swiper-slide>Slide 14</swiper-slide>
+                <swiper-slide>Slide 15</swiper-slide>
+                <swiper-slide>Slide 16</swiper-slide>
 
-            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg" @click = "모달창열기"/></swiper-slide>
-            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
-            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
-            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
-            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
-            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
-            <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
-            <swiper-slide>Slide 8</swiper-slide>
-            <swiper-slide>Slide 9</swiper-slide>
-            <swiper-slide>Slide 10</swiper-slide>
-            <swiper-slide>Slide 11</swiper-slide>
-            <swiper-slide>Slide 12</swiper-slide>
-            <swiper-slide>Slide 13</swiper-slide>
-            <swiper-slide>Slide 14</swiper-slide>
-            <swiper-slide>Slide 15</swiper-slide>
-            <swiper-slide>Slide 16</swiper-slide>
-
-            </swiper>
-        </div>
-        
+                </swiper>
+            </div>
 
         <div class="runway-youtube-container" ref = "stage3">
             <div class="runway-youtube">
@@ -345,12 +356,13 @@
     </div>
  </div>
  
- 
+ <mainFooter/>
  </template>
  
  <script>
     import { defineComponent, reactive, onMounted, onUnmounted } from 'vue';
     import mainHeader from '@/components/TopCategory.vue';
+    import mainFooter from '@/components/Footer.vue';
     import {Swiper, SwiperSlide} from 'swiper/vue';
 
     import 'swiper/css';
@@ -359,11 +371,11 @@
     // import 'swiper/css/pagination';
     import 'swiper/css/navigation';
 
-    import { Grid, Navigation } from 'swiper/modules';
+    import { Grid, Navigation, History } from 'swiper/modules';
 
     export default defineComponent({
     components: {
-        mainHeader, Swiper, SwiperSlide
+        mainHeader, Swiper, SwiperSlide, mainFooter,
     },
     data() {
         return {
@@ -401,7 +413,7 @@
     },
 },    
     setup() {
-         
+
          const state = reactive({
              videoId: 'UTH1VNHLjng',
              width: '1130',
@@ -432,7 +444,7 @@
          });
  
          return {
-             state, modules: [Grid, Navigation],
+            state, modules: [Grid, Navigation, History],
          };
  
      },
@@ -446,13 +458,72 @@
      font-weight: 400;
      }
 
+     .tooltip{
+        position: relative;
+     }
+
+
+     .tooltip:hover:before {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    }
+
+    .tooltip::before {
+        content: attr(data-title);
+        display: block;
+        opacity: 0;
+        pointer-events: none;
+        position: absolute;
+        transform: translate3d(20px, 0, 0);
+        transition: all 0.15s ease-in-out;
+        background: rgb(90, 90, 90);
+        color: #fff;
+        font-size: 14   px;
+        padding: 6px 10px;
+        top: -5px;
+        right: 0;
+        white-space: nowrap;
+    }
+
+    .button-info{
+        display: none;
+        position: relative;
+        /* background-color: black; */
+    }
+
+    .button-info::after{
+        position: relative;
+        display: block;
+    }
+
+    .show-button:hover .button-info{
+        display: block; 
+    }
+
+    .material-symbols-outlined{
+        cursor: pointer;
+        border: none;
+        margin-left: auto;
+        margin-top: 10px;
+    }
+
+    .designer-info{
+        display: flex;
+        flex-direction: column;
+    }
+
     .designer-name{
-        float: right;
+        margin-left: auto;
+        padding-right: 30px;
+    }
+
+    .designer-name a{
+        color: black;
     }
 
      .modal-swiper{
-        height: 80%;
-        margin-bottom: 20px;
+        height: 85%;
+        margin-bottom: 10px;
     }
 
 
@@ -469,8 +540,8 @@
         width: 30%;
         height: 80%;
         background: white;
-        border-radius: 8px;
-        padding: 0px 20px 0px 20px;
+        border-radius: 4px;
+        padding: 0px 10px 0px 10px;
 
         margin: auto;
         margin-top: 3%;
@@ -481,7 +552,6 @@
 
         display: flex;
         flex-direction: column;
-        justify-content: center;
     }
 
     .close-button{
@@ -499,7 +569,7 @@
         display: block;
         width: 24px;
         height: 24px;
-        margin-bottom: 24px;
+        margin-bottom: 20px;
         background: url(@/assets/images/bt_gray.png) 0% 0% / 100% 100% no-repeat;
     }
 
@@ -509,18 +579,18 @@
         display: block;
         width: 24px;
         height: 24px;
-        margin-bottom: 24px;
+        margin-bottom: 20px;
         background: url(@/assets/images/bt_white.png) 0% 0% / 100% 100% no-repeat;
     }    
 
     .remote{
         position: fixed;
         margin-left: 1250px;
-        margin-top: 7%;
+        margin-top: 10%;
         z-index: 1;
         display: flex;
         flex-direction: column;
-        gap: 2px;
+        /* gap: 2px; */
     }
 
     .runway-background{
@@ -602,5 +672,17 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
+    /* transition-duration: 0.5s; */
+    }
+
+    .image-slide-container:hover img{
+        /* transform: scale(1.2, 1,2); */
+        transition-duration: 0.3s;
+        filter: brightness(0.6);
+    }
+
+    .image-slide-container img:hover{
+        filter: brightness(1);
+        transition-duration: 0.3s;
     }
  </style>

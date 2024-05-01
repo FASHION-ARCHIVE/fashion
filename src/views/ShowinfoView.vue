@@ -64,19 +64,22 @@
     </div>
 
     </vue-scroll-snap>
+    <mainFooter/>
     </div>
+
 
 </template>
 
 <script>
     import { defineComponent, reactive, onMounted, onUnmounted } from 'vue';
     import mainHeader from '@/components/TopCategory.vue'; // mainHeader 컴포넌트를 정확한 경로에서 import
+    import mainFooter from '@/components/Footer.vue';
     import VueScrollSnap from "vue-scroll-snap";
    
     export default defineComponent({
         
     components: {VueScrollSnap,
-         mainHeader // 컴포넌트 등록
+         mainHeader, mainFooter // 컴포넌트 등록
     },
 
     methods:{
@@ -136,12 +139,16 @@
     font-weight: 400;
     }
     
+    ::-webkit-scrollbar{
+        display:none;
+        }
+
     .show-button{
         cursor: pointer;
         border: none;
         display: block;
-        width: 36px;
-        height: 36px;
+        width: 24px;
+        height: 24px;
         margin-bottom: 24px;
         background: url(@/assets/images/bt_gray.png) 0% 0% / 100% 100% no-repeat;
     }
@@ -150,8 +157,8 @@
         cursor: pointer;
         border: none;
         display: block;
-        width: 36px;
-        height: 36px;
+        width: 24px;
+        height: 24px;
         margin-bottom: 24px;
         background: url(@/assets/images/bt_white.png) 0% 0% / 100% 100% no-repeat;
     }
@@ -160,8 +167,8 @@
         cursor: pointer;
         border: none;
         display: block;
-        width: 36px;
-        height: 36px;
+        width: 24px;
+        height: 24px;
         margin-bottom: 24px;
         background: url(@/assets/images/bt_white.png) 0% 0% / 100% 100% no-repeat;
     }
@@ -231,7 +238,8 @@
     }
 
     .theme-poster{
-        width: 400px;
+        max-width: 400px;
+        width: auto;
         height: auto;
     }
 
