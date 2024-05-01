@@ -2,7 +2,7 @@
     <mainHeader/>
     <div class = "bugreport-background">
         <div class ="br-container">
-            <div class="br-poster-container" data-aos="fade-up">
+            <div class="br-poster-container" data-aos="fade-up" data-aos-once="true">
                 <img class="br-poster" alt="poster" src="@/assets/images/bugreport/poster.jpeg" />
                 <div class ="br-info-container">
                     <div class="br-title">
@@ -16,7 +16,7 @@
                     </div>
                 </div>
             </div>
-            <div class="br-youtube-container" data-aos="fade-up">
+            <div class="br-youtube-container" data-aos="fade-up" data-aos-once="true">
                 <div id="br-youtube">
                     <iframe
                     :style="{ width: state.width, height: state.height }"
