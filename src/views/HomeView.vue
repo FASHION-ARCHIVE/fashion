@@ -1,18 +1,18 @@
 <template>
   
-  <div class="home-background" data-aos="fade-right">
+  <div class="home-background" data-aos="fade-right" data-aos-once="true">
     <div class="text-group">
-      <div class="element-KUAD-GRADUATION" data-aos="fade-right" data-aos-delay="500">
+      <div class="element-KUAD-GRADUATION" data-aos="fade-right" data-aos-delay="500" data-aos-once="true">
         2024 KUAD
         <br />
         GRADUATION FASHION SHOW
       </div>
       <div class="home-category">
-        <router-link to = "/team-list"><div class="menulist" data-aos="fade-right" data-aos-delay="1000">PROJECTS</div></router-link>
-        <router-link to = "/team-brochuer"><div class="menulist" data-aos="fade-right" data-aos-delay="1300">LOOKBOOK</div></router-link>
-        <router-link to = "/runway"><div class="menulist" data-aos="fade-right" data-aos-delay="1500">RUNWAY</div></router-link>
-        <router-link to = "/showinfo"><div class="menulist" data-aos="fade-right" data-aos-delay="1700">SHOW INFO</div></router-link>
-        <router-link to = "/behind"><div class="menulist" data-aos="fade-right" data-aos-delay="2000">BEHIND</div></router-link>
+        <router-link to = "/team-list"><div class="menulist" data-aos="fade-right" data-aos-delay="1000" data-aos-once="true">PROJECTS</div></router-link>
+        <router-link to = "/team-brochuer"><div class="menulist" data-aos="fade-right" data-aos-delay="1300" data-aos-once="true">LOOKBOOK</div></router-link>
+        <router-link to = "/runway"><div class="menulist" data-aos="fade-right" data-aos-delay="1500" data-aos-once="true">RUNWAY</div></router-link>
+        <router-link to = "/showinfo"><div class="menulist" data-aos="fade-right" data-aos-delay="1700" data-aos-once="true">SHOW INFO</div></router-link>
+        <router-link to = "/behind"><div class="menulist" data-aos="fade-right" data-aos-delay="2000" data-aos-once="true" data-aos-offset="-1000">BEHIND</div></router-link>
       </div>
     </div>
   </div>
@@ -24,7 +24,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 @font-face {
   font-family:'Custom';
   src: url('../assets/fonts/TitilliumWeb-Regular.ttf') format('truetype');
