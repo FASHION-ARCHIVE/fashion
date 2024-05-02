@@ -666,6 +666,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     }
 
     .swiper-slide img {
@@ -673,16 +674,19 @@
     height: 100%;
     object-fit: contain;
     /* transition-duration: 0.5s; */
+    transition: all 0.2s linear;
     }
 
     .image-slide-container:hover img{
-        /* transform: scale(1.2, 1,2); */
+        
         transition-duration: 0.3s;
         filter: brightness(0.6);
+
     }
 
     .image-slide-container img:hover{
         filter: brightness(1);
-        transition-duration: 0.3s;
+        transition-duration:0.1s;
+        transform: scale(1.1, 1.1);
     }
  </style>
