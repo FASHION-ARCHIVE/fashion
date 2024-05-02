@@ -88,7 +88,7 @@ import Footer from '@/components/Footer.vue';
 
 export default defineComponent({
     components: {
-        mainHeader, // 컴포넌트 등록
+        mainHeader,
         Footer
     },
     setup() {
