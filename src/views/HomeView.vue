@@ -62,7 +62,7 @@ export default {
   height: 100%;
   gap:20px;
   justify-content: center;
-  
+  width: 300px;
 }
 
 .home-background .element-KUAD-GRADUATION {
@@ -78,8 +78,9 @@ export default {
   color: #000000;
   font-size: 50px;
   position: relative;
- display: inline-flex;
- text-decoration: none;
+  display: inline-flex;
+  text-decoration: none;
+  width: auto;
 }
 
 .menulist:after{

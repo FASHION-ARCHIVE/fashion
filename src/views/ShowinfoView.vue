@@ -138,7 +138,7 @@
     src: url('../assets/fonts/TitilliumWeb-Regular.ttf') format('truetype');
     font-weight: 400;
     }
-    
+
     ::-webkit-scrollbar{
         display:none;
         }
@@ -200,6 +200,7 @@
         background-position: center;
         background-repeat: no-repeat;
         /* background-position-y: -144px; */
+        
     }
 
     .showinfo-background{
