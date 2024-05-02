@@ -37,7 +37,7 @@ export default {
   flex-direction: column;
   width: 100%;
   height: 100vh; /* 화면의 전체 높이를 차지하도록 설정 */
-  background-image: linear-gradient(to right, #ffffff 30%, transparent 30%),url('@/assets/images/웹사이트-이미지-가공본.jpg'); /* 배경 이미지 추가 */
+  background-image: linear-gradient(to right, #ffffff 30%, transparent 30%),url('@/assets/images/home.jpg'); /* 배경 이미지 추가 */
   background-position: right center; /* 이미지를 오른쪽 중앙에 배치 */
   background-size: cover; /* 이미지가 컨테이너를 완전히 채우도록 확장 */
   background-repeat: no-repeat; /* 이미지 반복 없음 */
@@ -62,7 +62,7 @@ export default {
   height: 100%;
   gap:20px;
   justify-content: center;
-  
+  width: 300px;
 }
 
 .home-background .element-KUAD-GRADUATION {
@@ -78,8 +78,9 @@ export default {
   color: #000000;
   font-size: 50px;
   position: relative;
- display: inline-flex;
- text-decoration: none;
+  display: inline-flex;
+  text-decoration: none;
+  width: auto;
 }
 
 .menulist:after{
