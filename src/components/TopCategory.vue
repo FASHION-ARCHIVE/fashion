@@ -4,7 +4,7 @@
             <div class="menu2">
                 <div class="text-1">2024 KUAD GRADUATION FASHION SHOW</div>
                 <div class="top-menu">
-                    <router-link to="/"><img class="logo" alt="logo" src="@/assets/images/KUAD-logo.png"/></router-link>
+                    <router-link to="/" class="logo-link"><img class="logo" alt="logo" src="@/assets/images/kuad_logo.png"/></router-link>
                     <div class="nav-links">
                         <router-link to="/team-list"><div class="top0">PROJECTS</div></router-link>
                         <router-link to="/team-brochuer"><div class="top1">LOOKBOOK</div></router-link>
@@ -42,7 +42,6 @@
     display: flex;
     width: 1130px;
     flex-direction: column;
-
 }
 
 .top-menu{
@@ -55,7 +54,6 @@
 }
 
 .text-1{
-    position: relative;
     display: flex;
     align-items: center;
     height:40px;
@@ -70,7 +68,6 @@
     display: flex;
     font-size: 44px;
 }
-
 
 
 .nav-links {
@@ -99,5 +96,13 @@
 .top3 {
     margin-right: 20px; 
 }
+
+
+.logo-link {
+    display: flex; /* Flexbox를 이용한 정렬을 위해 */
+    padding: 0;
+    height: auto; /* 로고 이미지의 높이를 자동으로 설정하여 비율을 유지 */
+}
+
 
 </style>
