@@ -76,17 +76,20 @@
             </div>
         </div>
     </div>
+    <Footer/>
 </template>
 
 
 <script>
 import { defineComponent, reactive, onMounted, onUnmounted } from 'vue';
 import mainHeader from '@/components/TopCategory.vue'; // mainHeader 컴포넌트를 정확한 경로에서 import
+import Footer from '@/components/Footer.vue';
 
 
 export default defineComponent({
     components: {
-        mainHeader // 컴포넌트 등록
+        mainHeader, // 컴포넌트 등록
+        Footer
     },
     setup() {
         const state = reactive({
