@@ -25,7 +25,7 @@
   
   <style scoped>
   footer {
-    background-color: #fff;
+    background-color: #ffffff;
     color: black;
     padding: 20px;
     display: flex;

@@ -32,15 +32,18 @@
         </div>
       </div>
     </div>
-  </div> 
+  </div>
+  <Footer/>
 </template>
 
 <script>
     import mainHeader from '@/components/TopCategory.vue';
+    import Footer from '@/components/Footer.vue';
     export default {
        name: 'TeamList',
        components: {
-         mainHeader
+         mainHeader,
+         Footer
        }
      }
 </script>
