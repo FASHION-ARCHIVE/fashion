@@ -30,7 +30,7 @@
     position: fixed;
     display: flex;
     justify-content: center;
-    height: 144px;
+    height: 100px;
     width: 100%;
     background-color: white;
     font-family: "Custom", Helvetica;
