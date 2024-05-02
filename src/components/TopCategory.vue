@@ -4,7 +4,7 @@
             <div class="menu2">
                 <div class="text-1">2024 KUAD GRADUATION FASHION SHOW</div>
                 <div class="top-menu">
-                    <router-link to="/" class="logo-link"><img class="logo" alt="logo" src="@/assets/images/kuad_logo.png"/></router-link>
+                    <router-link to="/" class="logo-link"><img class="logo" alt="logo" src="@/assets/images/KUAD-logo.png"/></router-link>
                     <div class="nav-links">
                         <router-link to="/team-list"><div class="top0">PROJECTS</div></router-link>
                         <router-link to="/team-brochuer"><div class="top1">LOOKBOOK</div></router-link>

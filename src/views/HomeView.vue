@@ -49,6 +49,7 @@ export default {
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-left: 100px;
   height: 100%;
   font-family: "Custom", Helvetica;
   justify-content: flex-start;
