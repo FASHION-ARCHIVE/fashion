@@ -2,8 +2,15 @@
     <header>
         <div class="menu">
             <div class="menu2">
-                <div class="text-1">2024 KUAD GRADUATION FASHION SHOW</div>
-                <div class="top-menu">
+                <div class = "top-menu1">
+                <div class = "text-1">2024 KUAD GRADUATION FASHION SHOW</div>
+                <div class = "icon-list">
+
+                    <a href="https://www.instagram.com/"><img class = "icon" alt = "instagram" src = @/assets/images/icon/insta_icon_bw.png></a>
+                    <a href="https://www.youtube.com/"><img class = "icon" alt = "youtube" src = @/assets/images/icon/youtube_icon_bw.png></a>
+                </div>
+                </div>
+                <div class = "top-menu2">
                     <router-link to="/" class="logo-link"><img class="logo" alt="logo" src="@/assets/images/KUAD-logo.png"/></router-link>
                     <div class="nav-links">
                         <router-link to="/team-list"><div class="top0">PROJECTS</div></router-link>
@@ -30,7 +37,7 @@
     position: fixed;
     display: flex;
     justify-content: center;
-    height: 100px;
+    height: 100px; 
     width: 100%;
     background-color: white;
     font-family: "Custom", Helvetica;
@@ -44,13 +51,12 @@
     flex-direction: column;
 }
 
-.top-menu{
+.top-menu1{
     display: flex;
     flex-direction: row;
-    height: 104px;
+    height: 40px;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .text-1{
@@ -59,6 +65,28 @@
     height:40px;
     font-size: 10px;
 }
+
+.icon-list{
+    display: flex;
+}
+
+.icon-list a{
+    padding: 10px 10px;
+}
+.icon{
+    width: 20px;
+    /* padding: 10px 10px; */
+}
+
+.top-menu2{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 
 
 .logo{

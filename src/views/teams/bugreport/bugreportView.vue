@@ -130,7 +130,7 @@ export default defineComponent({
 
 
 
-<style>
+<style scoped>
     .bugreport-background{
         /* 배경 이미지 적용 */
         display: flex;
@@ -140,7 +140,7 @@ export default defineComponent({
         background-size: cover;
         background-position: center;
         justify-content: center;
-        margin-top: 144px;
+        margin-top: 100px;
     }
 
     .br-container{

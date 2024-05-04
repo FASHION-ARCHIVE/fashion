@@ -16,44 +16,40 @@
         </div>
         <div class="image-item">
           <router-link to = "/coming-soon"><img class="team 3" alt="team 3" src="@/assets/images/yy.jpeg" /></router-link>
-          <div class="caption">PROTOPHOBIA</div>
+          <div class="caption">protophobia</div>
         </div>
         <div class="image-item">
           <router-link to = "/coming-soon"><img class="team 4" alt="team 4" src="@/assets/images/yy.jpeg" /></router-link>
-          <div class="caption">팀 4</div>
+          <div class="caption">Loft 1.0</div>
         </div>
         <div class="image-item">
           <router-link to = "/coming-soon"><img class="team 5" alt="team 5" src="@/assets/images/yy.jpeg" /></router-link>
-          <div class="caption">팀 5</div>
+          <div class="caption">oak</div>
         </div>
         <div class="image-item">
           <router-link to = "/coming-soon"><img class="team 6" alt="team 6" src="@/assets/images/yy.jpeg" /></router-link>
-          <div class="caption">팀 6</div>
+          <div class="caption">Deja vu</div>
         </div>
       </div>
     </div>
   </div>
-  <Footer/>
+  <mainFooter/>
 </template>
 
 <script>
     import mainHeader from '@/components/TopCategory.vue';
-    import Footer from '@/components/Footer.vue';
+    import mainFooter from '@/components/Footer.vue';
     export default {
        name: 'TeamList',
        components: {
          mainHeader,
-         Footer
+         mainFooter
        }
      }
 </script>
 
-<style>
-@font-face {
-  font-family:'Custom';
-  src: url('../assets/fonts/TitilliumWeb-Regular.ttf') format('truetype');
-  font-weight: 400;
-}
+<style scoped>
+
 .team-background{
   /* 배경 이미지 적용 */
   display: flex;
@@ -63,8 +59,9 @@
   background-size: cover;
   background-position: center;
   justify-content: center;
-  margin-top: 144px;
-}
+  margin-top: 100px; /* 헤더 높이 맞춰서 마진 */
+  padding-bottom: 100px; /* 푸터 사이 간격 */
+} 
 
 .team-list-container{
   width: 1130px;

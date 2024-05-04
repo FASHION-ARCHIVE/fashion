@@ -25,11 +25,6 @@ export default {
 </script>
 
 <style scoped>
-@font-face {
-  font-family:'Custom';
-  src: url('../assets/fonts/TitilliumWeb-Regular.ttf') format('truetype');
-  font-weight: 400;
-}
 
 .home-background {
   background-color: #ffffff;
@@ -48,8 +43,8 @@ export default {
 .text-group {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  margin-left: 100px;
+  width: 100% - 50px;
+  margin-left: 50px;
   height: 100%;
   font-family: "Custom", Helvetica;
   justify-content: flex-start;

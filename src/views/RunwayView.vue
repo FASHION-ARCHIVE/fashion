@@ -43,13 +43,13 @@
 
         <div class = "remote">
              <ui style="display: block;">
-                 <li style="display: block;"><div data-title = "전체 영상" class = "tooltip"><button class = "show-button" @click="click1()"></button></div></li>
-                 <li style="display: block;"><div data-title = "BUG REPORT" class = "tooltip"><button class = "show-button" @click="click2()"></button></div></li>
-                 <li style="display: block;"><div data-title = "ANACHRONIA" class = "tooltip"><button class = "show-button" @click="click3()"></button></div></li>
-                 <li style="display: block;"><div data-title = "protophobia" class = "tooltip"><button class = "show-button" @click="click4()"></button></div></li>
-                 <li style="display: block;"><div data-title = "Loft 1.0" class = "tooltip"><button class = "show-button" @click="click5()"></button></div></li>
-                 <li style="display: block;"><div data-title = "oak" class = "tooltip"><button class = "show-button" @click="click6()"></button></div></li>
-                 <li style="display: block;"><div data-title = "Deja vu" class = "tooltip"><button class = "show-button" @click="click7()"></button></div></li>
+                 <li style="display: block;"><div data-title = "전체 영상" class = "remote-info"><button class = "show-button" @click="click1()"></button></div></li>
+                 <li style="display: block;"><div data-title = "BUG REPORT" class = "remote-info"><button class = "show-button" @click="click2()"></button></div></li>
+                 <li style="display: block;"><div data-title = "ANACHRONIA" class = "remote-info"><button class = "show-button" @click="click3()"></button></div></li>
+                 <li style="display: block;"><div data-title = "protophobia" class = "remote-info"><button class = "show-button" @click="click4()"></button></div></li>
+                 <li style="display: block;"><div data-title = "Loft 1.0" class = "remote-info"><button class = "show-button" @click="click5()"></button></div></li>
+                 <li style="display: block;"><div data-title = "oak" class = "remote-info"><button class = "show-button" @click="click6()"></button></div></li>
+                 <li style="display: block;"><div data-title = "Deja vu" class = "remote-info"><button class = "show-button" @click="click7()"></button></div></li>
              </ui>
         </div>
 
@@ -57,8 +57,8 @@
     <div class = "runway-container">
 
 
-        <div class="runway-youtube-container" ref = "stage1">
-            <div class="runway-youtube">
+        <div class="runway-youtube-container">
+            <div class="runway-youtube" ref = "stage1">
                 <iframe
                 :style="{ width: state.width, height: state.height }"
                 :src ="`https://www.youtube.com/embed/E-8pyVBvCPQ`"
@@ -68,13 +68,13 @@
                 allowfullscreen/>
             </div>
             <div class="runway-youtube-info-container">
-                <div class="runway-yt-info1"> BEHIND FILM</div>
+                <div class="runway-yt-info1">전체 영상</div>
             </div>
         </div>
 
  
-        <div class="runway-youtube-container" ref = "stage2">
-            <div class="runway-youtube">
+        <div class="runway-youtube-container">
+            <div class="runway-youtube" ref = "stage2">
                 <iframe
                 :style="{ width: state.width, height: state.height }"
                 :src ="`https://www.youtube.com/embed/xQht_yN7yPE`"
@@ -85,7 +85,7 @@
             </div>
 
             <div class="runway-youtube-info-container">
-                <div class="runway-yt-info1"> BROCHURE BEHIND FILM</div>
+                <div class="runway-yt-info1">BUG REPORT</div>
             </div>
         </div>
             <div class = "image-slide-container">
@@ -119,8 +119,8 @@
                 </swiper>
             </div>
 
-        <div class="runway-youtube-container" ref = "stage3">
-            <div class="runway-youtube">
+        <div class="runway-youtube-container">
+            <div class="runway-youtube" ref = "stage3">
                 <iframe
                 :style="{ width: state.width, height: state.height }"
                 :src ="`https://www.youtube.com/embed/xQht_yN7yPE`"
@@ -131,7 +131,7 @@
             </div>
 
             <div class="runway-youtube-info-container">
-                <div class="runway-yt-info1"> BROCHURE BEHIND FILM</div>
+                <div class="runway-yt-info1">ANACHRONIA</div>
             </div>
         </div>
 
@@ -166,8 +166,8 @@
             </swiper>
         </div>
 
-        <div class="runway-youtube-container" ref = "stage4">
-            <div class="runway-youtube">
+        <div class="runway-youtube-container">
+            <div class="runway-youtube" ref = "stage4">
                 <iframe
                 :style="{ width: state.width, height: state.height }"
                 :src ="`https://www.youtube.com/embed/xQht_yN7yPE`"
@@ -178,7 +178,7 @@
             </div>
 
             <div class="runway-youtube-info-container">
-                <div class="runway-yt-info1"> BROCHURE BEHIND FILM</div>
+                <div class="runway-yt-info1">protophobia</div>
             </div>
         </div>
 
@@ -213,8 +213,8 @@
             </swiper>
         </div>
 
-        <div class="runway-youtube-container" ref = "stage5">
-            <div class="runway-youtube">
+        <div class="runway-youtube-container">
+            <div class="runway-youtube" ref = "stage5">
                 <iframe
                 :style="{ width: state.width, height: state.height }"
                 :src ="`https://www.youtube.com/embed/xQht_yN7yPE`"
@@ -225,7 +225,7 @@
             </div>
 
             <div class="runway-youtube-info-container">
-                <div class="runway-yt-info1"> BROCHURE BEHIND FILM</div>
+                <div class="runway-yt-info1">Loft 1.0</div>
             </div>
         </div>
 
@@ -260,8 +260,8 @@
             </swiper>
         </div>
 
-        <div class="runway-youtube-container" ref = "stage6">
-            <div class="runway-youtube">
+        <div class="runway-youtube-container">
+            <div class="runway-youtube" ref = "stage6">
                 <iframe
                 :style="{ width: state.width, height: state.height }"
                 :src ="`https://www.youtube.com/embed/xQht_yN7yPE`"
@@ -272,7 +272,7 @@
             </div>
 
             <div class="runway-youtube-info-container">
-                <div class="runway-yt-info1"> BROCHURE BEHIND FILM</div>
+                <div class="runway-yt-info1">oak</div>
             </div>
         </div>
 
@@ -307,8 +307,8 @@
             </swiper>
         </div>
 
-        <div class="runway-youtube-container" ref = "stage7">
-            <div class="runway-youtube">
+        <div class="runway-youtube-container">
+            <div class="runway-youtube" ref = "stage7">
                 <iframe
                 :style="{ width: state.width, height: state.height }"
                 :src ="`https://www.youtube.com/embed/xQht_yN7yPE`"
@@ -319,7 +319,7 @@
             </div>
 
             <div class="runway-youtube-info-container">
-                <div class="runway-yt-info1"> BROCHURE BEHIND FILM</div>
+                <div class="runway-yt-info1">Deja vu</div>
             </div>
         </div>
 
@@ -375,7 +375,9 @@
 
     export default defineComponent({
     components: {
-        mainHeader, Swiper, SwiperSlide, mainFooter,
+        mainHeader, 
+        Swiper, SwiperSlide, 
+        mainFooter,
     },
     data() {
         return {
@@ -384,25 +386,25 @@
     },
     methods:{
     click1(){
-    this.$refs.stage1.scrollIntoView({ behavior:"smooth",block: "start" ,inline: "nearest"});
+    this.$refs.stage1.scrollIntoView({ behavior:"smooth", block: "end"});
     },
     click2(){
-    this.$refs.stage2.scrollIntoView({ behavior:"smooth"});
+    this.$refs.stage2.scrollIntoView({ behavior:"smooth", block: "center"});
     },
     click3(){
-    this.$refs.stage3.scrollIntoView({ behavior:"smooth"});
+    this.$refs.stage3.scrollIntoView({ behavior:"smooth", block: "center"});
     },
     click4(){
-    this.$refs.stage4.scrollIntoView({ behavior:"smooth"});
+    this.$refs.stage4.scrollIntoView({ behavior:"smooth", block: "center"});
     },
     click5(){
-    this.$refs.stage5.scrollIntoView({ behavior:"smooth"});
+    this.$refs.stage5.scrollIntoView({ behavior:"smooth", block: "center"});
     },
     click6(){
-    this.$refs.stage6.scrollIntoView({ behavior:"smooth"});
+    this.$refs.stage6.scrollIntoView({ behavior:"smooth", block: "center"});
     },
     click7(){
-    this.$refs.stage7.scrollIntoView({ behavior:"smooth"});
+    this.$refs.stage7.scrollIntoView({ behavior:"smooth", block: "center"});
     },
 
     모달창열기(){
@@ -452,34 +454,26 @@
  </script>
  
  <style scoped>
-     @font-face {
-     font-family:'Custom';
-     src: url('../assets/fonts/TitilliumWeb-Regular.ttf') format('truetype');
-     font-weight: 400;
-     }
 
-     .tooltip{
+    .remote-info{
         position: relative;
-     }
-
-
-     .tooltip:hover:before {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
     }
 
-    .tooltip::before {
+    .remote-info:hover:before {
+    opacity: 1;
+    }
+
+    .remote-info::before {
         content: attr(data-title);
         display: block;
         opacity: 0;
         pointer-events: none;
         position: absolute;
-        transform: translate3d(20px, 0, 0);
         transition: all 0.15s ease-in-out;
         background: rgb(90, 90, 90);
         color: #fff;
-        font-size: 14   px;
-        padding: 6px 10px;
+        font-size: 15px;
+        padding: 5px 10px;
         top: -5px;
         right: 0;
         white-space: nowrap;
@@ -488,7 +482,6 @@
     .button-info{
         display: none;
         position: relative;
-        /* background-color: black; */
     }
 
     .button-info::after{
@@ -585,12 +578,11 @@
 
     .remote{
         position: fixed;
-        margin-left: 1250px;
-        margin-top: 10%;
+        margin-left: 1200px;
+        margin-top: 14%;
         z-index: 1;
         display: flex;
         flex-direction: column;
-        /* gap: 2px; */
     }
 
     .runway-background{
@@ -601,8 +593,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    /* background-color: #e1e1e1; */
     justify-content: center;
-    margin-top: 144px;
+    margin-top: 50px; /* 헤더 높이 맞춰서 마진 */
     }
     
     .runway-container{
@@ -617,13 +610,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    padding-top: 144px;
+    
     margin-bottom: 100px;
+
     }
 
     .runway-youtube{
-    margin-top: 10px;
+    padding-top: 100px;
     display: flex;
     justify-content: center;
     }
@@ -642,8 +635,8 @@
  
 
     .image-slide-container{
-        width: 1000px;
-        height: 750px;
+        width: 880px;
+        height: 660px;
         display: flex;
         flex-direction: column;
         justify-content: center;

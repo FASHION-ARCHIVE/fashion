@@ -3,9 +3,9 @@
     <div class = "behind-background">
         <div class = "remote">
             <ui style="display: block;">
-                <li style="display: block;"><button class = "show-button" @click="click1()"></button></li>
-                <li style="display: block;"><button class = "show-button" @click="click2()"></button></li>
-                <li style="display: block;"><button class = "show-button" @click="click3()"></button></li>
+                <li style="display: block;"><div data-title = "BEHIND FILM" class = "remote-info"><button class = "show-button" @click="click1()"></button></div></li>
+                <li style="display: block;"><div data-title = "BROCHUE BEHIND FILM" class = "remote-info"><button class = "show-button" @click="click2()"></button></div></li>
+                <li style="display: block;"><div data-title = "BEHIND CUT" class = "remote-info"><button class = "show-button" @click="click3()"></button></div></li>
             </ui>
     </div>
 
@@ -145,10 +145,30 @@
 </script>
 
 <style scoped>
-    @font-face {
-    font-family:'Custom';
-    src: url('../assets/fonts/TitilliumWeb-Regular.ttf') format('truetype');
-    font-weight: 400;
+
+    .remote-info{
+        position: relative;
+    }
+
+
+    .remote-info:hover:before {
+    opacity: 1;
+    }
+
+    .remote-info::before {
+        content: attr(data-title);
+        display: block;
+        opacity: 0;
+        pointer-events: none;
+        position: absolute;
+        transition: all 0.15s ease-in-out;
+        background: rgb(90, 90, 90);
+        color: #fff;
+        font-size: 15px;
+        padding: 5px 10px;
+        top: -5px;
+        right: 0;
+        white-space: nowrap;
     }
 
     .show-button{
@@ -173,8 +193,8 @@
 
     .remote{
         position: fixed;
-        margin-left: 1250px;
-        margin-top: 250px;
+        margin-left: 1200px;
+        margin-top: 18%;
         z-index: 300;
         display: flex;
         flex-direction: column;
@@ -187,10 +207,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    justify-content: center;
+    display: flex;
     }
 
     .scroll-snap-container {
-        height: 50%;
+        height: 100%;
         width: 100%;
         background-image: url('@/assets/images/background_img.jpg'); 
         background-size: cover;
@@ -212,14 +234,14 @@
         background-size: cover;
         background-position: center;
         justify-content: center;
-        margin-top: 144px;
+        margin-top: 100px;
     }
 
     .behind-youtube-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 144px;
+    margin-top: 5%;
     border-bottom: 100px;
     }
 
@@ -242,20 +264,19 @@
 
     .image-slide-container{
         
-        padding-top:174px;
-
-        width: 60%;
-        height: 70%;
+        margin-top: 5%;
+        width: 960px;
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         justify-content: center;
         font-family: 'Custom';
-        margin: 0 auto;
+        
     }
 
     .swiper {
     width: 100%;
-    height: 100%;
+    height: 80%;
+    margin: auto;
     }
 
     .swiper-slide {
