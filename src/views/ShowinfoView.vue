@@ -3,9 +3,9 @@
     <div class = "showinfo-background">
         <div class = "remote">
             <ui style="display: block;">
-                <li style="display: block;"><button class = "show-button" @click="click1()"></button></li>
-                <li style="display: block;"><button class = "show-button" @click="click2()"></button></li>
-                <li style="display: block;"><button class = "show-button" @click="click3()"></button></li>
+                <li style="display: block;"><div data-title = "ABOUT" class = "remote-info"><button class = "show-button" @click="click1()"></button></div></li>
+                <li style="display: block;"><div data-title = "TEASER FILM" class = "remote-info"><button class = "show-button" @click="click2()"></button></div></li>
+                <li style="display: block;"><div data-title = "MAP" class = "remote-info"><button class = "show-button" @click="click3()"></button></div></li>
             </ui>
         </div>
     <vue-scroll-snap :fullscreen="true">
@@ -133,10 +133,30 @@
 </script>
 
 <style scoped>
-    @font-face {
-    font-family:'Custom';
-    src: url('../assets/fonts/TitilliumWeb-Regular.ttf') format('truetype');
-    font-weight: 400;
+
+    .remote-info{
+        position: relative;
+    }
+
+
+    .remote-info:hover:before {
+    opacity: 1;
+    }
+
+    .remote-info::before {
+        content: attr(data-title);
+        display: block;
+        opacity: 0;
+        pointer-events: none;
+        position: absolute;
+        transition: all 0.15s ease-in-out;
+        background: rgb(90, 90, 90);
+        color: #fff;
+        font-size: 15px;
+        padding: 5px 10px;
+        top: -5px;
+        right: 0;
+        white-space: nowrap;
     }
 
     ::-webkit-scrollbar{
@@ -163,7 +183,7 @@
         background: url(@/assets/images/bt_white.png) 0% 0% / 100% 100% no-repeat;
     }
 
-    .show-button:focus{
+    /* .show-button:focus{
         cursor: pointer;
         border: none;
         display: block;
@@ -171,12 +191,12 @@
         height: 24px;
         margin-bottom: 24px;
         background: url(@/assets/images/bt_white.png) 0% 0% / 100% 100% no-repeat;
-    }
+    } */
 
     .remote{
         position: fixed;
-        margin-left: 1250px;
-        margin-top: 250px;
+        margin-left: 1200px;
+        margin-top: 18%;
         z-index: 300;
         display: flex;
         flex-direction: column;
@@ -190,10 +210,11 @@
         background-size: cover;
         background-position: center;
         justify-content: center;
+        display: flex;
     }
 
     .scroll-snap-container {
-        height: 50%;
+        height: 100%;
         width: 100%;
         background-image: url('@/assets/images/background_img.jpg'); 
         background-size: cover;
@@ -213,7 +234,7 @@
         background-size: cover;
         background-position: center;
         justify-content: center;
-        margin-top: 144px;
+        margin-top: 100px;
     }
 
    ::-webkit-scrollbar{
@@ -222,13 +243,13 @@
     
 
     .theme-container{     
-        padding-top:174px;
+        /* padding-top:10%; */
         width: 1130px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         font-family: 'Custom';
-        margin: 0 auto;     
+        margin-top: 100px;     
     }
 
     .theme-poster-container{
@@ -239,7 +260,7 @@
     }
 
     .theme-poster{
-        max-width: 400px;
+        max-width: 450px;
         width: auto;
         height: auto;
     }
@@ -262,15 +283,16 @@
     }
     
     .theme-info2{
-        margin-top: 100px;
+        margin-top: 150px;
         font-size: 20px;
+        font-weight: 400;
     }
 
     .theme-youtube-container{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-top: 144px;
+        margin-top: 5%;
         border-bottom: 100px;
     }
 

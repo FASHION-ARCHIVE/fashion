@@ -2,7 +2,14 @@
   <mainHeader/>
   <div class="lookbook-background">
     
-    <Flipbook class="flipbook" :pages="pages" ref="flipbook"></Flipbook>
+    <Flipbook class="flipbook" 
+    :pages = "pages" 
+    :zooms = [1] 
+
+    ref="flipbook"
+    
+    >
+  </Flipbook>
   </div>
 </template>
 
@@ -29,7 +36,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 
 .lookbook-background{
   display: flex;
@@ -41,13 +48,14 @@ export default {
   background-size: cover;
   background-position: center;
   justify-content: center;
-  margin-top: 144px;
+  margin-top: 100px;
   overflow: hidden;
 }
 .flipbook {
   width: 100vw;
   height: 80vh;
 }
+
 .flipbook .bounding-box {
   box-shadow: 0 0 20px #000;
 }
