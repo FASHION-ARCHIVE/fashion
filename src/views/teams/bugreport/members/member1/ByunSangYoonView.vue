@@ -118,7 +118,7 @@
 
   /* margin-top: 100px; */
 
-  background-color: rgba(133, 155, 160, 0.4);
+  /* background-color: rgba(133, 155, 160, 0.4); */
 
   /* margin-bottom: 100px; */
 }
