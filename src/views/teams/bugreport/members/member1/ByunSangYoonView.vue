@@ -8,30 +8,28 @@
         </div>
 
         <div class = "profile-detail">
-          <h3>변상윤</h3>
-          <h4>BYUN SANGYOON</h4>
+          <h3 style="margin-top: 0px;">변상윤 / BYUN SANGYOON</h3>
+          <h3 style="font-weight: 700; font-size: 24px;">용화(蛹化)</h3>
           <h5></h5>
 
           <p class = "introduce">
-            안녕하세요, 마이메이트 서비스의 기획 및 디자인을 맡은 예입니다.
-            <br><br>
-            장기적인 프로젝트를 기간동안, 각자의 자리에서 늘 최선을 다하는 멋진 팀원들을 만나 의미있는 성취와 배움을 느꼈습니다. 함께 고민하며 밤을 새운 커넥트 팀원들과 곁에서 더 좋은 방향으로 지도해주신 교수님들께 감사의 인사를 전합니다.
-            <br><br>
-            앞으로 나아갈 디지털미디어학과의 모든 학우 분들을 응원하겠습니다!
+            애벌레에서 번데기로의 변화는 번데기에서 나비로의 진화보다 더 깊은 숭고함을 갖고 있습니다.
+            <br><br>애벌레의 자유로운 움직임과는 달리, 번데기는 행동에 제약을 받으며 몸이 녹아내리고 재구성되는 과정을 겪습니다. 이는 스스로를 가두는 역설이지만, 성장과 발전은 편안한 영역을 벗어나는 것에서 시작됩니다. 저는 애벌레로서의 경험을 바탕으로 번데기로 재탄생하여 더 나아가고자 합니다. 선택과 자유를 벗어나 구속된 상태에서도 성장하는 과정이 필요합니다.
+            <br><br>이러한 애벌레에서 번데기로의 탈피과정을 옷으로 표현해봤습니다. 
           </p>
 
           <div class = "contact-container">
-            <h2 style="font-weight: bold;">Contact</h2>
-            <h4>
-              <div style="display: flex; flex-direction: row;">
-                <img style = "width: 20px; height: 20px;" src = "@/assets/images/icon/mail_icon_bw.png">&nbsp;
+            <h3 style="font-weight: 700; margin-bottom: 0px;">Contact</h3>
+            <h5 style="margin-top: 10px;">
+              <div class="mail-link">
+                <img style = "width: 20px; height:20px;" src = "@/assets/images/icon/mail_icon_bw.png">&nbsp;
                 BSY991204@naver.com
               </div>
-              <a class = "sns-link" href="https://www.instagram.com/135yoon/" target="_blank">
+            <a class = "sns-link" href="https://www.instagram.com/135yoon/" target="_blank">
                 <img src = "@/assets/images/icon/insta_icon_bw.png">&nbsp;
                 @135yoon
               </a>
-            </h4>
+            </h5>
           </div>
         </div>
       </div>
@@ -46,7 +44,7 @@
             <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
             <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
           </swiper>
-          <div class = "project-info">Piece 1</div>
+          <div class = "project-info">LOOKBOOK</div>
         </div>
         <div class = "project-slide-container">
           <swiper
@@ -57,7 +55,7 @@
             <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
             <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
           </swiper>
-          <p class = "project-info">Piece 2</p>
+          <p class = "project-info">RUNWAY</p>
         </div>
       </div>
     </div>
@@ -146,10 +144,17 @@
   width: 500px;
 }
 
+.mail-link{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .sns-link{
   color: #000;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .sns-link img{
@@ -175,7 +180,7 @@
 
 .project-info{
   margin: auto;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   margin-top: 15px;
 }
