@@ -413,13 +413,13 @@
 
          const state = reactive({
              videoId: 'UTH1VNHLjng',
-             width: '1130',
-             height: '662',
+             width: '960',
+             height: '540',
          });
  
          function resizeVideo() {
-             const maxWidth = 1130; // 최대 너비
-             const aspectRatio = 662 / 1130; // 비디오의 가로세로 비율
+             const maxWidth = 960; // 최대 너비
+             const aspectRatio = 540 / 960; // 비디오의 가로세로 비율 1130, 662
  
              const windowWidth = window.innerWidth; // 현재 창의 너비
              if (windowWidth < maxWidth) {
@@ -621,6 +621,8 @@
         margin-top: 5px;
         flex-direction: row;
         justify-content: left;
+        width: 960px;
+        margin-left: 85px;
     }
 
     .runway-yt-info1{
