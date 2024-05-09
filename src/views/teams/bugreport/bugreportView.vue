@@ -19,7 +19,7 @@
                 </div>
             </div>
             <div class="br-youtube-container" data-aos="fade-up" data-aos-once="true">
-                <div id="br-youtube">
+                <div class = "br-youtube">
                     <iframe
                     :style="{ width: state.width, height: state.height }"
                     :src ="`https://www.youtube.com/embed/${state.videoId}`"
@@ -29,8 +29,10 @@
                     allowfullscreen/>
                 </div>
                 <div class="br-youtube-info-container">
-                    <div class="br-yt-info1">BUG REPORT</div>
-                    <div class="br-yt-info2">뉴진스 이쁘네요</div>
+                    <div class = "br-youtube-info">
+                        <div class="br-yt-info1">BUG REPORT</div>
+                        <div class="br-yt-info2">뉴진스 이쁘네요</div>
+                    </div>
                 </div>
             </div>
             <div class="br-team-members" data-aos="fade-up" data-aos-once="true">TEAM MEMBERS</div>
@@ -40,7 +42,7 @@
                     <div class="caption" data-aos="fade-up" data-aos-once="true">TEAM LEADER<br>변상윤</div>
                 </div>
                 <div class="br-image-item">
-                    <router-link to = "/coming-soon"><img class="br-member2" data-aos="fade-up" data-aos-once="true" alt="member 2" src="@/assets/images/yy.jpeg" /></router-link>
+                    <router-link to = "/coming-soon"><img class="br-member2" data-aos="fade-up" data-aos-once="true" alt="member 2" src="@/assets/images/profile/profile_1_1_1.jpeg" /></router-link>
                     <div class="caption" data-aos="fade-up" data-aos-once="true">SUB LEADER<br>강소원</div>
                 </div>
                 <div class="br-image-item">
@@ -96,13 +98,13 @@ export default defineComponent({
     setup() {
         const state = reactive({
             videoId: '11cta61wi0g',
-            width: '1130',
-            height: '662',
+            width: '960',
+            height: '540',
         });
 
         function resizeVideo() {
-            const maxWidth = 1130; // 최대 너비
-            const aspectRatio = 662 / 1130; // 비디오의 가로세로 비율
+            const maxWidth = 960; // 최대 너비
+            const aspectRatio = 540 / 960; // 비디오의 가로세로 비율
 
             const windowWidth = window.innerWidth; // 현재 창의 너비
             if (windowWidth < maxWidth) {
@@ -211,10 +213,22 @@ export default defineComponent({
         justify-content: center;
     }
 
+    .br-youtube{
+        display: flex;
+        justify-content: center;
+    }
+
     .br-youtube-info-container{
         display: flex;
-        margin-top: 10px;
+        margin: auto;
         flex-direction: row;
+        justify-content: center;
+        width: 960px;
+    }
+
+    .br-youtube-info{
+        width: 100%;
+        display: flex;
         justify-content: space-between;
     }
 

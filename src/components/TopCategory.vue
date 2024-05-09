@@ -6,8 +6,8 @@
                 <div class = "text-1">2024 KUAD GRADUATION FASHION SHOW</div>
                 <div class = "icon-list">
 
-                    <a href="https://www.instagram.com/"><img class = "icon" alt = "instagram" src = @/assets/images/icon/insta_icon_bw.png></a>
-                    <a href="https://www.youtube.com/"><img class = "icon" alt = "youtube" src = @/assets/images/icon/youtube_icon_bw.png></a>
+                    <a href="https://www.instagram.com/kuad_archive/" target="_blank"><img class = "icon" alt = "instagram" src = @/assets/images/icon/insta_icon_bw.png></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img class = "icon" alt = "youtube" src = @/assets/images/icon/youtube_icon_bw.png></a>
                 </div>
                 </div>
                 <div class = "top-menu2">
