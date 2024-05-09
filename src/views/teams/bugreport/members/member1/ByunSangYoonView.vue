@@ -9,7 +9,7 @@
 
         <div class = "profile-detail">
           <h3>변상윤</h3>
-          <h4>SANGYOON BYUN</h4>
+          <h4>BYUN SANGYOON</h4>
           <h5></h5>
 
           <p class = "introduce">

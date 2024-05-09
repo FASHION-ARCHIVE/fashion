@@ -5,13 +5,13 @@ import IncompView from '@/views/IncompView.vue'
 import ShowinfoView from '@/views/ShowinfoView.vue'
 import TeamListView from '@/views/TeamListView.vue'
 import bugreportView from '@/views/teams/bugreport/bugreportView.vue'
-import ByunSangYoon from '@/views/teams/bugreport/members/member1/ByunSangYoonView.vue'
+
 import TeamBrochureView from '@/views/TeamBrochureView.vue'
 import BehindView from '@/views/BehindView.vue'
 import RunwayView from '@/views/RunwayView.vue'
 import bugreportLookbookView from '@/views/teams/bugreport/bugreportLookbookView.vue'
 
-
+import ByunSangYoon from '@/views/teams/bugreport/members/member1/ByunSangYoonView.vue'
 
 const routes = [
   {

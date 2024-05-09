@@ -1,8 +1,8 @@
 <template>
     <div class="splash-screen">
       <!-- <img src="@/assets/images/웹사이트-이미지-가공본.jpg" alt="로고"> -->
-      <!-- <p class = "splash-info">PROTO TYPE</p> -->
-      <img src = "@/assets/images/splash_test.jpg">
+      <p class = "splash-info">PROTOTYPE</p>
+      <!-- <img src = "@/assets/images/splash_test2.jpg"> -->
     </div>
 
   <div class="home-background" data-aos="fade-right" data-aos-once="true">
@@ -45,7 +45,7 @@ export default {
 
 .splash-info{
   font-size: 124px;
-  color: #fff;
+  color: #000;
   margin: auto;
   font-family: "Nanum" !important;
   white-space: nowrap;
@@ -62,7 +62,7 @@ export default {
     animation-fill-mode: forwards;
     animation-delay: 2s;
     z-index: 200;
-    background-color: #000;
+    background-color: #fff;
     display: flex;
     justify-content: center;
   }

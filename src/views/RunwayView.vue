@@ -19,9 +19,9 @@
                     class="modal_swiper"
                 >
                 <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
-                <swiper-slide data-history = "2"><img alt = "behind-img" src="@/assets/images/behind/bh_test1.jpeg"/></swiper-slide>
-                <swiper-slide data-history = "3"><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
-                <swiper-slide data-history = "4"><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+                <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/bh_test1.jpeg"/></swiper-slide>
+                <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+                <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
                 </swiper>
             </div>
             <div class = "designer-info">

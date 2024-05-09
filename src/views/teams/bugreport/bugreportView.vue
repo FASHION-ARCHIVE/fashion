@@ -27,7 +27,7 @@
                     allowfullscreen/>
                 </div>
                 <div class="br-youtube-info-container">
-                    <div class="br-yt-info1"> BUG REPORT<br>뉴진스의 하입보이 봐주세요</div>
+                    <div class="br-yt-info1"> BUG REPORT</div>
                     <div class="br-yt-info2">뉴진스 이쁘네요</div>
                 </div>
             </div>
