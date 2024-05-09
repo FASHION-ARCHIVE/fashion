@@ -21,7 +21,7 @@
                     <div class="theme-info1" data-aos="fade-left" data-aos-delay = 300 data-aos-once="false">: The first impression as a <br>designer in society</div>
                     <div class="theme-info2"  data-aos="fade-left" data-aos-delay = 300 data-aos-once="false">프로토타입은 단순한 기본형을 넘어 모든 창조의 본질적 출발점입니다. 
                         <br><br>이는 우리 디자이너들이 사회에 첫 선을 보이는 작품이자, 자신을 대표하는 첫 인상이라 할 수 있습니다. 
-                        '프로'는 지지, '투'는 대상에 대하여, '타입'은 형태를 의미하며, 이를 통해 우리는 모든 형태를 지지한다는 의미를 담고 있습니다. 
+                        '프로'는 지지, '투'는 대상에 대하여, '타입'은 형태를 의미합니다. 이를 통해 우리는 모든 형태를 지지한다는 의미를 담고 있습니다. 
                         2024년 졸업 전시를 통해, 우리는 다양한 분야의 프로토타입을 발견하고, 이를 독특한 주제로 발전시켜 나갈 것입니다. 
                         <br><br>이 과정에서 각 팀은 자신들의 아이디어와 창의력으로 새로운 시작을 제시할 것입니다.</div>
                 </div>
@@ -260,7 +260,7 @@
     }
 
     .theme-poster{
-        max-width: 450px;
+        max-width: 400px;
         width: auto;
         height: auto;
     }
@@ -269,21 +269,23 @@
         display: flex;
         flex-direction: column;
         width: 550px;
+        padding-left: 50px;
+        margin-top: 30px;
     }
 
     .theme-name{
         line-height: 1;
-        font-size:80px;
+        font-size:64px;
         font-weight: bold;
     }
 
     .theme-info1{
-        font-size: 40px;
+        font-size: 28px;
         line-height: 1;
     }
     
     .theme-info2{
-        margin-top: 150px;
+        margin-top: 100px;
         font-size: 20px;
         font-weight: 400;
     }

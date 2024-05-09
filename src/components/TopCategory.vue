@@ -81,7 +81,7 @@
 .top-menu2{
     display: flex;
     flex-direction: row;
-    height: 50px;
+    height: 44px;
     align-items: center;
     justify-content: space-between;
 }

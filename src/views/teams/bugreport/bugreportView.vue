@@ -27,7 +27,7 @@
                     allowfullscreen/>
                 </div>
                 <div class="br-youtube-info-container">
-                    <div class="br-yt-info1"> BUG REPORT</div>
+                    <div class="br-yt-info1">BUG REPORT</div>
                     <div class="br-yt-info2">뉴진스 이쁘네요</div>
                 </div>
             </div>
@@ -161,7 +161,7 @@ export default defineComponent({
     }
 
     .br-poster{
-        width: 450px;
+        width: 400px;
     }
 
     .br-info-container{
