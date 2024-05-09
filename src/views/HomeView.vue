@@ -1,30 +1,89 @@
 <template>
-  
+    <div class="splash-screen">
+      <!-- <img src="@/assets/images/웹사이트-이미지-가공본.jpg" alt="로고"> -->
+      <p class = "splash-info">PROTOTYPE</p>
+      <!-- <img src = "@/assets/images/splash_test2.jpg"> -->
+    </div>
+
   <div class="home-background" data-aos="fade-right" data-aos-once="true">
+
     <div class="text-group">
-      <div class="element-KUAD-GRADUATION" data-aos="fade-right" data-aos-delay="500" data-aos-once="true">
+      <div class="element-KUAD-GRADUATION" data-aos="fade-right" data-aos-delay="1500" data-aos-once="true">
         2024 KUAD
         <br />
         GRADUATION FASHION SHOW
       </div>
       <div class="home-category">
-        <router-link to = "/team-list"><div class="menulist" data-aos="fade-right" data-aos-delay="1000" data-aos-once="true">PROJECTS</div></router-link>
-        <router-link to = "/team-brochuer"><div class="menulist" data-aos="fade-right" data-aos-delay="1300" data-aos-once="true">LOOKBOOK</div></router-link>
-        <router-link to = "/runway"><div class="menulist" data-aos="fade-right" data-aos-delay="1500" data-aos-once="true">RUNWAY</div></router-link>
-        <router-link to = "/showinfo"><div class="menulist" data-aos="fade-right" data-aos-delay="1700" data-aos-once="true">SHOW INFO</div></router-link>
-        <router-link to = "/behind"><div class="menulist" data-aos="fade-right" data-aos-delay="2000" data-aos-once="true" data-aos-offset="-1000">BEHIND</div></router-link>
+        <router-link to = "/team-list"><div class="menulist" data-aos="fade-right" data-aos-delay="2000" data-aos-once="true">PROJECTS</div></router-link>
+        <router-link to = "/team-brochuer"><div class="menulist" data-aos="fade-right" data-aos-delay="2300" data-aos-once="true">LOOKBOOK</div></router-link>
+        <router-link to = "/runway"><div class="menulist" data-aos="fade-right" data-aos-delay="2500" data-aos-once="true">RUNWAY</div></router-link>
+        <router-link to = "/showinfo"><div class="menulist" data-aos="fade-right" data-aos-delay="2700" data-aos-once="true">SHOW INFO</div></router-link>
+        <router-link to = "/behind"><div class="menulist" data-aos="fade-right" data-aos-delay="3000" data-aos-once="true" data-aos-offset="-1000">BEHIND</div></router-link>
+        
+        <div class = "icon-list" data-aos="fade-right" data-aos-delay="3000" data-aos-once="true" data-aos-offset="-1000">
+          <a href="https://www.instagram.com/"><img class = "icon" alt = "instagram" src = @/assets/images/icon/insta_icon_bw.png></a>
+          <a href="https://www.youtube.com/"><img class = "icon" alt = "youtube" src = @/assets/images/icon/youtube_icon_bw.png></a>
+        </div>
+
       </div>
     </div>
   </div>
 </template>
 
 <script>
+// import SplashScreen from '@/components/SplashScreenView.vue';
+
+
 export default {
   name: "HomePage",
+  components: {
+    },
 };
 </script>
 
 <style scoped>
+
+.splash-info{
+  font-size: 124px;
+  color: #000;
+  margin: auto;
+  font-family: "Nanum" !important;
+  white-space: nowrap;
+}
+
+.splash-screen {
+    /* opacity: 0; */
+    /* visibility: hidden; */
+    position: absolute;
+    height: 100%; /* 전체 화면을 채움 */
+    width: 100%;
+    
+    animation: hideSplashScreen 0.5s ;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    z-index: 200;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+  }
+
+  .splash-screen img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  @keyframes hideSplashScreen {
+    from {
+      opacity: 1;
+      visibility: visible;
+    }
+    to {
+      opacity: 0;
+      display: none;
+      visibility: hidden;
+    }
+  }
 
 .home-background {
   background-color: #ffffff;
@@ -57,7 +116,7 @@ export default {
   height: 100%;
   gap:20px;
   justify-content: center;
-  width: 300px;
+  width: 270px;
 }
 
 .home-background .element-KUAD-GRADUATION {
@@ -146,4 +205,15 @@ export default {
   text-decoration: underline;
 }
 
+.icon-list{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.icon-list a{
+    padding: 10px 10px;
+}
+.icon{
+    width: 20px;
+}
 </style>
