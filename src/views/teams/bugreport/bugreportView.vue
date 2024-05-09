@@ -7,9 +7,11 @@
                 <div class ="br-info-container">
                     <div class="br-title">
                         <div class="br-name">BUG REPORT</div>
-                        <div class="br-info1">JOURNEY TO PERFECT</div>
+                        <!-- <div class="br-info1">JOURNEY TO PERFECT</div> -->
                     </div>
-                    <div class="br-context">버그 리포트는 사용자나 테스터가 발견한 소프트웨어의 버그를 개발 팀에 알리기 위한 문서입니다. 이 문서는 버그의 상세한 설명, 재현 방법, 그리고 발생한 환경을 포함해야 합니다. 이러한 개념을 확장하여, 우리의 세계에서 발견되는 다양한 버그', 즉 불완전성이나 오류들을 발견하고 이를 세상에 알리는 행위를 '버그 리포트'라 칭할 수 있습니다. 이는 더 나은, 발전된 세계를 향한 시행 착오의 과정이자, 현재의 세계에 대한 깊은 성찰을 의미합니다.</div>
+                    <div class="br-context">버그 리포트는 사용자나 테스터가 발견한 소프트웨어의 버그를 개발 팀에 알리기 위한 문서입니다. 
+                        <br><br>이 문서는 버그의 상세한 설명, 재현 방법, 그리고 발생한 환경을 포함해야 합니다. 이러한 개념을 확장하여, 우리의 세계에서 발견되는 다양한 버그', 즉 불완전성이나 오류들을 발견하고 이를 세상에 알리는 행위를 '버그 리포트'라 칭할 수 있습니다. 
+                        <br><br>이는 더 나은, 발전된 세계를 향한 시행 착오의 과정이자, 현재의 세계에 대한 깊은 성찰을 의미합니다.</div>
                     <div class="br-keyword">
                         <div class="br-info3">KEY WORD</div>
                         <div class="br-info4">#사랑 #평화 #자유 #소망</div>
@@ -144,13 +146,12 @@ export default defineComponent({
     }
 
     .br-container{
-        margin-top:60px;
+        margin-top:30px;
         width: 1130px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         font-family: 'Custom';
-        z-index: 0;
     }
 
     .br-poster-container{
@@ -161,18 +162,24 @@ export default defineComponent({
     }
 
     .br-poster{
-        width: 400px;
+        max-width: 400px;
+        width: auto;
+        height: auto;
     }
 
     .br-info-container{
+        width: 550px;
         display: flex;
         flex-direction: column;
         justify-content: space-between; 
+        padding-left: 50px;
+        margin-top: 30px;
     }
 
     .br-name{
-        line-height: 0.7;
-        font-size:48px;
+        /* line-height: 0.7; */
+        font-size:64px;
+        font-weight: 700;
     }
 
     .br-info1{
@@ -181,11 +188,16 @@ export default defineComponent({
 
     .br-context{
         font-size:20px;
+        margin-bottom: 30px;
+    }
+    .br-keyword{
+        margin-bottom: 40px;
     }
 
     .br-info3{
-        margin-top: 60px;
-        font-size:25px;
+        margin-top: 0px;
+        font-size:28px;
+        font-weight: 700;
     }
 
     .br-info4{
