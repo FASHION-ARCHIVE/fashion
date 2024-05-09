@@ -38,11 +38,11 @@
             <div class="br-team-members" data-aos="fade-up" data-aos-once="true">TEAM MEMBERS</div>
             <div class="br-members">
                 <div class="br-image-item">
-                    <router-link to = "/bugreport/byun-sangyoon"><img class="br-member1" data-aos="fade-up" data-aos-once="true" alt="member 1" src="@/assets/images/profile/profile_1_1_1.jpeg" /></router-link>
+                    <router-link to = "/bugreport/byun-sangyoon"><img class="br-member1" data-aos="fade-up" data-aos-once="true" alt="member 1" src="@/assets/images/bugreport/profile/profile_1_1_1.jpeg" /></router-link>
                     <div class="caption" data-aos="fade-up" data-aos-once="true">TEAM LEADER<br>변상윤</div>
                 </div>
                 <div class="br-image-item">
-                    <router-link to = "/coming-soon"><img class="br-member2" data-aos="fade-up" data-aos-once="true" alt="member 2" src="@/assets/images/profile/profile_1_1_1.jpeg" /></router-link>
+                    <router-link to = "/coming-soon"><img class="br-member2" data-aos="fade-up" data-aos-once="true" alt="member 2" src="@/assets/images/bugreport/profile/profile_1_1_1.jpeg" /></router-link>
                     <div class="caption" data-aos="fade-up" data-aos-once="true">SUB LEADER<br>강소원</div>
                 </div>
                 <div class="br-image-item">
