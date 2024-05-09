@@ -4,7 +4,7 @@
     <div class = "profile-container">
       <div class = "profile-info-container">
         <div class = "profile-img">
-          <img src="@/assets/images/profile/profile_1_1_1.jpeg"/>
+          <img src="@/assets/images/bugreport/profile/profile_1_1_1.jpeg"/>
         </div>
 
         <div class = "profile-detail">
