@@ -15,15 +15,10 @@
                     watchState: true,
                     getSlideIndex,
                     }"
-                    :history="{
-                    enable: true,
-                    key: '', 
-                    root: '/runway'
-                    }"
                     :modules="modules"
                     class="modal_swiper"
                 >
-                <swiper-slide data-history = "1"><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+                <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
                 <swiper-slide data-history = "2"><img alt = "behind-img" src="@/assets/images/behind/bh_test1.jpeg"/></swiper-slide>
                 <swiper-slide data-history = "3"><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
                 <swiper-slide data-history = "4"><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
@@ -533,7 +528,7 @@
         width: 30%;
         height: 80%;
         background: white;
-        border-radius: 4px;
+        /* border-radius: 4px; */
         padding: 0px 10px 0px 10px;
 
         margin: auto;
