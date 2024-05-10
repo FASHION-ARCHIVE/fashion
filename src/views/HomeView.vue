@@ -18,10 +18,10 @@
         <router-link to = "/team-brochuer"><div class="menulist" data-aos="fade-right" data-aos-delay="2300" data-aos-once="true">LOOKBOOK</div></router-link>
         <router-link to = "/runway"><div class="menulist" data-aos="fade-right" data-aos-delay="2500" data-aos-once="true">RUNWAY</div></router-link>
         <router-link to = "/showinfo"><div class="menulist" data-aos="fade-right" data-aos-delay="2700" data-aos-once="true">SHOW INFO</div></router-link>
-        <router-link to = "/behind"><div class="menulist" data-aos="fade-right" data-aos-delay="3000" data-aos-once="true" data-aos-offset="-1000">BEHIND</div></router-link>
+        <router-link to = "/behind"><div class="menulist" data-aos="fade-right" data-aos-delay="2900" data-aos-once="true" data-aos-offset="-1000">BEHIND</div></router-link>
         
         <div class = "icon-list" data-aos="fade-right" data-aos-delay="3000" data-aos-once="true" data-aos-offset="-1400">
-          <a href="https://www.instagram.com/" target="_blank"><img class = "icon" alt = "instagram" src = @/assets/images/icon/insta_icon_bw.png></a>
+          <a href="https://www.instagram.com/kuad_archive/" target="_blank"><img class = "icon" alt = "instagram" src = @/assets/images/icon/insta_icon_bw.png></a>
           <a href="https://www.youtube.com/" target="_blank"><img class = "icon" alt = "youtube" src = @/assets/images/icon/youtube_icon_bw.png></a>
         </div>
 
@@ -60,7 +60,7 @@ export default {
     
     animation: hideSplashScreen 0.5s ;
     animation-fill-mode: forwards;
-    animation-delay: 2s;
+    animation-delay: 1.5s;
     z-index: 200;
     background-color: #fff;
     display: flex;
