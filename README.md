@@ -21,3 +21,10 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Requirements
+```
+npm install —save v-click-outside
+npm install —save click-outside-vue3
+npm install -—save aos@next
+```
