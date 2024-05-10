@@ -178,7 +178,7 @@
         width: 24px;
         height: 24px;
         margin-bottom: 24px;
-        background: url(@/assets/images/bt_gray.png) 0% 0% / 100% 100% no-repeat;
+        background: url(@/assets/images/icon/bt_gray.png) 0% 0% / 100% 100% no-repeat;
     }
 
     .show-button:hover{
@@ -188,7 +188,7 @@
         width: 24px;
         height: 24px;
         margin-bottom: 24px;
-        background: url(@/assets/images/bt_white.png) 0% 0% / 100% 100% no-repeat;
+        background: url(@/assets/images/icon/bt_white.png) 0% 0% / 100% 100% no-repeat;
     }    
 
     .remote{

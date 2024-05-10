@@ -6,6 +6,7 @@
                 <li style="display: block;"><div data-title = "ABOUT" class = "remote-info"><button class = "show-button" @click="click1()"></button></div></li>
                 <li style="display: block;"><div data-title = "TEASER FILM" class = "remote-info"><button class = "show-button" @click="click2()"></button></div></li>
                 <li style="display: block;"><div data-title = "MAP" class = "remote-info"><button class = "show-button" @click="click3()"></button></div></li>
+                <li style="display: block;"><div data-title = "CREDIT" class = "remote-info"><button class = "show-button" @click="click4()"></button></div></li>
             </ui>
         </div>
     <vue-scroll-snap :fullscreen="true">
@@ -14,7 +15,7 @@
         <div class = "theme-container">
             <div class="theme-poster-container">
                 <div data-aos = "zoom-out" data-aos-once="true">
-                    <img class = "theme-poster" alt = "poster" src="@/assets/images/showinfo/tmp_poster.png"/>
+                    <img class = "theme-poster" alt = "poster" src="@/assets/images/showinfo/main_theme_poster.png"/>
                 </div>
                 <div class ="theme-info-container">
                     <div class="theme-name" data-aos="fade-left" data-aos-delay = 300 data-aos-once="false">PROTOTYPE</div>
@@ -63,6 +64,23 @@
         </div>
     </div>
 
+    <div class="item" ref = "stage4">
+        <div class="theme-youtube-container">
+            <div class="theme-youtube">
+                <iframe
+                :style="{ width: state.width, height: state.height }"
+                :src ="`https://www.youtube.com/embed/E-8pyVBvCPQ`"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen/>
+            </div>
+            <div class="theme-youtube-info-container">
+                <div class="theme-yt-info1"> 지도</div>
+            </div>
+        </div>
+    </div>
+
     </vue-scroll-snap>
     <mainFooter/>
     </div>
@@ -91,7 +109,10 @@
     },
     click3(){
       this.$refs.stage3.scrollIntoView({ behavior:"smooth"});
-    }
+    },
+    click4(){
+      this.$refs.stage4.scrollIntoView({ behavior:"smooth"});
+    },
 },
     setup() {
 
@@ -170,7 +191,7 @@
         width: 24px;
         height: 24px;
         margin-bottom: 24px;
-        background: url(@/assets/images/bt_gray.png) 0% 0% / 100% 100% no-repeat;
+        background: url(@/assets/images/icon/bt_gray.png) 0% 0% / 100% 100% no-repeat;
     }
 
     .show-button:hover{
@@ -180,7 +201,7 @@
         width: 24px;
         height: 24px;
         margin-bottom: 24px;
-        background: url(@/assets/images/bt_white.png) 0% 0% / 100% 100% no-repeat;
+        background: url(@/assets/images/icon/bt_white.png) 0% 0% / 100% 100% no-repeat;
     }
 
     /* .show-button:focus{

@@ -3,27 +3,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
 
 
-    <div class = "black-bg" v-if = " 모달창열림 == true">
-        <div class = "white-bg">
-            <span class="material-symbols-outlined" @click = "모달창닫기">close</span>
-            <!-- <button class="close-button" @click = "모달창닫기"></button> -->
-            
-            <div class = "modal-swiper">
-                <swiper
-                    :navigation="true"
-                    :hashNavigation="{
-                    watchState: true,
-                    getSlideIndex,
-                    }"
-                    :modules="modules"
-                    class="modal_swiper"
-                >
-                <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
-                <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/bh_test1.jpeg"/></swiper-slide>
-                <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
-                <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
-                </swiper>
-            </div>
+    <div class = "black-bg" v-if = "modalOpened == true">
+        <div v-click-outside = "onClickOutside" class = "white-bg">
+            <!-- <span class="material-symbols-outlined" @click = "onClickOutside">close</span>  -->
+            <img size = 100vw alt = "behind-img" src="@/assets/images/test_123.jpeg"/>
             <div class = "designer-info">
                 <div class = "designer-name"><router-link to = "/team-list">정제영</router-link></div>
             </div>
@@ -39,11 +22,11 @@
         <div class = "remote">
              <ui style="display: block;">
                  <li style="display: block;"><div data-title = "전체 영상" class = "remote-info"><button class = "show-button" @click="click1()"></button></div></li>
-                 <li style="display: block;"><div data-title = "BUG REPORT" class = "remote-info"><button class = "show-button" @click="click2()"></button></div></li>
-                 <li style="display: block;"><div data-title = "ANACHRONIA" class = "remote-info"><button class = "show-button" @click="click3()"></button></div></li>
-                 <li style="display: block;"><div data-title = "protophobia" class = "remote-info"><button class = "show-button" @click="click4()"></button></div></li>
-                 <li style="display: block;"><div data-title = "Loft 1.0" class = "remote-info"><button class = "show-button" @click="click5()"></button></div></li>
-                 <li style="display: block;"><div data-title = "oak" class = "remote-info"><button class = "show-button" @click="click6()"></button></div></li>
+                 <li style="display: block;"><div data-title = "protophobia" class = "remote-info"><button class = "show-button" @click="click2()"></button></div></li>
+                 <li style="display: block;"><div data-title = "oak" class = "remote-info"><button class = "show-button" @click="click3()"></button></div></li>
+                 <li style="display: block;"><div data-title = "ANACHRONIA" class = "remote-info"><button class = "show-button" @click="click4()"></button></div></li>
+                 <li style="display: block;"><div data-title = "BUG REPORT" class = "remote-info"><button class = "show-button" @click="click5()"></button></div></li>
+                 <li style="display: block;"><div data-title = "Loft 1.0" class = "remote-info"><button class = "show-button" @click="click6()"></button></div></li>
                  <li style="display: block;"><div data-title = "Deja vu" class = "remote-info"><button class = "show-button" @click="click7()"></button></div></li>
              </ui>
         </div>
@@ -80,7 +63,7 @@
             </div>
 
             <div class="runway-youtube-info-container">
-                <div class="runway-yt-info1">BUG REPORT</div>
+                <div class="runway-yt-info1">protophobia</div>
             </div>
         </div>
             <div class = "image-slide-container">
@@ -126,7 +109,7 @@
             </div>
 
             <div class="runway-youtube-info-container">
-                <div class="runway-yt-info1">ANACHRONIA</div>
+                <div class="runway-yt-info1">oak</div>
             </div>
         </div>
 
@@ -173,7 +156,7 @@
             </div>
 
             <div class="runway-youtube-info-container">
-                <div class="runway-yt-info1">protophobia</div>
+                <div class="runway-yt-info1">ANACHRONIA</div>
             </div>
         </div>
 
@@ -220,7 +203,7 @@
             </div>
 
             <div class="runway-youtube-info-container">
-                <div class="runway-yt-info1">Loft 1.0</div>
+                <div class="runway-yt-info1">BUG REPORT</div>
             </div>
         </div>
 
@@ -267,7 +250,7 @@
             </div>
 
             <div class="runway-youtube-info-container">
-                <div class="runway-yt-info1">oak</div>
+                <div class="runway-yt-info1">Loft 1.0</div>
             </div>
         </div>
 
@@ -359,6 +342,7 @@
     import mainHeader from '@/components/TopCategory.vue';
     import mainFooter from '@/components/Footer.vue';
     import {Swiper, SwiperSlide} from 'swiper/vue';
+    import vClickOutside from 'click-outside-vue3';
 
     import 'swiper/css';
 
@@ -369,6 +353,9 @@
     import { Grid, Navigation, History } from 'swiper/modules';
 
     export default defineComponent({
+    directives: {
+        clickOutside: vClickOutside.directive
+    },
     components: {
         mainHeader, 
         Swiper, SwiperSlide, 
@@ -376,7 +363,7 @@
     },
     data() {
         return {
-            모달창열림: false,
+            modalOpened: false,
         };
     },
     methods:{
@@ -403,10 +390,10 @@
     },
 
     모달창열기(){
-        this.모달창열림 = true;
+        this.modalOpened = true;
     },
-    모달창닫기(){
-        this.모달창열림 = false;
+    onClickOutside(){
+        this.modalOpened = false;
     },
 },    
     setup() {
@@ -527,7 +514,7 @@
     .white-bg{
         width: 30%;
         height: 80%;
-        background: white;
+        /* background: white; */
         /* border-radius: 4px; */
         padding: 0px 10px 0px 10px;
 
@@ -548,7 +535,7 @@
         width: 24px;
         height: 24px;
 
-        background: url(@/assets/images/bt_black.png) 0% 0% / 100% 100% no-repeat;
+        background: url(@/assets/images/icon/bt_black.png) 0% 0% / 100% 100% no-repeat;
     }
 
     .show-button{
@@ -558,7 +545,7 @@
         width: 24px;
         height: 24px;
         margin-bottom: 20px;
-        background: url(@/assets/images/bt_gray.png) 0% 0% / 100% 100% no-repeat;
+        background: url(@/assets/images/icon/bt_gray.png) 0% 0% / 100% 100% no-repeat;
     }
 
     .show-button:hover{
@@ -568,7 +555,7 @@
         width: 24px;
         height: 24px;
         margin-bottom: 20px;
-        background: url(@/assets/images/bt_white.png) 0% 0% / 100% 100% no-repeat;
+        background: url(@/assets/images/icon/bt_white.png) 0% 0% / 100% 100% no-repeat;
     }    
 
     .remote{

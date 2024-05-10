@@ -4,30 +4,30 @@
   <mainHeader/>
   <div class = "team-background">
     <div class="team-list-container">
-      <div class="team-list-text">TEAM LIST</div>
+      <!-- <div class="team-list-text">TEAM LIST</div> -->
       <div class ="image-grid">
         <div class="image-item">
-          <router-link to = "/bugreport"><img class="team 1" alt="team 1" src="@/assets/images/yy.jpeg" /></router-link>
-          <div class="caption">BUG REPORT</div>
+          <router-link to = "/coming-soon"><img class="team 3" alt="team 3" src="@/assets/images/yy.jpeg" /></router-link>
+          <div class="caption">protophobia</div>        
+        </div>
+        <div class="image-item">
+          <router-link to = "/coming-soon"><img class="team 5" alt="team 5" src="@/assets/images/yy.jpeg" /></router-link>
+          <div class="caption">oak</div>         
         </div>
         <div class="image-item">
           <router-link to = "/coming-soon"><img class="team 2" alt="team 2" src="@/assets/images/yy.jpeg" /></router-link>
           <div class="caption">ANACHRONIA</div>
         </div>
         <div class="image-item">
-          <router-link to = "/coming-soon"><img class="team 3" alt="team 3" src="@/assets/images/yy.jpeg" /></router-link>
-          <div class="caption">protophobia</div>
+          <router-link to = "/bugreport"><img class="team 1" alt="team 1" src="@/assets/images/yy.jpeg" /></router-link>
+          <div class="caption">BUG REPORT</div>
         </div>
         <div class="image-item">
           <router-link to = "/coming-soon"><img class="team 4" alt="team 4" src="@/assets/images/yy.jpeg" /></router-link>
           <div class="caption">Loft 1.0</div>
         </div>
         <div class="image-item">
-          <router-link to = "/coming-soon"><img class="team 5" alt="team 5" src="@/assets/images/yy.jpeg" /></router-link>
-          <div class="caption">oak</div>
-        </div>
-        <div class="image-item">
-          <router-link to = "/coming-soon"><img class="team 6" alt="team 6" src="@/assets/images/yy.jpeg" /></router-link>
+          <router-link to = "/coming-soon"><img class="team 6" alt="team 6" src="@/assets/images/dejavu/dejavu_poster.jpg" /></router-link>
           <div class="caption">Deja vu</div>
         </div>
       </div>
