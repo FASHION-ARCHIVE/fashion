@@ -27,11 +27,12 @@
   <style scoped> 
 
   footer {
-    background-color: #787878; 
-    border-top: 1px;
+    background-color: #fff; 
+    /* border-style: solid; */
+    border-width: 2px;
     border-color: black;
-    color: white;
-    padding: 20px;
+    color: black;
+    padding: 10px;
     display: flex; 
     justify-content: center; 
   }
@@ -45,7 +46,7 @@
 
   .footer-content-info1{
     line-height: 1%;
-    font-size: 22px;
+    font-size: 14px;
     font-weight: 600;
   }
 
