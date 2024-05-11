@@ -14,7 +14,7 @@
                   <div class="caption">oak</div>
                 </div>
                 <div class="image-item">
-                  <router-link to = "/coming-soon"><img class="team 2" alt="team 2" src="@/assets/images/yy.jpeg" /></router-link>
+                  <router-link to = "/coming-soon"><img class="team" alt="team 2" src="@/assets/images/testbr.jpg" /></router-link>
                   <div class="caption">ANACHRONIA</div>
                 </div>
                 <div class="image-item">
@@ -48,6 +48,9 @@
   </script>
   
   <style scoped>
+  .image-item img{
+    object-fit: contain;
+  }
 
   .team-brochure-background{
     /* 배경 이미지 적용 */

@@ -15,7 +15,7 @@
         <div class = "theme-container">
             <div class="theme-poster-container">
                 <div data-aos = "zoom-out" data-aos-once="true">
-                    <img class = "theme-poster" alt = "poster" src="@/assets/images/showinfo/main_theme_poster.png"/>
+                    <img class = "theme-poster" alt = "poster" src="@/assets/images/showinfo/mainTheme_poster.jpg"/>
                 </div>
                 <div class ="theme-info-container">
                     <div class="theme-name" data-aos="fade-left" data-aos-delay = 300 data-aos-once="false">PROTOTYPE</div>

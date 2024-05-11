@@ -63,6 +63,11 @@ body {
   /* -webkit-font-smoothing: antialiased; */
   height: 100%;
   margin: 0;
+  -ms-overflow-style: none;
+}
+ 
+::-webkit-scrollbar {
+  display: none;
 }
 
 :root{

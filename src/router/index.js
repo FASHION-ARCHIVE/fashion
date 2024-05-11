@@ -11,7 +11,12 @@ import BehindView from '@/views/BehindView.vue'
 import RunwayView from '@/views/RunwayView.vue'
 import bugreportLookbookView from '@/views/teams/bugreport/bugreportLookbookView.vue'
 
-import ByunSangYoon from '@/views/teams/bugreport/members/member1/ByunSangYoonView.vue'
+import ByunSangYoon from '@/views/teams/bugreport/members/ByunSangYoonView.vue'
+import ChoiJeeYoung from '@/views/teams/bugreport/members/ChoiJeeYoungView.vue'
+import KimSangEun from '@/views/teams/bugreport/members/KimSangEunView.vue'
+import LeeJuYoung from '@/views/teams/bugreport/members/LeeJuYoungView.vue'
+import LeeJiHyun from '@/views/teams/bugreport/members/LeeJiHyunView.vue'
+import KangSoWon from '@/views/teams/bugreport/members/KangSoWonView.vue'
 
 const routes = [
   {
@@ -49,6 +54,31 @@ const routes = [
     name: 'ByunSangyoon',
     component: ByunSangYoon
   },
+  {
+    path:'/bugreport/choi-jeeyoung',
+    name: 'ChoiJeeYoung',
+    component: ChoiJeeYoung
+  },
+  {
+    path:'/bugreport/kim-sangeun',
+    name: 'kim-sangeun',
+    component: KimSangEun
+  },
+  {
+    path:'/bugreport/lee-juyoung',
+    name: 'lee-huyoung',
+    component: LeeJuYoung
+  },
+  {
+    path:'/bugreport/lee-jihyun',
+    name: 'lee-jihyun',
+    component: LeeJiHyun
+  },
+  {
+    path:'/bugreport/kang-sowon',
+    name: 'kang-sowon',
+    component: KangSoWon
+  },  
   {
     path: '/team-brochuer',
     name: 'team-brochuer',
