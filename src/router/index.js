@@ -5,6 +5,7 @@ import IncompView from '@/views/IncompView.vue'
 import ShowinfoView from '@/views/ShowinfoView.vue'
 import TeamListView from '@/views/TeamListView.vue'
 import bugreportView from '@/views/teams/bugreport/bugreportView.vue'
+import JeongJayYeong from '@/views/secret/JeongJayYeongView.vue'
 
 import TeamBrochureView from '@/views/TeamBrochureView.vue'
 import BehindView from '@/views/BehindView.vue'
@@ -93,7 +94,12 @@ const routes = [
     path: '/bugreport/lookbook',
     name: 'bugreport-lookbook',
     component: bugreportLookbookView
-  }
+  },
+  {
+    path:'/secret/jeong-jayyeong',
+    name: 'JeongJayYeong',
+    component: JeongJayYeong
+  },
 ]
 
 const router = createRouter({
