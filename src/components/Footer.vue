@@ -27,9 +27,9 @@
   <style scoped> 
 
   footer {
-    background-color: #fff; 
-    /* border-style: solid; */
-    border-width: 2px;
+    background-color: rgba(0,0,0,0.1); 
+    border-style: solid;
+    border-width: 0.5px 0px 0px 0px;
     border-color: black;
     color: black;
     padding: 10px;
