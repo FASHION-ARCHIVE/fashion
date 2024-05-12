@@ -14,7 +14,7 @@
     
               <p class = "introduce">
                 i like no blueberries in my ice-cream cake
-                <br><br>롤토체스 잘해요
+                <br><br>롤토체스 잘해요 거품적당히눈덮인#KR1
                 <br><br>kuad 화이팅
               </p>
     
