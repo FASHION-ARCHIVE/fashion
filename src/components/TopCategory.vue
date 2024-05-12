@@ -86,9 +86,6 @@
     justify-content: space-between;
 }
 
-
-
-
 .logo{
     width: 180px;
 }
@@ -96,7 +93,6 @@
     display: flex;
     font-size: 44px;
 }
-
 
 .nav-links {
     display: flex;

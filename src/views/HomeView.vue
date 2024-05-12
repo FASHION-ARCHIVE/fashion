@@ -1,14 +1,21 @@
 <template>
+  <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, init-scale=1">
+  </head>
+
+
     <div class="splash-screen">
       <!-- <img src="@/assets/images/웹사이트-이미지-가공본.jpg" alt="로고"> -->
-      <p class = "splash-info">PROTOTYPE</p>
+      <p class = "splash-info" data-aos="zoom-out">PROTOTYPE</p>
       <!-- <img src = "@/assets/images/splash_test2.jpg"> -->
     </div>
 
   <div class="home-background" data-aos="fade-right" data-aos-once="true">
 
-    <div class="text-group">
+    <div class="home-container">
       <div class="element-KUAD-GRADUATION" data-aos="fade-right" data-aos-delay="1500" data-aos-once="true">
         2024 KUAD
         <br />
@@ -20,12 +27,10 @@
         <router-link to = "/runway"><div class="menulist" data-aos="fade-right" data-aos-delay="2500" data-aos-once="true">RUNWAY</div></router-link>
         <router-link to = "/showinfo"><div class="menulist" data-aos="fade-right" data-aos-delay="2700" data-aos-once="true">SHOW INFO</div></router-link>
         <router-link to = "/behind"><div class="menulist" data-aos="fade-right" data-aos-delay="2900" data-aos-once="true" data-aos-offset="-1000">BEHIND</div></router-link>
-        
-        <div class = "icon-list" data-aos="fade-right" data-aos-delay="3000" data-aos-once="true" data-aos-offset="-1400">
+      </div>
+      <div class = "icon-list">
           <a href="https://www.instagram.com/kuad_archive/" target="_blank"><img class = "icon" alt = "instagram" src = @/assets/images/icon/insta_icon_bw.png></a>
           <a href="https://www.youtube.com/" target="_blank"><img class = "icon" alt = "youtube" src = @/assets/images/icon/youtube_icon_bw.png></a>
-        </div>
-
       </div>
     </div>
   </div>
@@ -43,14 +48,36 @@ export default {
 </script>
 
 <style scoped>
+body { overflow: hidden; }
+body * { touch-action: none; }
+
+.gfs-didot-regular {
+  font-family: "GFS Didot", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nanum-myeongjo-regular {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nanum-myeongjo-bold {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
 
 .splash-info{
-  display: flex;
-  font-size: 15vw;
+  font-size: 8vw;
   color: #000;
   margin: auto;
-  font-family: "Nanum" !important;
+  font-family: 'GFS Didot' !important; 
+  /* font-weight: 700; */
   white-space: nowrap;
+
+  overflow: hidden;
 }
 
 .splash-screen {
@@ -58,15 +85,16 @@ export default {
     /* visibility: hidden; */
     position: absolute;
     height: 100%; /* 전체 화면을 채움 */
-    width: 100%;
+    width: 100vw;
     
     animation: hideSplashScreen 0.5s ;
     animation-fill-mode: forwards;
-    animation-delay: 1.5s;
+    animation-delay: 2s;
     z-index: 200;
     background-color: #fff;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
   }
 
   .splash-screen img{
@@ -88,12 +116,12 @@ export default {
   }
 
 .home-background {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   display: flex; /* 또는 position: relative; 배경 이미지를 추가하기 위해 변경 */
   flex-direction: column;
-  width: 100%;
-  height: 100vh; /* 화면의 전체 높이를 차지하도록 설정 */
-  background-image: linear-gradient(to right, #ffffff 30%, transparent 30%),url('@/assets/images/home.jpg'); /* 배경 이미지 추가 */
+  width: 100vw;
+  height: 100%; /* 화면의 전체 높이를 차지하도록 설정 */
+  background-image: url('@/assets/images/home.jpg'); /* 배경 이미지 추가 */
   background-position: right center; /* 이미지를 오른쪽 중앙에 배치 */
   background-size: cover; /* 이미지가 컨테이너를 완전히 채우도록 확장 */
   background-repeat: no-repeat; /* 이미지 반복 없음 */
@@ -101,42 +129,45 @@ export default {
 }
 
 
-.text-group {
+.home-container {
   display: flex;
   flex-direction: column;
-  width: 100% - 50px;
-  margin-left: 50px;
+  width: max(400px, 20vw);
   height: 100%;
   font-family: "Custom", Helvetica;
   justify-content: flex-start;
+  align-content: space-between;
+  background-color: #fff;
 }
 
 .home-category{
-  margin-left:30px;
+  margin-left:70px;
   display:flex;
   flex-direction: column;
   height: 100%;
-  gap:20px;
+  gap: max(10px, 5vh);
   justify-content: center;
   width: 270px;
+
 }
 
 .home-background .element-KUAD-GRADUATION {
-  margin-top: 30px;
-  margin-left: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
   color: #000000;
-  font-family: "Custom", Helvetica;
   font-size: 16px;
+  white-space: nowrap;
 }
 
 .menulist {
   /* display: inline-flex; */
   color: #000000;
-  font-size: 50px;
+  font-size: max(40px, 3vw);
   position: relative;
   display: inline-flex;
   text-decoration: none;
   width: auto;
+  white-space: nowrap;
 }
 
 .menulist:after{
@@ -167,32 +198,32 @@ export default {
 .look-book {
   display: inline-flex;
   color: #000000;
-  font-size: 50px;
+  /* font-size: 50px; */
 }
 
 .show-info {
   display: inline-flex;
   color: #000000;
-  font-size: 50px;
+  /* font-size: 50px; */
 }
 
 .runway {
   display: inline-flex;
   color: #000000;
-  font-size: 50px;
+  /* font-size: 50px; */
 }
 
 .behind {
   display: inline-flex;
   color: #000000;
-  font-size: 50px;
+  /* font-size: 50px; */
 }
 
 /* .home-background .project:hover{
   text-decoration: underline;
 } */
 
-.home-background .look-book:hover{
+/* .home-background .look-book:hover{
   text-decoration: underline;
 }
 
@@ -205,11 +236,12 @@ export default {
 }
 .home-background .behind:hover{
   text-decoration: underline;
-}
+} */
 
 .icon-list{
     display: flex;
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .icon-list a{
