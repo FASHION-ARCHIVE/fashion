@@ -1,4 +1,5 @@
 <template>
+  <meta name="viewport" content="width=device-width, init-scale=1">
     <div class="splash-screen">
       <!-- <img src="@/assets/images/웹사이트-이미지-가공본.jpg" alt="로고"> -->
       <p class = "splash-info">PROTOTYPE</p>
@@ -44,7 +45,8 @@ export default {
 <style scoped>
 
 .splash-info{
-  font-size: 124px;
+  display: flex;
+  font-size: 15vw;
   color: #000;
   margin: auto;
   font-family: "Nanum" !important;
