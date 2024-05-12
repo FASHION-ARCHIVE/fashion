@@ -47,6 +47,8 @@
 
 .menu2{
     display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
     width: 1130px;
     flex-direction: column;
 }
@@ -97,6 +99,7 @@
 .nav-links {
     display: flex;
     font-size: 14px;
+    white-space: nowrap;
 }
 
 .nav-links a {
@@ -108,18 +111,7 @@
     color: gray; /* 호버 시 글씨 색상 변경 */
 }
 
-.top0 {
-    margin-right: 20px;
-}
-.top1 {
-    margin-right: 20px;
-}
-.top2 {
-    margin-right: 20px; 
-}
-.top3 {
-    margin-right: 20px; 
-}
+
 
 
 .logo-link {
