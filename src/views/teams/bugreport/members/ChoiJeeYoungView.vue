@@ -233,4 +233,10 @@
   object-fit: contain;
   }
   
+  @media screen and (max-width: 768px) {
+    .profile-info-container{
+      display: flex;
+      flex-direction: column;
+    }
+}
   </style>

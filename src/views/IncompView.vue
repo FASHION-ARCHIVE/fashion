@@ -1,33 +1,10 @@
 <template>
-      <div class="back color-3">
-    <div class="row columns">
-      <h3>Effect 3</h3>
-      <ul class="menu align-center expanded text-center SMN_effect-3">
-        <li><div class="test">Home</div></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Gallery</a></li>
-        <li><a href="">Notes</a></li>
-        <li><a href="">Contact</a></li>
-      </ul>
-    </div>
-  </div> 
-  <vue-scroll-snap>
-        <div class="item" id="one"></div>
-        <div class="item" id="two"></div>
-        <div class="item" id="three"></div>
-        <div class="item" id="four"></div>
-  </vue-scroll-snap>
+  <h1>404 not found</h1>
 </template>
 
-<script>
-  // import { defineComponent } from 'vue';
-  import VueScrollSnap from "vue-scroll-snap";
-
-export default {
-  components: {VueScrollSnap},
-}; 
+<script> 
 </script>
-<style>
+<style scoped>
 
 
   #one {
@@ -46,11 +23,7 @@ export default {
     background: #ffffff;
   }
 .menu a {
-  color: 000;
- 
-
   padding: 15px 25px;
-  /**/
   position: relative;
   display: block;
   text-decoration: none;
@@ -58,7 +31,7 @@ export default {
 
 .test{
     color: 000;
- padding: 15px 25px;
+ 
  /**/
  position: relative;
  display: block;

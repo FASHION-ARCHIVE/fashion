@@ -35,11 +35,12 @@
     padding: 10px;
     display: flex; 
     justify-content: center; 
+    width: 100vw;
   }
   
   .footer-content {
     display: flex;
-    width: 1130px;
+    /* width: 1130px; */
     flex-direction: column;
 
   }

@@ -1,11 +1,13 @@
 <template>
-    <header>
-        <div class="menu">
+    <head>
+        <meta name="viewport" content="width=device-width, init-scale=1" />
+    </head>    
+    <header>     
+        <div class="header-background">
             <div class="menu2">
                 <div class = "top-menu1">
                 <div class = "text-1">2024 KUAD GRADUATION FASHION SHOW</div>
                 <div class = "icon-list">
-
                     <a href="https://www.instagram.com/kuad_archive/" target="_blank"><img class = "icon" alt = "instagram" src = @/assets/images/icon/insta_icon_bw.png></a>
                     <a href="https://www.youtube.com/" target="_blank"><img class = "icon" alt = "youtube" src = @/assets/images/icon/youtube_icon_bw.png></a>
                 </div>
@@ -33,16 +35,14 @@
 
 <style scoped>
 
-.menu {
+.header-background{
     position: fixed;
     display: flex;
     justify-content: center;
     height: 100px; 
     width: 100%;
     background-color: white;
-    font-family: "Custom", Helvetica;
-    z-index:10;
-
+    z-index:10; 
 }
 
 .menu2{
@@ -105,14 +105,12 @@
 .nav-links a {
     text-decoration: none; /* 밑줄 제거 */
     color: black; /* 글씨 색상 변경 */
+    padding: 15px 25px;
 }
 
 .nav-links a:hover {
     color: gray; /* 호버 시 글씨 색상 변경 */
 }
-
-
-
 
 .logo-link {
     display: flex; /* Flexbox를 이용한 정렬을 위해 */
@@ -120,5 +118,24 @@
     height: auto; /* 로고 이미지의 높이를 자동으로 설정하여 비율을 유지 */
 }
 
+@media screen and (max-width: 768px) {
+    .header-background{
+        height: 100px;
+        background-color: white;
+    }
 
+    .logo-link{
+        display: none;
+    }
+
+    .top-menu2{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav-links a{
+        padding: 10px;
+    }
+}
 </style>
