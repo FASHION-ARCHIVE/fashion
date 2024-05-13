@@ -1,4 +1,8 @@
 <template>
+  <head>
+    <meta name="viewport" content="width=device-width, init-scale=1" />
+  </head>
+
 <mainHeader/>
   <div class = "profile-background">
     <div class = "profile-container">
