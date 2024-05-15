@@ -6,7 +6,7 @@
         <div class="header-background">
             <div class="menu2">
                 <div class = "top-menu1">
-                <div class = "text-1">2024 KUAD GRADUATION FASHION SHOW</div>
+                <router-link to = "/"><div class = "text-1">2024 KUAD GRADUATION FASHION SHOW</div></router-link>
                 <div class = "icon-list">
                     <a href="https://www.instagram.com/kuad_archive/" target="_blank"><img class = "icon" alt = "instagram" src = @/assets/images/icon/insta_icon_bw.png></a>
                     <a href="https://www.youtube.com/" target="_blank"><img class = "icon" alt = "youtube" src = @/assets/images/icon/youtube_icon_bw.png></a>
@@ -47,8 +47,8 @@
 
 .menu2{
     display: flex;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     width: 1130px;
     flex-direction: column;
 }
@@ -66,6 +66,7 @@
     align-items: center;
     height:40px;
     font-size: 10px;
+    color: #000;
 }
 
 .icon-list{
@@ -135,7 +136,15 @@
 
 @media screen and (max-width: 480px) {
     .nav-links a{
-        padding: 10px;
+        padding: 5px;
     }
+
+}
+
+@media screen and (max-width: 360px) {
+    .nav-links{
+        font-size: 12px;
+    }
+
 }
 </style>

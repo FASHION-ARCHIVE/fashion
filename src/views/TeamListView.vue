@@ -6,28 +6,28 @@
     <div class="team-list-container">
       <!-- <div class="team-list-text">TEAM LIST</div> -->
       <div class ="image-grid">
-        <div class="image-item">
-          <router-link to = "/coming-soon"><img class="team 3" alt="team 3" src="@/assets/images/yy.jpeg" /></router-link>
+        <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true">
+          <router-link to = "/protophobia"><img src="@/assets/images/protophobia/poster/protophobia_TEAMPOSTER.jpg" /></router-link>
           <div class="caption">protophobia</div>        
         </div>
-        <div class="image-item">
-          <router-link to = "/coming-soon"><img class="team 5" alt="team 5" src="@/assets/images/yy.jpeg" /></router-link>
-          <div class="caption">oak</div>         
+        <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true">
+          <router-link to = "/oak"><img src="@/assets/images/OAK/poster/OAK_TEAMPOSTER.jpg" /></router-link>
+          <div class="caption">OAK</div>         
         </div>
-        <div class="image-item">
-          <router-link to = "/coming-soon"><img class="team 2" alt="team 2" src="@/assets/images/yy.jpeg" /></router-link>
+        <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true">
+          <router-link to = "/coming-soon"><img src="@/assets/images/anachronia/poster/Anachronia_TEAMPOSTER.jpg" /></router-link>
           <div class="caption">ANACHRONIA</div>
         </div>
-        <div class="image-item">
-          <router-link to = "/bugreport"><img class="team 1" alt="team 1" src="@/assets/images/bugreport/poster/tmp_bug.png" /></router-link>
+        <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true">
+          <router-link to = "/bugreport"><img src="@/assets/images/bugreport/poster/tmp_bug.png" /></router-link>
           <div class="caption">BUG REPORT</div>
         </div>
-        <div class="image-item">
-          <router-link to = "/coming-soon"><img class="team 4" alt="team 4" src="@/assets/images/yy.jpeg" /></router-link>
+        <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true">
+          <router-link to = "/coming-soon"><img src="@/assets/images/loft10/poster/Loft-1.0_TEAMPOSTER.jpg" /></router-link>
           <div class="caption">Loft 1.0</div>
         </div>
-        <div class="image-item">
-          <router-link to = "/coming-soon"><img class="team 6" alt="team 6" src="@/assets/images/dejavu/dejavu_poster.jpg" /></router-link>
+        <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true">
+          <router-link to = "/coming-soon"><img src="@/assets/images/dejavu/poster/Dejavu_TEAMPOSTER.jpg" /></router-link>
           <div class="caption">Deja vu</div>
         </div>
       </div>
@@ -60,7 +60,7 @@
   background-position: center;
   justify-content: center;
   margin-top: 100px; /* 헤더 높이 맞춰서 마진 */
-  padding-bottom: 100px; /* 푸터 사이 간격 */
+  padding-bottom: max(100px); /* 푸터 사이 간격 */
 } 
 
 .team-list-container{
@@ -82,12 +82,13 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .image-item img {
   margin-top: 30px;
   display: block;
   width: 300px; /* 이미지의 너비 */
   height: 400px; /* 이미지의 높이 */
-  object-fit: cover;
+  object-fit: contain;
 }
 
 
@@ -95,4 +96,10 @@
   color: black;
   margin-top: 10px;
 }
+
+/* @media screen and (max-width: 768px) {
+    .image-grid{
+        flex-direction: column;
+    }
+} */
 </style>

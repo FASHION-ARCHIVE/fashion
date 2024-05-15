@@ -19,7 +19,11 @@
                     </div>
                 </div>
             </div>
-            <div class="br-youtube-container" data-aos="fade-up" data-aos-once="true">
+
+            <div class = "video-container">
+                <iframe src = "https://www.youtube.com/embed/p7o9C-NtW2M" frameborder = "0" allowfullscreen =""></iframe>
+            </div>
+            <!-- <div class="br-youtube-container" data-aos="fade-up" data-aos-once="true">
                 <div class = "br-youtube">
                     <iframe
                     :style="{ width: state.width, height: state.height }"
@@ -35,7 +39,7 @@
                         <div class="br-yt-info2">film by 한우림</div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class = "team-container">
                 <div class="br-team-members" data-aos="fade-up" data-aos-once="true">TEAM MEMBERS</div>
                 <div style="font-size: 14px; margin-left:10px; margin-top: 15px;" data-aos="fade-up" data-aos-once="true">photo by 이동권</div>
@@ -43,7 +47,7 @@
 
             <div class="br-members" data-aos="fade-up" data-aos-once="true">
                 <div class="br-image-item">
-                    <router-link to = "/bugreport/byun-sangyoon"><img class="br-member1" alt="member 1" src="@/assets/images/bugreport/profile/profile_1_1_1.jpeg" /></router-link>
+                    <router-link to = "/bugreport/byun-sangyoon"><img class="br-member1" alt="member 1" src="@/assets/images/bugreport/profile/PROFILE_PHOTO_3_4_BUGREPORT_BYUN SANGYOON.jpg" /></router-link>
                     <div class="caption">TEAM LEADER<br>변상윤</div>
                 </div>
                 <div class="br-image-item">
@@ -51,7 +55,7 @@
                     <div class="caption">SUB LEADER<br>강소원</div>
                 </div>
                 <div class="br-image-item">
-                    <router-link to = "/coming-soon"><img class="br-member3" alt="member 3" src="@/assets/images/yy.jpeg" /></router-link>
+                    <router-link to = "/bugreport/oh-seungmin"><img class="br-member3" alt="member 3" src="@/assets/images/bugreport/profile/PROFILE-PHOTO-3_4_BUG-REPORT_OH-SEUNGMIN.jpg" /></router-link>
                     <div class="caption">TEAM MEMBER<br>오승민</div>
                 </div>
                 <div class="br-image-item">
@@ -59,7 +63,7 @@
                     <div class="caption">TEAM MEMBER<br>김상은</div>
                 </div>
                 <div class="br-image-item">
-                    <router-link to = "/coming-soon"><img class="br-member5" alt="member 5" src="@/assets/images/bugreport/profile/PROFILE-PHOTO-3-4_BUG-REPORT_KIM-SANGEUN.jpg" /></router-link>
+                    <router-link to = "/bugreport/yoo-hayoung"><img class="br-member5" alt="member 5" src="@/assets/images/bugreport/profile/PROFILE PHOTO 3_4_BUG REPORT_YOO HAYOUNG.jpg" /></router-link>
                     <div class="caption">TEAM MEMBER<br>유하영</div>
                 </div>
                 <div class="br-image-item">
@@ -75,11 +79,11 @@
                     <div class="caption">TEAM MEMBER<br>최지영</div>
                 </div>
                 <div class="br-image-item">
-                    <router-link to = "/coming-soon"><img class="br-member9" alt="member 9" src="@/assets/images/PROFILE-PHOTO-3-4_BUG-REPORT__CHOI-JEEYOUNG.webp" /></router-link>
+                    <router-link to = "/bugreport/yu-jimin"><img class="br-member9" alt="member 9" src="@/assets/images/bugreport/profile/PROFILE_PHOTO_3_4_BUGREPORT_YU JIMIN_2.jpg" /></router-link>
                     <div class="caption">TEAM MEMBER<br>유지민</div>
                 </div>
                 <div class="br-image-item">
-                    <router-link to = "/coming-soon"><img class="br-member10" alt="member 10" src="@/assets/images/yy.jpeg" /></router-link>
+                    <router-link to = "/bugreport/ha-nagyeong"><img class="br-member10" alt="member 10" src="@/assets/images/bugreport/profile/PROFILE_PHOTO_3_4_BUGREPORT_HANAGYEONG.jpg" /></router-link>
                     <div class="caption">TEAM MEMBER<br>하나경</div>
                 </div>
             </div>
@@ -140,10 +144,26 @@ export default defineComponent({
 
 
 <style scoped>
+    .video-container{
+        position: relative;
+        height: 0;
+        padding-bottom: 56.25%;
+        margin-top: 50px;
+    }
+
+    .video-container iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
     .bugreport-background{
         /* 배경 이미지 적용 */
         display: flex;
         height: auto;
+        /* width: 100%; */
         background-image: url('@/assets/images/background_img.jpg'); 
         background-repeat: no-repeat;
         background-size: cover;
@@ -254,6 +274,9 @@ export default defineComponent({
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        height: 100%;
+        width: 100%;
+        flex-direction: row;
     }
 
     .team-container{
@@ -275,4 +298,46 @@ export default defineComponent({
         text-align: start;
     }
 
+@media screen and (max-width:1130px) {
+    .br-name{
+        /* line-height: 0.7; */
+        font-size:48px;
+        font-weight: 700;
+    }
+
+    .br-poster-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .br-members{
+        align-items: center;
+    }
+
+    .br-poster{
+        width: 90vw;
+        margin: 0;
+    }
+
+    .br-info-container{
+        width: 90vw;
+        margin: 0;
+        padding: 0;
+    }
+    .video-container{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .br-team-members{   
+        margin-left: 10px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .br-members{
+        flex-direction: column;
+    }
+}
 </style>

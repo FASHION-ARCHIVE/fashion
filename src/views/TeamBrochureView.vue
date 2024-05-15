@@ -5,28 +5,28 @@
         <div class="team-brochure-container">
             <!-- <div class="team-brochure-text">TEAM BROCHURE</div> -->
             <div class="team-brochure-image-container">
-                <div class="image-item">
-                  <router-link to = "/coming-soon"><img class="team 3" alt="team 3" src="@/assets/images/yy.jpeg" /></router-link>
+                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
+                  <router-link to = "/coming-soon"><img src="@/assets/images/yy.jpeg" /></router-link>
                   <div class="caption">protophobia</div>
                 </div>
-                <div class="image-item">
-                  <router-link to = "/coming-soon"><img class="team 5" alt="team 5" src="@/assets/images/yy.jpeg" /></router-link>
-                  <div class="caption">oak</div>
+                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
+                  <router-link to = "/coming-soon"><img src="@/assets/images/yy.jpeg" /></router-link>
+                  <div class="caption">OAK</div>
                 </div>
-                <div class="image-item">
-                  <router-link to = "/coming-soon"><img class="team" alt="team 2" src="@/assets/images/testbr.jpg" /></router-link>
+                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
+                  <router-link to = "/coming-soon"><img src="@/assets/images/yy.jpeg" /></router-link>
                   <div class="caption">ANACHRONIA</div>
                 </div>
-                <div class="image-item">
-                  <router-link to = "/bugreport/lookbook"><img class="team 1" alt="team 1" src="@/assets/images/yy.jpeg" /></router-link>
+                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
+                  <router-link to = "/bugreport/lookbook"><img src="@/assets/images/yy.jpeg" /></router-link>
                   <div class="caption">BUG REPORT</div>
                 </div>
-                <div class="image-item">
-                  <router-link to = "/coming-soon"><img class="team 4" alt="team 4" src="@/assets/images/yy.jpeg" /></router-link>
+                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
+                  <router-link to = "/coming-soon"><img src="@/assets/images/yy.jpeg" /></router-link>
                   <div class="caption">Loft 1.0</div>
                 </div>
-                <div class="image-item">
-                  <router-link to = "/coming-soon"><img class="team 6" alt="team 6" src="@/assets/images/yy.jpeg" /></router-link>
+                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
+                  <router-link to = "/coming-soon"><img src="@/assets/images/yy.jpeg" /></router-link>
                   <div class="caption">Deja vu</div>
                 </div>
             </div>
