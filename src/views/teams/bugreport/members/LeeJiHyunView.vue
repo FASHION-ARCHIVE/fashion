@@ -1,4 +1,7 @@
 <template>
+  <head>
+    <meta name="viewport" content="width=device-width, init-scale=1" />
+  </head>
     <mainHeader/>
       <div class = "profile-background">
         <div class = "profile-container">
@@ -42,6 +45,7 @@
               <swiper
                 :navigation = "true"
                 :modules = "modules"
+                :loop = "true"
                 class = "pg-slide"
               >
                 <swiper-slide><img alt = "lookbook-img" src="@/assets/images/bugreport/brochure/BROCHURE-PHOTO_BUG-REPORT_JIHYUN LEE_1.jpg"/></swiper-slide>
@@ -53,6 +57,7 @@
               <swiper
                 :navigation = "true"
                 :modules = "modules"
+                :loop = "true"
                 class = "pg-slide"
               >
                 <swiper-slide><img alt = "runway-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
@@ -203,6 +208,11 @@
       width: 350px;
       display: flex;
       flex-direction: column;
+
+      -webkit-user-select:none;
+      -moz-user-select:none;
+      -ms-user-select:none;
+      user-select:none;
     }
     
     .project-info{
@@ -236,4 +246,28 @@
     object-fit: contain;
     }
     
+    @media screen and (max-width: 768px) {
+  .profile-info-container{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        margin: 0;
+      }
+  
+      .profile-project{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }    
+  
+      .profile-img{
+        width: 90vw;
+        margin: 0;
+      }
+  
+      .profile-detail{
+        width: 90vw;
+      }
+    }
     </style>

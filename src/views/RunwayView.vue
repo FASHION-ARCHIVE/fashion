@@ -23,7 +23,7 @@
              <ui style="display: block;">
                  <li style="display: block;"><div data-title = "전체 영상" class = "remote-info"><button class = "show-button" @click="click1()"></button></div></li>
                  <li style="display: block;"><div data-title = "protophobia" class = "remote-info"><button class = "show-button" @click="click2()"></button></div></li>
-                 <li style="display: block;"><div data-title = "oak" class = "remote-info"><button class = "show-button" @click="click3()"></button></div></li>
+                 <li style="display: block;"><div data-title = "OAK" class = "remote-info"><button class = "show-button" @click="click3()"></button></div></li>
                  <li style="display: block;"><div data-title = "ANACHRONIA" class = "remote-info"><button class = "show-button" @click="click4()"></button></div></li>
                  <li style="display: block;"><div data-title = "BUG REPORT" class = "remote-info"><button class = "show-button" @click="click5()"></button></div></li>
                  <li style="display: block;"><div data-title = "Loft 1.0" class = "remote-info"><button class = "show-button" @click="click6()"></button></div></li>
@@ -78,8 +78,8 @@
                 >
 
                 <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg" @click = "모달창열기"/></swiper-slide>
-                <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
-                <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
+                <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg" @click = "모달창열기"/></swiper-slide>
+                <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg" @click = "모달창열기"/></swiper-slide>
                 <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
                 <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
                 <swiper-slide><img alt = "behind-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
@@ -109,7 +109,7 @@
             </div>
 
             <div class="runway-youtube-info-container">
-                <div class="runway-yt-info1">oak</div>
+                <div class="runway-yt-info1">OAK</div>
             </div>
         </div>
 
@@ -513,7 +513,7 @@
 
     .white-bg{
         width: 30%;
-        height: 80%;
+        height: 50vh;
         /* background: white; */
         /* border-radius: 4px; */
         padding: 0px 10px 0px 10px;

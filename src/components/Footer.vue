@@ -32,7 +32,6 @@
     border-width: 0.5px 0px 0px 0px;
     border-color: black;
     color: black;
-    padding: 10px;
     display: flex; 
     justify-content: center; 
     width: 100vw;

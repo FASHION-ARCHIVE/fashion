@@ -1,14 +1,15 @@
 <template>
     <mainHeader/>
-    <div class = "showinfo-background">
         <div class = "remote">
             <ui style="display: block;">
                 <li style="display: block;"><div data-title = "ABOUT" class = "remote-info"><button class = "show-button" @click="click1()"></button></div></li>
                 <li style="display: block;"><div data-title = "TEASER FILM" class = "remote-info"><button class = "show-button" @click="click2()"></button></div></li>
                 <li style="display: block;"><div data-title = "MAP" class = "remote-info"><button class = "show-button" @click="click3()"></button></div></li>
-                <li style="display: block;"><div data-title = "CREDIT" class = "remote-info"><button class = "show-button" @click="click4()"></button></div></li>
+                <li style="display: block;"><div data-title = "CREDIT" class = "remote-info"><button style = "margin-bottom: 0px;" class = "show-button" @click="click4()"></button></div></li>
             </ui>
         </div>
+    <div class = "showinfo-background">
+        
     <vue-scroll-snap :fullscreen="true">
    
     <div class="item" ref = "stage1">
@@ -48,36 +49,14 @@
     </div>
 
     <div class="item" ref = "stage3">
-        <div class="theme-youtube-container">
-            <div class="theme-youtube">
-                <iframe
-                :style="{ width: state.width, height: state.height }"
-                :src ="`https://www.youtube.com/embed/E-8pyVBvCPQ`"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen/>
-            </div>
-            <div class="theme-youtube-info-container">
-                <div class="theme-yt-info1"> 지도</div>
-            </div>
+        <div class = map-container>
+            <img src = "@/assets/images/showinfo/약도.jpg">
         </div>
     </div>
 
     <div class="item" ref = "stage4">
-        <div class="theme-youtube-container">
-            <div class="theme-youtube">
-                <iframe
-                :style="{ width: state.width, height: state.height }"
-                :src ="`https://www.youtube.com/embed/E-8pyVBvCPQ`"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen/>
-            </div>
-            <div class="theme-youtube-info-container">
-                <div class="theme-yt-info1"> 지도</div>
-            </div>
+        <div class = map-container>
+
         </div>
     </div>
 
@@ -216,10 +195,12 @@
 
     .remote{
         position: fixed;
-        margin-left: 1200px;
-        margin-top: 18%;
+        right: calc(50vw - 565px);
+        margin-top: 50px;
+        height: 100vh;
         z-index: 300;
         display: flex;
+        justify-content: center;
         flex-direction: column;
         gap: 2px;
     }
@@ -336,4 +317,17 @@
             font-size:30px;
     }
 
+    .map-container{
+        margin-top: 100px;
+        display: grid;
+        place-items: center;
+    }
+
+    .map-container img{
+        margin-top: 100% - 100px;
+        width: 100vw;
+        height: 70vh;
+        object-fit: contain;
+        
+    }
 </style>

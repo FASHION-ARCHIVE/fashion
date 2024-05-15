@@ -8,7 +8,7 @@
     <div class = "profile-container">
       <div class = "profile-info-container">
         <div class = "profile-img">
-          <img src="@/assets/images/bugreport/profile/profile_1_1_1.jpeg"/>
+          <img src="@/assets/images/bugreport/profile/PROFILE_PHOTO_1_1_BUGREPORT_BYUN SANGYOON.jpg"/>
         </div>
 
         <div class = "profile-detail">
@@ -43,6 +43,7 @@
           <swiper
             :navigation = "true"
             :modules = "modules"
+            :loop = "true"
             class = "pg-slide"
           >
             <swiper-slide><img alt = "lookbook-img" src="@/assets/images/bugreport/brochure/BROCHURE-PHOTO_BUG-REPORT_BYUN SANGYOON_1.jpg"/></swiper-slide>
@@ -54,6 +55,7 @@
           <swiper
             :navigation = "true"
             :modules = "modules"
+            :loop = "true"
             class = "pg-slide"
           >
             <swiper-slide><img alt = "runway-img" src="@/assets/images/test_123.jpeg"/></swiper-slide>
@@ -117,12 +119,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  /* margin-top: 100px; */
-
-  /* background-color: rgba(133, 155, 160, 0.4); */
-
-  /* margin-bottom: 100px; */
 }
 
 .profile-info-container{
@@ -204,6 +200,11 @@
   width: 350px;
   display: flex;
   flex-direction: column;
+
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
 }
 
 .project-info{
@@ -235,6 +236,31 @@ align-items: center;
 width: 100%;
 height: 100%;
 object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+  .profile-info-container{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        margin: 0;
+      }
+  
+      .profile-project{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }    
+  
+      .profile-img{
+        width: 90vw;
+        margin: 0;
+      }
+  
+      .profile-detail{
+        width: 90vw;
+      }
 }
 
 </style>
