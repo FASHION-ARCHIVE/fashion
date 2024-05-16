@@ -54,47 +54,47 @@
 
             <div class="team-members-list" data-aos="fade-up" data-aos-once="true">
                 <div class="team-image-item">
-                    <router-link to = "/protophobia/choi-junwoo"><img alt="member" src="@/assets/images/OAK/01/PROFILE-PHOTO-34_OAK_LEEHANSOL.jpg" /></router-link>
+                    <router-link to = "/OAK/lee-hansol"><img alt="member" src="@/assets/images/OAK/01/PROFILE-PHOTO-34_OAK_LEEHANSOL.jpg" /></router-link>
                     <div class="caption">TEAM LEADER<br>이한솔</div>
                 </div>
                 <div class="team-image-item">
-                    <router-link to = "/protophobia/kwak-dohoon"><img alt="member" src="@/assets/images/OAK/02/PROFILE PHOTO 3_4_OAK_YUN SEON MI.jpg" /></router-link>
+                    <router-link to = "/OAK/yunseonmi"><img alt="member" src="@/assets/images/OAK/02/PROFILE PHOTO 3_4_OAK_YUN SEON MI.jpg" /></router-link>
                     <div class="caption">SUB LEADER<br>윤선미</div>
                 </div>
                 <div class="team-image-item">
-                    <router-link to = "/protophobia/yun-sohye"><img alt="member" src="@/assets/images/OAK/03/PROFILE PHOTO34_OAK_SASAGI.jpg" /></router-link>
+                    <router-link to = "/OAK/xiesiqi"><img alt="member" src="@/assets/images/OAK/03/PROFILE PHOTO34_OAK_SASAGI.jpg" /></router-link>
                     <div class="caption">TEAM MEMBER<br>사사기</div>
                 </div>
                 <div class="team-image-item">
-                    <router-link to = "/protophobia/jeong-gyeongmo"><img alt="member" src="@/assets/images/OAK/04/PROFILE PHOTO 34_ OAK_ZHANG HAN.jpg"/></router-link>
+                    <router-link to = "/OAK/zhanghan"><img alt="member" src="@/assets/images/OAK/04/PROFILE PHOTO 34_ OAK_ZHANG HAN.jpg"/></router-link>
                     <div class="caption">TEAM MEMBER<br>장한</div>
                 </div>
                 <div class="team-image-item">
-                    <router-link to = "/protophobia/kim-minseo"><img alt="member" src="@/assets/images/OAK/05/PROFILE PHOTO 34_OAK_HUANG ZINUO.jpeg" /></router-link>
+                    <router-link to = "/OAK/huangzinuo"><img alt="member" src="@/assets/images/OAK/05/PROFILE PHOTO 34_OAK_HUANG ZINUO.jpeg" /></router-link>
                     <div class="caption">TEAM MEMBER<br>황자낙</div>
                 </div>
                 <div class="team-image-item">
-                    <router-link to = "/protophobia/kim-heeyoung"><img alt="member" src="@/assets/images/OAK/06/PROFILE-PHOTO-34_OAK_SON-YEA-JIN.jpg" /></router-link>
+                    <router-link to = "/OAK/sonyeajin"><img alt="member" src="@/assets/images/OAK/06/PROFILE-PHOTO-34_OAK_SON-YEA-JIN.jpg" /></router-link>
                     <div class="caption">TEAM MEMBER<br>손예진</div>
                 </div>
                 <div class="team-image-item">
-                    <router-link to = "/protophobia/kim-jiin"><img alt="member" src="@/assets/images/OAK/07/PROFILE PHOTO 3_4_ OAK_JUNG YEON SOO.jpeg" /></router-link>
+                    <router-link to = "/OAK/jungyeonsoo"><img alt="member" src="@/assets/images/OAK/07/PROFILE PHOTO 3_4_ OAK_JUNG YEON SOO.jpeg" /></router-link>
                     <div class="caption">TEAM MEMBER<br>정연수</div>
                 </div>
                 <div class="team-image-item">
-                    <router-link to = "/protophobia/lee-eunji"><img alt="member" src="@/assets/images/OAK/08/PROFILE PHOTO 34_OAK_LIM DOHA.jpg" /></router-link>
+                    <router-link to = "/OAK/limdoha"><img alt="member" src="@/assets/images/OAK/08/PROFILE PHOTO 34_OAK_LIM DOHA.jpg" /></router-link>
                     <div class="caption">TEAM MEMBER<br>임도하</div>
                 </div>
                 <div class="team-image-item">
-                    <router-link to = "/protophobia/youn-dohee"><img alt="member" src="@/assets/images/OAK/09/PROFILE PHOTO34_OAK_PAN MINGYU(2).jpeg" /></router-link>
+                    <router-link to = "/OAK/panmingyu"><img alt="member" src="@/assets/images/OAK/09/PROFILE PHOTO34_OAK_PAN MINGYU(2).jpeg" /></router-link>
                     <div class="caption">TEAM MEMBER<br>반명옥</div>
                 </div>
                 <div class="team-image-item">
-                    <router-link to = "/protophobia/youn-dohee"><img alt="member" src="@/assets/images/OAK/10/PROFILE PHOTO34_OAK_SONG ZHAODI.jpg" /></router-link>
+                    <router-link to = "/OAK/songzhaodi"><img alt="member" src="@/assets/images/OAK/10/PROFILE PHOTO34_OAK_SONG ZHAODI.jpg" /></router-link>
                     <div class="caption">TEAM MEMBER<br>송초제</div>
                 </div>
                 <div class="team-image-item">
-                    <router-link to = "/protophobia/youn-dohee"><img alt="member" src="@/assets/images/OAK/11/PROFILE PHOTO 34_OAK_JI XUEXIN.jpeg" /></router-link>
+                    <router-link to = "/OAK/jixuexin"><img alt="member" src="@/assets/images/OAK/11/PROFILE PHOTO 34_OAK_JI XUEXIN.jpeg" /></router-link>
                     <div class="caption">TEAM MEMBER<br>기설흠</div>
                 </div>
             </div>

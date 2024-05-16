@@ -24,7 +24,17 @@ import LeeEunJi from '@/views/teams/protophobia/members/8/LeeEunJiView.vue'
 import YounDoHee from '@/views/teams/protophobia/members/9/YounDoHeeView.vue'
 
 import OAKView from '@/views/teams/OAK/OAKView.vue'
-
+import leehansolView from '@/views/teams/OAK/members/1/leehansolView.vue'
+import yunseonmiView from '@/views/teams/OAK/members/2/yunseonmiView.vue'
+import xiesiqiView from '@/views/teams/OAK/members/3/xiesiqiView.vue'
+import zhanghanView from '@/views/teams/OAK/members/4/zhanghanView.vue'
+import huangzinuoView from '@/views/teams/OAK/members/5/huangzinuoView.vue'
+import sonyeajinView from '@/views/teams/OAK/members/6/sonyeajinView.vue'
+import jungyeonsooView from '@/views/teams/OAK/members/7/jungyeonsooView.vue'
+import limdohaView from '@/views/teams/OAK/members/8/limdohaView.vue'
+import panmingyuView from '@/views/teams/OAK/members/9/panmingyuView.vue'
+import songzhaodiView from '@/views/teams/OAK/members/10/songzhaodiView.vue'
+import jixuexinView from '@/views/teams/OAK/members/11/jixuexinView.vue'
 
 import bugreportView from '@/views/teams/bugreport/bugreportView.vue'
 import bugreportLookbookView from '@/views/teams/bugreport/bugreportLookbookView.vue'
@@ -133,6 +143,61 @@ const routes = [
     path:'/OAK',
     name: 'OAK',
     component: OAKView
+  },
+  {
+    path:'/OAK/lee-hansol',
+    name: 'lee-hansol',
+    component: leehansolView
+  },
+  {
+    path:'/OAK/yunseonmi',
+    name: 'yunseonmi',
+    component: yunseonmiView
+  },
+  {
+    path:'/OAK/xiesiqi',
+    name: 'xiesiqi',
+    component: xiesiqiView
+  },
+  {
+    path:'/OAK/zhanghan',
+    name: 'zhanghan',
+    component: zhanghanView
+  },
+  {
+    path:'/OAK/huangzinuo',
+    name: 'huangzinuo',
+    component: huangzinuoView
+  },
+  {
+    path:'/OAK/sonyeajin',
+    name: 'sonyeajin',
+    component: sonyeajinView
+  },
+  {
+    path:'/OAK/jungyeonsoo',
+    name: 'jungyeonsoo',
+    component: jungyeonsooView
+  },
+  {
+    path:'/OAK/limdoha',
+    name: 'limdoha',
+    component: limdohaView
+  },
+  {
+    path:'/OAK/panmingyu',
+    name: 'panmingyu',
+    component: panmingyuView
+  },
+  {
+    path:'/OAK/songzhaodi',
+    name: 'songzhaodi',
+    component: songzhaodiView
+  },
+  {
+    path:'/OAK/jixuexin',
+    name: 'jixuexin',
+    component: jixuexinView
   },
 
   {
