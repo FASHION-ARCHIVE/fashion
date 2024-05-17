@@ -8,25 +8,17 @@
       <div class = "profile-container">
         <div class = "profile-info-container">
           <div class = "profile-img">
-            <img src="@/assets/images/protophobia/9/PROFILE-PHOTO-1_1_protophobia_DoheeYoun.jpg"/>
+            <img src="@/assets/images/OAK/05/PROFILE PHOTO 11_ OAK_HUANG ZINUO.jpeg"/>
           </div>
   
           <div class = "profile-detail">
-            <h3 class = "profile-name">윤도희 / YOUN DO HEE</h3>
-            <h3 class = "project-name">CARVER : 스스로를 조각하다.</h3>
+            <h3 class = "profile-name">황자낙 / HUANG ZINUO</h3>
+            <h3 class = "project-name">塑生</h3>
             <h5></h5>
   
             <p class = "introduce">
-              종이처럼 미약하고 얇디얇은,
-              <br>또 연약하기 그지없는.
-              <br>한곳에 머무르지 못하고 이리저리…
-              <br>좀처럼 두터워지지 않는 존재에 대한 무력감.
-
-              <br><br>강해지고 싶다는 욕망.
-              <br>나도 흔들리지 않을 순 없을까.
-              <br>깎아지른 단단함.
-
-              <br><br>“나도 바위가 되고 싶다.”
+              젤리 같은 재료를 '인간' 모양으로 가공하여 새로운 생명체를 형성합니다.
+              <br>젤리를 기계에 넣으면 젤리가 압출된 후 모양이 고르지 않습니다. 큰 것도 있고 작은 것도 있습니다. 평평한 슬라이스도 있고 돌출된 블록도 있습니다. 과정은 알 수 없고 결과물도 알 수 없으며 기대와 놀라움으로 가득 차 있습니다.
             </p>
   
             <div class = "contact-container">
@@ -34,11 +26,11 @@
               <h5 class = "contact-list">
                 <div class="mail-link">
                   <img src = "@/assets/images/icon/mail_icon_bw.png">&nbsp;
-                  Dohee1269@gmail.com
+                  hznloco@naver.com
                 </div>
-              <a class = "sns-link" href="https://www.instagram.com/do_happiness_0518/" target="_blank">
+              <a class = "sns-link" href="https://www.instagram.com/hoozoomino/" target="_blank">
                   <img src = "@/assets/images/icon/insta_icon_bw.png">&nbsp;
-                  @do_happiness_0518
+                  @hoozoomino
                 </a>
               </h5>
             </div>
@@ -53,8 +45,8 @@
               :loop = "true"
               class = "pg-slide"
             >
-              <swiper-slide><img alt = "lookbook-img" src="@/assets/images/protophobia/9/BROCHURE-PHOTO_protophpbia_DoheeYoun_1.jpg"/></swiper-slide>
-              <swiper-slide><img alt = "lookbook-img" src="@/assets/images/protophobia/9/BROCHURE-PHOTO_protophpbia_DoheeYoun_2.jpg"/></swiper-slide>
+              <swiper-slide><img alt = "lookbook-img" src="@/assets/images/OAK/05/BROCHURE-PHOTO_OAK_HUANG-ZUNUO_1.jpg"/></swiper-slide>
+              <swiper-slide><img alt = "lookbook-img" src="@/assets/images/OAK/05/BROCHURE-PHOTO_OAK_HUANG-ZUNUO_2.jpg"/></swiper-slide>
             </swiper>
             <div class = "project-info">LOOKBOOK</div>
           </div>

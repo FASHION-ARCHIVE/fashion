@@ -8,25 +8,16 @@
       <div class = "profile-container">
         <div class = "profile-info-container">
           <div class = "profile-img">
-            <img src="@/assets/images/protophobia/9/PROFILE-PHOTO-1_1_protophobia_DoheeYoun.jpg"/>
+            <img src="@/assets/images/OAK/10/PROFILE PHOTO 11_OAK_SONG ZHAODI.jpg"/>
           </div>
   
           <div class = "profile-detail">
-            <h3 class = "profile-name">윤도희 / YOUN DO HEE</h3>
-            <h3 class = "project-name">CARVER : 스스로를 조각하다.</h3>
+            <h3 class = "profile-name">송초제 / SONG ZHAODI </h3>
+            <h3 class = "project-name">The waves are constantly beating</h3>
             <h5></h5>
   
             <p class = "introduce">
-              종이처럼 미약하고 얇디얇은,
-              <br>또 연약하기 그지없는.
-              <br>한곳에 머무르지 못하고 이리저리…
-              <br>좀처럼 두터워지지 않는 존재에 대한 무력감.
-
-              <br><br>강해지고 싶다는 욕망.
-              <br>나도 흔들리지 않을 순 없을까.
-              <br>깎아지른 단단함.
-
-              <br><br>“나도 바위가 되고 싶다.”
+              파도의 기복은, 인생의 끊임없는 전진을 대표한다. 파도의 자태는 때로는 부드럽고 우아하게, 때로는 자유분방하게 생명의 율동과 아름다움을 독특한 방식으로 보여주고 있다. 서로 다른 컬러의 파도 모양의 퍼즐로 일상적이고 로맨틱한 스타일을 완성하며 부드럽고 파워풀한 이미지를 부여하여 파도처럼 용감하고 자유로우며 끊임없이 전진한다. 유사한 색상의 불규칙한 스티치는 전체 층을 더욱 풍부하게 하고 시각적 분할을 형성하며 옷을 단순하지만 간단하지 않게 만든다. 언밸런스하고 언밸런스한 실루엣으로 시각적 충격을 주며, 패션의 세계에서 자신만의 독특한 표현을 찾을 수 있다.
             </p>
   
             <div class = "contact-container">
@@ -34,11 +25,11 @@
               <h5 class = "contact-list">
                 <div class="mail-link">
                   <img src = "@/assets/images/icon/mail_icon_bw.png">&nbsp;
-                  Dohee1269@gmail.com
+                  songzhaodi@naver.com 
                 </div>
-              <a class = "sns-link" href="https://www.instagram.com/do_happiness_0518/" target="_blank">
+              <a class = "sns-link" href="https://www.instagram.com/diiiiiiii921/" target="_blank">
                   <img src = "@/assets/images/icon/insta_icon_bw.png">&nbsp;
-                  @do_happiness_0518
+                  @diiiiiiii921
                 </a>
               </h5>
             </div>
@@ -53,8 +44,8 @@
               :loop = "true"
               class = "pg-slide"
             >
-              <swiper-slide><img alt = "lookbook-img" src="@/assets/images/protophobia/9/BROCHURE-PHOTO_protophpbia_DoheeYoun_1.jpg"/></swiper-slide>
-              <swiper-slide><img alt = "lookbook-img" src="@/assets/images/protophobia/9/BROCHURE-PHOTO_protophpbia_DoheeYoun_2.jpg"/></swiper-slide>
+              <swiper-slide><img alt = "lookbook-img" src="@/assets/images/OAK/10/BROCHURE PHOTO_OAK_SONG ZHAODI_1.jpg"/></swiper-slide>
+              <swiper-slide><img alt = "lookbook-img" src="@/assets/images/OAK/10/BROCHURE PHOTO_OAK_SONG ZHAODI_2.jpg"/></swiper-slide>
             </swiper>
             <div class = "project-info">LOOKBOOK</div>
           </div>

@@ -15,7 +15,7 @@
           <div class="caption">OAK</div>         
         </div>
         <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true">
-          <router-link to = "/coming-soon"><img src="@/assets/images/anachronia/poster/Anachronia_TEAMPOSTER.jpg" /></router-link>
+          <router-link to = "/ANACHRONIA"><img src="@/assets/images/anachronia/poster/Anachronia_TEAMPOSTER.jpg" /></router-link>
           <div class="caption">ANACHRONIA</div>
         </div>
         <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true">
@@ -23,11 +23,11 @@
           <div class="caption">BUG REPORT</div>
         </div>
         <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true">
-          <router-link to = "/coming-soon"><img src="@/assets/images/loft10/poster/Loft-1.0_TEAMPOSTER.jpg" /></router-link>
+          <router-link to = "/Loft"><img src="@/assets/images/loft10/poster/Loft-1.0_TEAMPOSTER.jpg" /></router-link>
           <div class="caption">Loft 1.0</div>
         </div>
         <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true">
-          <router-link to = "/coming-soon"><img src="@/assets/images/dejavu/poster/Dejavu_TEAMPOSTER.jpg" /></router-link>
+          <router-link to = "/Dejavu"><img src="@/assets/images/dejavu/poster/Dejavu_TEAMPOSTER.jpg" /></router-link>
           <div class="caption">Deja vu</div>
         </div>
       </div>

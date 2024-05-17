@@ -36,6 +36,29 @@ import panmingyuView from '@/views/teams/OAK/members/9/panmingyuView.vue'
 import songzhaodiView from '@/views/teams/OAK/members/10/songzhaodiView.vue'
 import jixuexinView from '@/views/teams/OAK/members/11/jixuexinView.vue'
 
+import ANACHRONIAView from '@/views/teams/ANACHRONIA/ANACHRONIAView.vue'
+import kimgyubinView from '@/views/teams/ANACHRONIA/memebers/1/kimgyubinView.vue'
+import kwonnawonView from '@/views/teams/ANACHRONIA/memebers/2/kwonnawonView.vue'
+import parkhyevinView from '@/views/teams/ANACHRONIA/memebers/3/parkhyevinView.vue'
+import elinaView from '@/views/teams/ANACHRONIA/memebers/4/elinaView.vue'
+import jinsonghanyiView from '@/views/teams/ANACHRONIA/memebers/5/jinsonghanyiView.vue'
+import liuhaihongView from '@/views/teams/ANACHRONIA/memebers/6/liuhaihongView.vue'
+import ningyiyiView from '@/views/teams/ANACHRONIA/memebers/7/ningyiyiView.vue'
+import nilinView from '@/views/teams/ANACHRONIA/memebers/8/nilinView.vue'
+import zhangxueyingView from '@/views/teams/ANACHRONIA/memebers/9/zhangxueyingView.vue'
+
+import LoftView from '@/views/teams/Loft/LoftView.vue'
+import wangchewonView from '@/views/teams/Loft/members/1/wangchewonView.vue'
+import yoominahView from '@/views/teams/Loft/members/2/yoominahView.vue'
+import kimhajinView from '@/views/teams/Loft/members/3/kimhajinView.vue'
+import parkyebinView from '@/views/teams/Loft/members/4/parkyebinView.vue'
+import sunweiwanView from '@/views/teams/Loft/members/5/sunweiwanView.vue'
+import seeyihyunView from '@/views/teams/Loft/members/6/seeyihyunView.vue'
+import yangjieunView from '@/views/teams/Loft/members/7/yangjieunView.vue'
+import yinlanView from '@/views/teams/Loft/members/8/yinlanView.vue'
+import jangyeajinView from '@/views/teams/Loft/members/9/jangyeajinView.vue'
+import jungsomgyulView from '@/views/teams/Loft/members/10/jungsomgyulView.vue'
+
 import bugreportView from '@/views/teams/bugreport/bugreportView.vue'
 import bugreportLookbookView from '@/views/teams/bugreport/bugreportLookbookView.vue'
 
@@ -49,6 +72,8 @@ import LeeJiHyun from '@/views/teams/bugreport/members/LeeJiHyunView.vue'
 import YuJiMin from '@/views/teams/bugreport/members/YuJiMinView.vue'
 import OhSeungMin from '@/views/teams/bugreport/members/OhSeungMinView.vue'
 import HaNaGyeong from '@/views/teams/bugreport/members/HaNaGyeongView.vue'
+
+import DejavuView from '@/views/teams/Dejavu/DejavuView.vue'
 
 const routes = [
   {
@@ -201,6 +226,116 @@ const routes = [
   },
 
   {
+    path:'/ANACHRONIA',
+    name: 'ANACHRONIA',
+    component: ANACHRONIAView
+  },
+  {
+    path:'/ANACHRONIA/kimgyubin',
+    name: 'kimgyubin',
+    component: kimgyubinView
+  },
+  {
+    path:'/ANACHRONIA/kwonnawon',
+    name: 'kwonawon',
+    component: kwonnawonView
+  },
+  {
+    path:'/ANACHRONIA/parkhyevin',
+    name: 'parkhyevin',
+    component: parkhyevinView
+  },
+  {
+    path:'/ANACHRONIA/elina',
+    name: 'elina',
+    component: elinaView
+  },
+  {
+    path:'/ANACHRONIA/jinsonghanyi',
+    name: 'jinsonghanyi',
+    component: jinsonghanyiView
+  },
+  {
+    path:'/ANACHRONIA/liuhaihong',
+    name: 'liuhaihong',
+    component: liuhaihongView
+  },
+  {
+    path:'/ANACHRONIA/ningyiyi',
+    name: 'ningyiyi',
+    component: ningyiyiView
+  },
+  {
+    path:'/ANACHRONIA/nilin',
+    name: 'nilin',
+    component: nilinView
+  },
+  {
+    path:'/ANACHRONIA/zhangxueying',
+    name: 'zhangxueying',
+    component: zhangxueyingView
+  },
+
+  {
+    path:'/Loft',
+    name: 'Loft',
+    component: LoftView
+  },
+  {
+    path:'/Loft/wangchewon',
+    name: 'wangchewon',
+    component: wangchewonView
+  },
+  {
+    path:'/Loft/yoominah',
+    name: 'yoominah',
+    component: yoominahView
+  },
+  {
+    path:'/Loft/kimhajin',
+    name: 'kimhajin',
+    component: kimhajinView
+  },
+  {
+    path:'/Loft/parkyebin',
+    name: 'parkyebin',
+    component: parkyebinView
+  },
+  {
+    path:'/Loft/sunweiwan',
+    name: 'sunweiwan',
+    component: sunweiwanView
+  },
+  {
+    path:'/Loft/seeyihyun',
+    name: 'seeyihyun',
+    component: seeyihyunView
+  },
+  {
+    path:'/Loft/yangjieun',
+    name: 'yangjieun',
+    component: yangjieunView
+  },
+  {
+    path:'/Loft/yinlan',
+    name: 'yinlan',
+    component: yinlanView
+  },
+  {
+    path:'/Loft/jangyeajin',
+    name: 'jangyeajin',
+    component: jangyeajinView
+  },
+  {
+    path:'/Loft/jungsomgyul',
+    name: 'jungsomgyul',
+    component: jungsomgyulView
+  },
+   
+   
+
+
+  {
     path:'/bugreport',
     name: 'bugreport',
     component: bugreportView
@@ -260,6 +395,12 @@ const routes = [
     name: 'ha-nagyong',
     component: HaNaGyeong
   },   
+
+  {
+    path:'/Dejavu',
+    name: 'Dejavu',
+    component: DejavuView
+  },
 
   {
     path:'/secret/jeong-jayyeong',

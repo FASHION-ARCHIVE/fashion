@@ -8,25 +8,17 @@
       <div class = "profile-container">
         <div class = "profile-info-container">
           <div class = "profile-img">
-            <img src="@/assets/images/protophobia/9/PROFILE-PHOTO-1_1_protophobia_DoheeYoun.jpg"/>
+            <img src="@/assets/images/OAK/11/PROFILE PHOTO11_OAK_JI XUEXIN.jpeg"/>
           </div>
   
           <div class = "profile-detail">
-            <h3 class = "profile-name">윤도희 / YOUN DO HEE</h3>
-            <h3 class = "project-name">CARVER : 스스로를 조각하다.</h3>
+            <h3 class = "profile-name">기설흠 / JI XUEXIN</h3>
+            <h3 class = "project-name">unrivaled</h3>
             <h5></h5>
   
             <p class = "introduce">
-              종이처럼 미약하고 얇디얇은,
-              <br>또 연약하기 그지없는.
-              <br>한곳에 머무르지 못하고 이리저리…
-              <br>좀처럼 두터워지지 않는 존재에 대한 무력감.
-
-              <br><br>강해지고 싶다는 욕망.
-              <br>나도 흔들리지 않을 순 없을까.
-              <br>깎아지른 단단함.
-
-              <br><br>“나도 바위가 되고 싶다.”
+              이 의상은 "玊"에서 영감을 받았습니다.누구에게나 흠이 있는 옥이라는 뜻이니만큼 각자에게도 유일무이한 것입니다.사람들은 옥을 다듬는 일꾼과 같습니다.독립적이고 완전한 본체로 융합되기 위해 삶에 존재해야 하는 불완전함을 받아들여야 합니다.
+              <br>겉감에는 면 소재로 상의를 하면 인체 골격을 더 잘 드러내고 PU 소프트 가죽으로 외투를 만들 수 있습니다.은색 펄사 패브릭을 테두리 라인으로 사용하여 포인트를 주었습니다.하의는 허리에 치맛자락을 덧대 스타일링을 더해주어 전체적으로 입체감을 줍니다.
             </p>
   
             <div class = "contact-container">
@@ -34,11 +26,11 @@
               <h5 class = "contact-list">
                 <div class="mail-link">
                   <img src = "@/assets/images/icon/mail_icon_bw.png">&nbsp;
-                  Dohee1269@gmail.com
+                  jixuexin0213@126.com
                 </div>
-              <a class = "sns-link" href="https://www.instagram.com/do_happiness_0518/" target="_blank">
+              <a class = "sns-link" href="https://www.instagram.com/_xxuexxin_/" target="_blank">
                   <img src = "@/assets/images/icon/insta_icon_bw.png">&nbsp;
-                  @do_happiness_0518
+                  @_xxuexxin_
                 </a>
               </h5>
             </div>
@@ -53,8 +45,8 @@
               :loop = "true"
               class = "pg-slide"
             >
-              <swiper-slide><img alt = "lookbook-img" src="@/assets/images/protophobia/9/BROCHURE-PHOTO_protophpbia_DoheeYoun_1.jpg"/></swiper-slide>
-              <swiper-slide><img alt = "lookbook-img" src="@/assets/images/protophobia/9/BROCHURE-PHOTO_protophpbia_DoheeYoun_2.jpg"/></swiper-slide>
+              <swiper-slide><img alt = "lookbook-img" src="@/assets/images/OAK/11/BROCHURE PHOTO_OAK_JI XUEXIN_1.jpeg"/></swiper-slide>
+              <swiper-slide><img alt = "lookbook-img" src="@/assets/images/OAK/11/BROCHURE PHOTO_OAK_JI XUEXIN_2.jpeg"/></swiper-slide>
             </swiper>
             <div class = "project-info">LOOKBOOK</div>
           </div>

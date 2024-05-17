@@ -8,25 +8,16 @@
       <div class = "profile-container">
         <div class = "profile-info-container">
           <div class = "profile-img">
-            <img src="@/assets/images/protophobia/9/PROFILE-PHOTO-1_1_protophobia_DoheeYoun.jpg"/>
+            <img src="@/assets/images/OAK/09/PROFILE PHOTO11_OAK_PAN MINGYU.jpg"/>
           </div>
   
           <div class = "profile-detail">
-            <h3 class = "profile-name">윤도희 / YOUN DO HEE</h3>
-            <h3 class = "project-name">CARVER : 스스로를 조각하다.</h3>
+            <h3 class = "profile-name">반명옥 / PAN MINGYU</h3>
+            <h3 class = "project-name">Anam Cara</h3>
             <h5></h5>
   
             <p class = "introduce">
-              종이처럼 미약하고 얇디얇은,
-              <br>또 연약하기 그지없는.
-              <br>한곳에 머무르지 못하고 이리저리…
-              <br>좀처럼 두터워지지 않는 존재에 대한 무력감.
-
-              <br><br>강해지고 싶다는 욕망.
-              <br>나도 흔들리지 않을 순 없을까.
-              <br>깎아지른 단단함.
-
-              <br><br>“나도 바위가 되고 싶다.”
+              이번 디자인은 결함이 있는 로봇을 기반으로 한다. 인체의 뼈와 근육에서 영감을 받아, 길어진 니트 소매와 커진 손은 인간의 욕심을, 반대쪽 팔은 뻣뻣한 원단으로 모순을 표현했다. 가죽 원단은 금속성을, 허리와 밑단은 모직사로 인체의 근육형태를 나타냈다. 'Anam Cara'는 영혼의 친구를 의미하며, 서로의 단점이나 두려움을 숨기지 않아도 되는 깊은 우정을 상징한다. 이를 통해 인생의 도전에서 위로와 힘을 얻기를 바란다.            
             </p>
   
             <div class = "contact-container">
@@ -34,11 +25,11 @@
               <h5 class = "contact-list">
                 <div class="mail-link">
                   <img src = "@/assets/images/icon/mail_icon_bw.png">&nbsp;
-                  Dohee1269@gmail.com
+                  imsilvia727@gmail.com
                 </div>
-              <a class = "sns-link" href="https://www.instagram.com/do_happiness_0518/" target="_blank">
+              <a class = "sns-link" href="https://www.instagram.com/_m.oak/" target="_blank">
                   <img src = "@/assets/images/icon/insta_icon_bw.png">&nbsp;
-                  @do_happiness_0518
+                  @_m.oak
                 </a>
               </h5>
             </div>
@@ -53,8 +44,8 @@
               :loop = "true"
               class = "pg-slide"
             >
-              <swiper-slide><img alt = "lookbook-img" src="@/assets/images/protophobia/9/BROCHURE-PHOTO_protophpbia_DoheeYoun_1.jpg"/></swiper-slide>
-              <swiper-slide><img alt = "lookbook-img" src="@/assets/images/protophobia/9/BROCHURE-PHOTO_protophpbia_DoheeYoun_2.jpg"/></swiper-slide>
+              <swiper-slide><img alt = "lookbook-img" src="@/assets/images/OAK/09/BROCHURE PHOTO_OAK_PAN MINGYU_1.jpeg"/></swiper-slide>
+              <swiper-slide><img alt = "lookbook-img" src="@/assets/images/OAK/09/BROCHURE PHOTO_OAK_PAN MINGYU_2.jpeg"/></swiper-slide>
             </swiper>
             <div class = "project-info">LOOKBOOK</div>
           </div>
