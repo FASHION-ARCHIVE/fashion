@@ -78,6 +78,13 @@ import HaNaGyeong from '@/views/teams/bugreport/members/HaNaGyeongView.vue'
 
 import DejavuView from '@/views/teams/Dejavu/DejavuView.vue'
 
+import leesujinView from '@/views/teams/Dejavu/members/1/leesujinView.vue'
+import chosoojinView from '@/views/teams/Dejavu/members/2/chosoojinView.vue'
+import leelokyinView from '@/views/teams/Dejavu/members/3/leelokyinView.vue'
+import inouerinView from '@/views/teams/Dejavu/members/4/inouerinView.vue'
+import yimsoyoonView from '@/views/teams/Dejavu/members/5/yimsoyoonView.vue'
+import leechaeonView from '@/views/teams/Dejavu/members/6/leechaeonView.vue'
+
 const routes = [
   {
     path: '/coming-soon',
@@ -415,6 +422,37 @@ const routes = [
     name: 'Dejavu',
     component: DejavuView
   },
+  {
+    path:'/Dejavu/leesujin',
+    name: 'leesujin',
+    component: leesujinView
+  },
+  {
+    path:'/Dejavu/chosoojin',
+    name: 'chosoojin',
+    component: chosoojinView
+  },
+  {
+    path:'/Dejavu/leeokyin',
+    name: 'leeokyin',
+    component: leelokyinView
+  },
+  {
+    path:'/Dejavu/inoue-rin',
+    name: 'inoue-rin',
+    component: inouerinView
+  },
+  {
+    path:'/Dejavu/yimsoyoon',
+    name: 'yimsoyoon',
+    component: yimsoyoonView
+  },
+  {
+    path:'/Dejavu/leechaeon',
+    name: 'leechaeon',
+    component: leechaeonView
+  },
+
 
   {
     path:'/secret/jeong-jayyeong',

@@ -9,15 +9,13 @@
                         <div class="team-name">Déjà vu</div>
                         <!-- <div class="br-info1">JOURNEY TO PERFECT</div> -->
                     </div>
-                    <div class="team-context">“나”의 원형은 어디일까?라는 질문에 우리는 자연스레 유년기를 떠올리게 된다.
-                        <br><br>우리 기억의 필름이 유년기의 한 장면으로부터 시작되기 때문일 것이다. 그 기억 속에서 장난감은 늘, 우리 곁에 있었다. 그러나 우리가 자라면서 그들은 점점 창고와 다락방으로 향하며 멀어져 갔다. 졸업 프로젝트를 통해 우리는 어린 시절 추억이 담긴 다락방에 다시 모였다.
-                    <br><br> 추억의 먼지를 쓸어내리며, 우리가 진정 사랑하던 것들과 그 기억의 조각들을 모아 재해석하고자 한다.
-                    <br><br>First version of me.
-                    <br>Loft 1.0
+                    <div class="team-context">기억의 속삭임과 현실의 경계를 넘나들며, 순수함과 죄책감, 탄생과 소멸 등 반복되는 삶의 순환 속 인간의 본능을 Déjà vu로 풀어내었다. 이것은 명확히 인식되기도, 때로는 우리의 심연 속에서 잊혀지기도 한다.
+                        <br><br>모순성의 상장인 ‘친절한 금자씨’를 뮤즈로 ‘순수의 원형’, ‘마녀의 탈을 쓴 천사’, ‘타락과 복수'라는 세 단계를 구현하였다. 후반부로 갈수록 고조되는 감정에 따라 깊어지는 색채와 소재를 사용하였으며 본능에서 비롯된 원초적이고 솔직한 감정을 재해석하였다.
+                    <br><br>이를 통해 우리 자신과 인간 내면의 복합적인 세계에 대해 더 깊이 생각해 보는 계기를 마련하고자 한다.
                     </div>
                     <div class="team-keyword">
                         <div class="team-info3">KEY WORD</div>
-                        <div class="team-info4">#TOY #LOFT #NOSTALGIAå</div>
+                        <div class="team-info4">#CIRCULATION #ODD #REINCARNATION</div>
                     </div>
                 </div>
             </div>
@@ -26,7 +24,7 @@
                 <iframe src = "https://www.youtube.com/embed/p7o9C-NtW2M" frameborder = "0" allowfullscreen =""></iframe>
             </div>
             <p style = "margin-left: 10px;">file by 
-                <a class = "sns-link" href="https://www.instagram.com/yz_0.0_zy/" target="_blank">@yz_0.0_zy</a>, @장의하</p>
+                <a class = "sns-link" href="https://www.instagram.com/jeonjueum/" target="_blank">@jeonjueum</a>, <a class = "sns-link" href="https://www.instagram.com/yes.eor_no/" target="_blank">@yes.eor_no</a></p>
             <!-- <div class="br-youtube-container" data-aos="fade-up" data-aos-once="true">
                 <div class = "br-youtube">
                     <iframe
@@ -46,49 +44,32 @@
             </div> -->
             <div class = "members-info-container">
                 <div class="members" data-aos="fade-up" data-aos-once="true">TEAM MEMBERS</div>
-                <div style="font-size: 14px; margin-left:10px; margin-top: 15px;" data-aos="fade-up" data-aos-once="true">photo by <a class = "sns-link" href="https://www.instagram.com/plentycamille/" target="_blank">@plentycamille</a></div>
             </div>
 
             <div class="team-members-list" data-aos="fade-up" data-aos-once="true">
                 <div class="team-image-item">
-                    <router-link to = "/Loft/wangchewon"><img alt="member" src="@/assets/images/loft10/1/PROFILE PHOTO 3_4__Loft 1.0_WANG CHEWON.jpg" /></router-link>
-                    <div class="caption">TEAM LEADER<br>왕채원</div>
+                    <router-link to = "/Dejavu/leesujin"><img alt="member" src="@/assets/images/dejavu/1/PROFILE PHOTO 3_4_DEJAVU_LEESUJIN.jpg" /></router-link>
+                    <div class="caption">TEAM LEADER<br>이수진</div>
                 </div>
                 <div class="team-image-item">
-                    <router-link to = "/Loft/yoominah"><img alt="member" src="@/assets/images/loft10/2/PROFILE PHOTO 3_4_ Loft 1.0_ YOO MINAH.jpg" /></router-link>
-                    <div class="caption">SUB LEADER<br>유민아</div>
+                    <router-link to = "/Dejavu/chosoojin"><img alt="member" src="@/assets/images/dejavu/2/PROFILE PHOTO 3_4_DEJAVU_CHOSOOJIN.jpeg" /></router-link>
+                    <div class="caption">SUB LEADER<br>조수진</div>
                 </div>
                 <div class="team-image-item">
-                    <router-link to = "/Loft/kimhajin"><img alt="member" src="@/assets/images/loft10/3/PROFILE PHOTO 3_4_LOFT1.0_KIM HAJIN.jpg" /></router-link>
-                    <div class="caption">TEAM MEMBER<br>김하진</div>
+                    <router-link to = "/Dejavu/leeokyin"><img alt="member" src="@/assets/images/dejavu/3/PROFILE PHOTO 3_4_ Deja vu_ LEE LOKYIN.jpg" /></router-link>
+                    <div class="caption">TEAM MEMBER<br>이낙연</div>
                 </div>
                 <div class="team-image-item">
-                    <router-link to = "/Loft/parkyebin"><img alt="member" src="@/assets/images/loft10/4/PROFILE PHOTO 3_4_Loft 1.0_PARK YEBIN.jpg"/></router-link>
-                    <div class="caption">TEAM MEMBER<br>박예빈</div>
+                    <router-link to = "/Dejavu/inoue-rin"><img alt="member" src="@/assets/images/dejavu/4/PROFILE PHOTO 3_4_Deja vu_INOUE RIN.jpg"/></router-link>
+                    <div class="caption">TEAM MEMBER<br>이노우에린</div>
                 </div>
                 <div class="team-image-item">
-                    <router-link to = "/Loft/sunweiwan"><img alt="member" src="@/assets/images/loft10/5/PROFILE PHOTO 3_4_ Loft 1.0_ SUN WEIWAN.jpg" /></router-link>
-                    <div class="caption">TEAM MEMBER<br>손유완</div>
+                    <router-link to = "/Dejavu/yimsoyoon"><img alt="member" src="@/assets/images/dejavu/5/PROFILE PHOTO 3_4_ Deja vu_ YIMSOYOON.jpg" /></router-link>
+                    <div class="caption">TEAM MEMBER<br>임소윤</div>
                 </div>
                 <div class="team-image-item">
-                    <router-link to = "/Loft/seeyihyun"><img alt="member" src="@/assets/images/loft10/6/PROFILE PHOTO 3_4_ Loft 1.0 _SEE YIHYUN.jpg" /></router-link>
-                    <div class="caption">TEAM MEMBER<br>시이현</div>
-                </div>
-                <div class="team-image-item">
-                    <router-link to = "/Loft/yangjieun"><img alt="member" src="@/assets/images/loft10/7/PROFILE PHOTO 3_4_Loft 1.0_YANG JIEUN.jpg" /></router-link>
-                    <div class="caption">TEAM MEMBER<br>양지은</div>
-                </div>
-                <div class="team-image-item">
-                    <router-link to = "/Loft/yinlan"><img alt="member" src="@/assets/images/loft10/8/PROFILE PHOTO 3_4_loft 1.0_YIN LAN.jpg" /></router-link>
-                    <div class="caption">TEAM MEMBER<br>은란</div>
-                </div>
-                <div class="team-image-item">
-                    <router-link to = "/Loft/jangyeajin"><img alt="member" src="@/assets/images/loft10/9/PROFILE PHOTO 3_4 _ Loft 1.0_JANG YEAJIN.jpg" /></router-link>
-                    <div class="caption">TEAM MEMBER<br>장예진</div>
-                </div>
-                <div class="team-image-item">
-                    <router-link to = "/Loft/jungsomgyul"><img alt="member" src="@/assets/images/loft10/10/PROFILE PHOTO 3_4_loft 1.0_JUNG SOMGYUL.jpg" /></router-link>
-                    <div class="caption">TEAM MEMBER<br>정솜귤</div>
+                    <router-link to = "/Dejavu/leechaeon"><img alt="member" src="@/assets/images/dejavu/6/PROFILE PHOTO 3_4_ Deja vu_ LEE CHAEYEON.jpg" /></router-link>
+                    <div class="caption">TEAM MEMBER<br>이채연</div>
                 </div>
             </div>
         </div>
