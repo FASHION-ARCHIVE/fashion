@@ -63,6 +63,7 @@ import bugreportView from '@/views/teams/bugreport/bugreportView.vue'
 import bugreportLookbookView from '@/views/teams/bugreport/bugreportLookbookView.vue'
 import protophobiaLookbookView from '@/views/teams/protophobia/protophobiaLookbookView.vue'
 import LoftLookbookView from '@/views/teams/Loft/LoftLookbookView.vue'
+import OAKLookbookView from '@/views/teams/OAK/OAKLookbookView.vue'
 
 import ByunSangYoon from '@/views/teams/bugreport/members/ByunSangYoonView.vue'
 import KangSoWon from '@/views/teams/bugreport/members/KangSoWonView.vue'
@@ -231,6 +232,11 @@ const routes = [
     name: 'jixuexin',
     component: jixuexinView
   },
+  {
+    path: '/OAK/lookbook',
+    name: 'OAK-lookbook',
+    component: OAKLookbookView
+  },  
 
   {
     path:'/ANACHRONIA',
@@ -342,11 +348,7 @@ const routes = [
     path: '/Loft/lookbook',
     name: 'Loft-lookbook',
     component: LoftLookbookView
-  },
-   
-   
-
-
+  },  
   {
     path:'/bugreport',
     name: 'bugreport',

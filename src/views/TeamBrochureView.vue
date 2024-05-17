@@ -10,7 +10,7 @@
                   <div class="caption">protophobia</div>
                 </div>
                 <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
-                  <router-link to = "/coming-soon"><img src="@/assets/images/yy.jpeg" /></router-link>
+                  <router-link to = "/OAK/lookbook"><img src="https://d2d7g45pzqvt7g.cloudfront.net/OAK/0.jpg" /></router-link>
                   <div class="caption">OAK</div>
                 </div>
                 <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
