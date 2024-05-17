@@ -290,7 +290,8 @@ export default defineComponent({
     .team-members-list{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: flex-start;
+        gap: 115px;
         height: 100%;
         width: 100%;
         flex-direction: row;
