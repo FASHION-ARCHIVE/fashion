@@ -28,6 +28,7 @@ export default {
         null,
         "https://d2d7g45pzqvt7g.cloudfront.net/bugreport/000%E1%84%87%E1%85%A5%E1%84%80%E1%85%B3%E1%84%85%E1%85%B5%E1%84%91%E1%85%A9%E1%84%90%E1%85%B3-%E1%84%91%E1%85%AD%E1%84%8C%E1%85%B5000.jpg",
         "https://d2d7g45pzqvt7g.cloudfront.net/bugreport/1715948100326-a5024fd4-577c-4220-a02c-851a7e4bf603_1.jpg",
+        "https://d2d7g45pzqvt7g.cloudfront.net/bugreport/KakaoTalk_Photo_2024-05-17-23-07-24.jpeg",
         "https://d2d7g45pzqvt7g.cloudfront.net/bugreport/1715948100326-a5024fd4-577c-4220-a02c-851a7e4bf603_2.jpg",
         "https://d2d7g45pzqvt7g.cloudfront.net/bugreport/1715948100326-a5024fd4-577c-4220-a02c-851a7e4bf603_3.jpg",
         "https://d2d7g45pzqvt7g.cloudfront.net/bugreport/1715948100326-a5024fd4-577c-4220-a02c-851a7e4bf603_4.jpg",
@@ -82,6 +83,7 @@ export default {
         "https://d2d7g45pzqvt7g.cloudfront.net/bugreport/1715948100326-a5024fd4-577c-4220-a02c-851a7e4bf603_49.jpg",
 
         "https://d2d7g45pzqvt7g.cloudfront.net/bugreport/1715948100326-a5024fd4-577c-4220-a02c-851a7e4bf603_50.jpg",
+        "https://d2d7g45pzqvt7g.cloudfront.net/bugreport/1715948100326-a5024fd4-577c-4220-a02c-851a7e4bf603_1.jpg",
         "https://d2d7g45pzqvt7g.cloudfront.net/bugreport/zzzzzzzzzzz뒷표지zzzzz-51.jpg"
         
       ]
