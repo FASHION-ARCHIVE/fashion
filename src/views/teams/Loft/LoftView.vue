@@ -3,7 +3,7 @@
     <div class = "team-background">
         <div class ="group-container">
             <div class="team-poster-container" data-aos="fade-up" data-aos-once="true">
-                <img class="team-poster" alt="poster" src="@/assets/images/dejavu/poster/Dejavu_TEAMPOSTER.jpg" />
+                <img class="team-poster" alt="poster" src="@/assets/images/loft10/poster/Loft-1.0_TEAMPOSTER.jpg" />
                 <div class ="team-info-container">
                     <div class="team-title">
                         <div class="team-name">Loft 1.0</div>
