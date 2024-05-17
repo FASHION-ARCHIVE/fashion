@@ -89,7 +89,7 @@ body * { touch-action: none; }
     
     animation: hideSplashScreen 0.5s ;
     animation-fill-mode: forwards;
-    animation-delay: 2s;
+    animation-delay: 1.5s;
     z-index: 200;
     background-color: #fff;
     display: grid;

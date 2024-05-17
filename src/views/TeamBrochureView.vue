@@ -99,4 +99,11 @@
     margin-top: 10px;
     font-family: 'Custom'; /* 필요한 경우 폰트 스타일 지정 */
   }
+
+  @media screen and (max-width: 768px) {
+    .team-brochure-image-container{
+      flex-direction: column;
+      align-items: center;
+    }
+}
   </style>

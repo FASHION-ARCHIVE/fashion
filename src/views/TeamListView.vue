@@ -97,9 +97,10 @@
   margin-top: 10px;
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .image-grid{
-        flex-direction: column;
+      flex-direction: column;
+      align-items: center;
     }
-} */
+}
 </style>
