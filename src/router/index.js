@@ -61,6 +61,8 @@ import jungsomgyulView from '@/views/teams/Loft/members/10/jungsomgyulView.vue'
 
 import bugreportView from '@/views/teams/bugreport/bugreportView.vue'
 import bugreportLookbookView from '@/views/teams/bugreport/bugreportLookbookView.vue'
+import protophobiaLookbookView from '@/views/teams/protophobia/protophobiaLookbookView.vue'
+import LoftLookbookView from '@/views/teams/Loft/LoftLookbookView.vue'
 
 import ByunSangYoon from '@/views/teams/bugreport/members/ByunSangYoonView.vue'
 import KangSoWon from '@/views/teams/bugreport/members/KangSoWonView.vue'
@@ -162,6 +164,11 @@ const routes = [
     path: '/protophobia/youn-dohee',
     name: 'youn-dohee',
     component: YounDoHee
+  },
+  {
+    path: '/protophobia/lookbook',
+    name: 'protophobia-lookbook',
+    component: protophobiaLookbookView
   },
 
   {
@@ -330,6 +337,11 @@ const routes = [
     path:'/Loft/jungsomgyul',
     name: 'jungsomgyul',
     component: jungsomgyulView
+  },
+  {
+    path: '/Loft/lookbook',
+    name: 'Loft-lookbook',
+    component: LoftLookbookView
   },
    
    
