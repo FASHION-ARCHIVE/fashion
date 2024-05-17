@@ -18,7 +18,7 @@
                   <div class="caption">ANACHRONIA</div>
                 </div>
                 <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
-                  <router-link to = "/bugreport/lookbook"><img src="@/assets/images/yy.jpeg" /></router-link>
+                  <router-link to = "/bugreport/lookbook"><img src="https://d2d7g45pzqvt7g.cloudfront.net/bugreport/000%E1%84%87%E1%85%A5%E1%84%80%E1%85%B3%E1%84%85%E1%85%B5%E1%84%91%E1%85%A9%E1%84%90%E1%85%B3-%E1%84%91%E1%85%AD%E1%84%8C%E1%85%B5000.jpg" /></router-link>
                   <div class="caption">BUG REPORT</div>
                 </div>
                 <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
