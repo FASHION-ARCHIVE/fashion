@@ -8,25 +8,20 @@
       <div class = "profile-container">
         <div class = "profile-info-container">
           <div class = "profile-img">
-            <img src="@/assets/images/protophobia/9/PROFILE-PHOTO-1_1_protophobia_DoheeYoun.jpg"/>
+            <img src="@/assets/images/OAK/06/PROFILE-PHOTO-11_OAK_SON-YEA-JIN.jpg"/>
           </div>
   
           <div class = "profile-detail">
-            <h3 class = "profile-name">윤도희 / YOUN DO HEE</h3>
-            <h3 class = "project-name">CARVER : 스스로를 조각하다.</h3>
+            <h3 class = "profile-name">손예진/ SON YEAJIN</h3>
+            <h3 class = "project-name">CRACK(龜裂)</h3>
             <h5></h5>
   
             <p class = "introduce">
-              종이처럼 미약하고 얇디얇은,
-              <br>또 연약하기 그지없는.
-              <br>한곳에 머무르지 못하고 이리저리…
-              <br>좀처럼 두터워지지 않는 존재에 대한 무력감.
+              만능 팔, 깜빡이는 눈, 걸어 다니는 다리까지, 로봇은 인간의 범위를 좁혀오고 있습니다. 로봇과 인간 사이의 윤리적 오류는 우리에게 괴리감을 동반합니다. 이러한 오류를 공장에서 동일한 로봇을 찍어내는 과정 중에 생겨난 불량품으로 형상화 해보았습니다.
+              
+              <br><br>민트색 젤리에 사람 형태의 패널을 붙이는 과정에서 결함이 생겨 크랙이 발생하고, 젤리를 눌러내며 공기가 압축되며 일부는 부풀어오르게 됩니다. 
 
-              <br><br>강해지고 싶다는 욕망.
-              <br>나도 흔들리지 않을 순 없을까.
-              <br>깎아지른 단단함.
-
-              <br><br>“나도 바위가 되고 싶다.”
+              <br><br>인간 로봇은 현실이 되었습니다. 무분별한 공장식 찍기를 멈추고 로봇의 사회적 가치와 인간과의 상호작용의 균형이 필요한 시점입니다.
             </p>
   
             <div class = "contact-container">
@@ -34,11 +29,11 @@
               <h5 class = "contact-list">
                 <div class="mail-link">
                   <img src = "@/assets/images/icon/mail_icon_bw.png">&nbsp;
-                  Dohee1269@gmail.com
+                  mintcooling@naver.com
                 </div>
-              <a class = "sns-link" href="https://www.instagram.com/do_happiness_0518/" target="_blank">
+              <a class = "sns-link" href="https://www.instagram.com/yeajin_acci/" target="_blank">
                   <img src = "@/assets/images/icon/insta_icon_bw.png">&nbsp;
-                  @do_happiness_0518
+                  @yeajin_acci
                 </a>
               </h5>
             </div>
@@ -53,8 +48,8 @@
               :loop = "true"
               class = "pg-slide"
             >
-              <swiper-slide><img alt = "lookbook-img" src="@/assets/images/protophobia/9/BROCHURE-PHOTO_protophpbia_DoheeYoun_1.jpg"/></swiper-slide>
-              <swiper-slide><img alt = "lookbook-img" src="@/assets/images/protophobia/9/BROCHURE-PHOTO_protophpbia_DoheeYoun_2.jpg"/></swiper-slide>
+              <swiper-slide><img alt = "lookbook-img" src="@/assets/images/OAK/06/BROCHURE-PHOTO_OAK_SON-YEA-JIN_1.jpg"/></swiper-slide>
+              <swiper-slide><img alt = "lookbook-img" src="@/assets/images/OAK/06/BROCHURE-PHOTO_OAK_SON-YEA-JIN_2.jpg"/></swiper-slide>
             </swiper>
             <div class = "project-info">LOOKBOOK</div>
           </div>

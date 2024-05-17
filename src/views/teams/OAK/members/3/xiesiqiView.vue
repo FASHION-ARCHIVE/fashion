@@ -8,25 +8,16 @@
       <div class = "profile-container">
         <div class = "profile-info-container">
           <div class = "profile-img">
-            <img src="@/assets/images/protophobia/9/PROFILE-PHOTO-1_1_protophobia_DoheeYoun.jpg"/>
+            <img src="@/assets/images/OAK/03/PROFILE PHOTO11_OAK_SASAGI.jpg"/>
           </div>
   
           <div class = "profile-detail">
-            <h3 class = "profile-name">윤도희 / YOUN DO HEE</h3>
-            <h3 class = "project-name">CARVER : 스스로를 조각하다.</h3>
+            <h3 class = "profile-name">사 사기 / XIE SIQI</h3>
+            <h3 class = "project-name">Jelly Human1.0</h3>
             <h5></h5>
   
             <p class = "introduce">
-              종이처럼 미약하고 얇디얇은,
-              <br>또 연약하기 그지없는.
-              <br>한곳에 머무르지 못하고 이리저리…
-              <br>좀처럼 두터워지지 않는 존재에 대한 무력감.
-
-              <br><br>강해지고 싶다는 욕망.
-              <br>나도 흔들리지 않을 순 없을까.
-              <br>깎아지른 단단함.
-
-              <br><br>“나도 바위가 되고 싶다.”
+              미래에는 기계생산이 인간의 출산을 대체하고 세 가지 공정만으로 원하는 인간을 만들 수 있고 판매를 진행.하지만 대량생산을 할 때 오류가 발생하는 경우도 있어요, 1공정이 인간의 기본형태를 조작하는 역할을 담당해서 젤리가 떨어질 때 기계와 인간형 몰드가 어긋나면서 인간을 만드는 원자재가 모두 한 부위에 쌓이거나 떨어질 때 연결되지 않고 아니면 인간형 몰드 밖으로 넘치하기 때문에 기형인간이 생기...이런 기형적인 인간들도 특이한 취미를 가진 사람들의 사랑을 받겠지만 대중들에게 받아들여지지 않아서 비밀 경매에 시작……
             </p>
   
             <div class = "contact-container">
@@ -34,11 +25,11 @@
               <h5 class = "contact-list">
                 <div class="mail-link">
                   <img src = "@/assets/images/icon/mail_icon_bw.png">&nbsp;
-                  Dohee1269@gmail.com
+                  1995pjmkth_@naver.com
                 </div>
-              <a class = "sns-link" href="https://www.instagram.com/do_happiness_0518/" target="_blank">
+              <a class = "sns-link" href="https://www.instagram.com/siulgijimin/" target="_blank">
                   <img src = "@/assets/images/icon/insta_icon_bw.png">&nbsp;
-                  @do_happiness_0518
+                  @siulgijimin
                 </a>
               </h5>
             </div>
@@ -53,8 +44,8 @@
               :loop = "true"
               class = "pg-slide"
             >
-              <swiper-slide><img alt = "lookbook-img" src="@/assets/images/protophobia/9/BROCHURE-PHOTO_protophpbia_DoheeYoun_1.jpg"/></swiper-slide>
-              <swiper-slide><img alt = "lookbook-img" src="@/assets/images/protophobia/9/BROCHURE-PHOTO_protophpbia_DoheeYoun_2.jpg"/></swiper-slide>
+              <swiper-slide><img alt = "lookbook-img" src="@/assets/images/OAK/03/BROCHURE-PHOTO_OAK_SASAGI_1.jpg"/></swiper-slide>
+              <swiper-slide><img alt = "lookbook-img" src="@/assets/images/OAK/03/BROCHURE-PHOTO_OAK_SASAGI_2.jpg"/></swiper-slide>
             </swiper>
             <div class = "project-info">LOOKBOOK</div>
           </div>
