@@ -65,6 +65,7 @@ import protophobiaLookbookView from '@/views/teams/protophobia/protophobiaLookbo
 import LoftLookbookView from '@/views/teams/Loft/LoftLookbookView.vue'
 import OAKLookbookView from '@/views/teams/OAK/OAKLookbookView.vue'
 import DejavuLookbookView from '@/views/teams/Dejavu/DejavuLookbookView.vue'
+import ANACHRONIALookbookView from '@/views/teams/ANACHRONIA/ANACHRONIALookbookView.vue'
 
 import ByunSangYoon from '@/views/teams/bugreport/members/ByunSangYoonView.vue'
 import KangSoWon from '@/views/teams/bugreport/members/KangSoWonView.vue'
@@ -295,6 +296,11 @@ const routes = [
     path:'/ANACHRONIA/zhangxueying',
     name: 'zhangxueying',
     component: zhangxueyingView
+  },
+  {
+    path: '/ANACHRONIA/lookbook',
+    name: 'ANACHRONIA-lookbook',
+    component: ANACHRONIALookbookView
   },
 
   {

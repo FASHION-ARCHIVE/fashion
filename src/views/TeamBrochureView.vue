@@ -14,7 +14,7 @@
                   <div class="caption">OAK</div>
                 </div>
                 <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
-                  <router-link to = "/coming-soon"><img src="@/assets/images/KakaoTalk_Photo_2024-05-18-13-52-09.jpeg" /></router-link>
+                  <router-link to = "/ANACHRONIA/lookbook"><img src="@/assets/images/KakaoTalk_Photo_2024-05-18-13-52-09.jpeg" /></router-link>
                   <div class="caption">ANACHRONIA</div>
                 </div>
                 <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
