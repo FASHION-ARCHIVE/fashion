@@ -22,6 +22,19 @@
                         <router-link to="/behind"><div class="top4">BEHIND</div></router-link>
                     </div>   
                 </div>
+                <div id="hamburger-icon" :class="{open: isOpened}" @click="toggleMenu">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                    <ul class="mobile-menu">
+                        <li><<router-link to="/team-list"><div class="top0">PROJECTS</div></router-link></li>
+                        <li><router-link to="/team-brochuer"><div class="top1">LOOKBOOK</div></router-link></li>
+                        <li><router-link to="/runway"><div class="top2">RUNWAY</div></router-link></li>
+                        <li><router-link to="/showinfo"><div class="top3">SHOW INFO</div></router-link></li>
+                        <li><router-link to="/behind"><div class="top4">BEHIND</div></router-link></li>
+                    </ul>
+
+                </div>
             </div>
         </div>
     </header>
@@ -29,8 +42,19 @@
 
 <script>
     export default{
-        name: 'mainHeader'
+        name: 'mainHeader',
+        data() {
+            return {
+                isOpened : false
+            }
+        },
+        methods: {
+            toggleMenu() {
+                this.isOpened = !this.isOpened
+            }
+        }
     }
+    
 </script>
 
 <style scoped>
@@ -118,19 +142,42 @@
     padding: 0;
     height: auto; /* 로고 이미지의 높이를 자동으로 설정하여 비율을 유지 */
 }
-
+#hamburger-icon{
+    display: none;
+    cursor: pointer;
+}
+#hamburger-icon div {
+  width: 35px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+}
+.open .bar1 {
+  transform: rotate(-45deg) translate(-6px, 7px);
+}
+.open .bar2 {
+  opacity: 0;
+}
+.open .bar3 {
+  transform: rotate(45deg) translate(-6px, -7px);
+}
+.mobile-menu{
+    display: none;
+}
 @media screen and (max-width: 768px) {
     .header-background{
         height: 100px;
         background-color: white;
     }
-
     .logo-link{
         display: none;
     }
 
     .top-menu2{
-        justify-content: center;
+        display: none;
+    }
+    #hamburger-icon{
+        display: block;
     }
 }
 
