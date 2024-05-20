@@ -19,11 +19,11 @@
                   <div class="caption">ANACHRONIA</div>
                 </div>
                 <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
-                  <router-link to = "/bugreport/lookbook"><img src="https://d2d7g45pzqvt7g.cloudfront.net/Loft/로프트-책표지.jpg" /></router-link>
+                  <router-link to = "/bugreport/lookbook"><img src="https://d2d7g45pzqvt7g.cloudfront.net/bugreport/버그리포트-책표지.jpg" /></router-link>
                   <div class="caption">BUG REPORT</div>
                 </div>
                 <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
-                  <router-link to = "/Loft/lookbook"><img src="https://d2d7g45pzqvt7g.cloudfront.net/protophobia/프로토포비아-책표지.jpg" /></router-link>
+                  <router-link to = "/Loft/lookbook"><img src="https://d2d7g45pzqvt7g.cloudfront.net/Loft/로프트-책표지.jpg" /></router-link>
                   <div class="caption">Loft 1.0</div>
                 </div>
                 <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
