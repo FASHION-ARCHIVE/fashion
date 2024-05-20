@@ -6,7 +6,7 @@
             <!-- <div class="team-brochure-text">TEAM BROCHURE</div> -->
             <div class="team-brochure-image-container">
                 <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
-                  <router-link to = "/protophobia/lookbook"><img src="https://d2d7g45pzqvt7g.cloudfront.net/protophobia/2팀 수정 최종1.jpg" /></router-link>
+                  <router-link to = "/protophobia/lookbook"><img src="https://d2d7g45pzqvt7g.cloudfront.net/protophobia/protophobia1.jpg" /></router-link>
                   <div class="caption">protophobia</div>
                 </div>
                 <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
