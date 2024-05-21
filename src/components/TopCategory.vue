@@ -16,11 +16,11 @@
                     <div class = "top-menu2">
                         <router-link to="/" class="logo-link"><img class="logo" alt="logo" src="@/assets/images/KUAD-logo.png"/></router-link>
                         <div class="nav-links">
-                            <router-link to="/team-list"><div class="top0">PROJECTS</div></router-link>
-                            <router-link to="/team-brochuer"><div class="top1">LOOKBOOK</div></router-link>
-                            <router-link to="/runway"><div class="top2">RUNWAY</div></router-link>
-                            <router-link to="/showinfo"><div class="top3">SHOW INFO</div></router-link>
-                            <router-link to="/behind"><div class="top4">BEHIND</div></router-link>
+                            <router-link to="/team-list"><div class="category" >PROJECTS</div></router-link>
+                            <router-link to="/team-brochuer"><div class="category">LOOKBOOK</div></router-link>
+                            <router-link to=""><div class="category" @click = "coming_soon">RUNWAY</div></router-link>
+                            <router-link to="/showinfo"><div class="category">SHOW INFO</div></router-link>
+                            <router-link to=""><div class="category" @click = "coming_soon">BEHIND</div></router-link>
                         </div>
                         <div id="hamburger-icon" :class="{open: isOpened}" @click="toggleMenu">
                             <div class="bar1"></div>
@@ -36,9 +36,9 @@
                 <ul class="mobile-menu">
                     <li><router-link to="/team-list">PROJECTS</router-link></li>
                     <li><router-link to="/team-brochuer">LOOKBOOK</router-link></li>
-                    <li><router-link to="/runway">RUNWAY</router-link></li>
+                    <li @click = "coming_soon"><router-link to="">RUNWAY</router-link></li>
                     <li><router-link to="/showinfo">SHOW INFO</router-link></li>
-                    <li><router-link to="/behind">BEHIND</router-link></li>
+                    <li @click = "coming_soon"><router-link to="">BEHIND</router-link></li>
                 </ul>
             </div>
         </div>
@@ -56,8 +56,11 @@
         methods: {
             toggleMenu() {
                 this.isOpened = !this.isOpened
+            },
+            coming_soon(){
+                alert("6월 초 오픈 예정")
             }
-        }
+        },
     }
     
 </script>
@@ -139,7 +142,7 @@
     white-space: nowrap;
 }
 
-.nav-links a {
+.category{
     text-decoration: none; /* 밑줄 제거 */
     color: black; /* 글씨 색상 변경 */
     padding: 15px 25px;

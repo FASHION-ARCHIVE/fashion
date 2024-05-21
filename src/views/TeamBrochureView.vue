@@ -4,8 +4,8 @@
     <div class ="team-brochure-background">
         <div class="team-brochure-container">
             <!-- <div class="team-brochure-text">TEAM BROCHURE</div> -->
-            <div class="team-brochure-image-container">
-                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
+            <div class="team-brochure-image-container" data-aos="zoom-out" data-aos-duration="1000" data-aos-once = "true">
+                <div class="image-item">
 
                   <router-link to = "/protophobia/lookbook"><img src="https://d2d7g45pzqvt7g.cloudfront.net/protophobia/프로토포비아-책표지.jpg" /></router-link>
                   <div class="caption">protophobia</div>
