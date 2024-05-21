@@ -6,27 +6,27 @@
     <div class="team-list-container">
       <!-- <div class="team-list-text">TEAM LIST</div> -->
       <div class ="image-grid">
-        <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true">
+        <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true" data-aos-offset="-1000">
           <router-link to = "/protophobia"><img src="@/assets/images/protophobia/poster/protophobia_TEAMPOSTER.jpg" /></router-link>
           <div class="caption">protophobia</div>        
         </div>
-        <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true">
+        <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true" data-aos-offset="-1000">
           <router-link to = "/oak"><img src="@/assets/images/OAK/poster/OAK_TEAMPOSTER.jpg" /></router-link>
           <div class="caption">OAK</div>         
         </div>
-        <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true">
+        <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true" data-aos-offset="-1000">
           <router-link to = "/ANACHRONIA"><img src="@/assets/images/anachronia/poster/Anachronia_TEAMPOSTER.jpg" /></router-link>
           <div class="caption">ANACHRONIA</div>
         </div>
-        <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true">
+        <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true" data-aos-offset="-1000">
           <router-link to = "/bugreport"><img src="https://d2d7g45pzqvt7g.cloudfront.net/bugreport/000버그리포트-표지000.jpg" /></router-link>
           <div class="caption">BUG REPORT</div>
         </div>
-        <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true">
+        <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true" data-aos-offset="-1000">
           <router-link to = "/Loft"><img src="@/assets/images/loft10/poster/Loft-1.0_TEAMPOSTER.jpg" /></router-link>
           <div class="caption">Loft 1.0</div>
         </div>
-        <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true">
+        <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true" data-aos-offset="-1000">
           <router-link to = "/Dejavu"><img src="@/assets/images/dejavu/poster/Dejavu_TEAMPOSTER.jpg" /></router-link>
           <div class="caption">Deja vu</div>
         </div>
@@ -83,18 +83,26 @@
   justify-content: space-between;
 }
 
+.image-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .image-item img {
   margin-top: 30px;
   display: block;
   width: 300px; /* 이미지의 너비 */
-  height: 400px; /* 이미지의 높이 */
+  height: 450px; /* 이미지의 높이 */
   object-fit: contain;
 }
 
 
 .caption{
   color: black;
-  margin-top: 10px;
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 768px) {

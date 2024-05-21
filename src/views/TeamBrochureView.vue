@@ -6,7 +6,6 @@
             <!-- <div class="team-brochure-text">TEAM BROCHURE</div> -->
             <div class="team-brochure-image-container" data-aos="zoom-out" data-aos-duration="1000" data-aos-once = "true">
                 <div class="image-item">
-
                   <router-link to = "/protophobia/lookbook"><img src="https://d2d7g45pzqvt7g.cloudfront.net/protophobia/프로토포비아-책표지.jpg" /></router-link>
                   <div class="caption">protophobia</div>
                 </div>
@@ -86,6 +85,12 @@
     justify-content: space-between;
   }
 
+  .image-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
   .image-item img {
     margin-top: 30px;
     display: block;
@@ -94,11 +99,11 @@
     object-fit: cover;
   }
   
-  
   .caption{
     color: black;
-    margin-top: 10px;
-    font-family: 'Custom'; /* 필요한 경우 폰트 스타일 지정 */
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 20px;   
   }
 
   @media screen and (max-width: 768px) {
