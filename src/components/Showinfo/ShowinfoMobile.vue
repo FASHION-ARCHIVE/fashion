@@ -9,8 +9,8 @@
 
 <script>
 
-    import { defineComponent, reactive, onMounted, onUnmounted } from 'vue';
-    import Footer from '@/components/Footer.vue';
+    // import { defineComponent } from 'vue';
+    // import Footer from '@/components/Footer.vue';
 </script>
 
 <style scoped>
