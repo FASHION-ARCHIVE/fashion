@@ -255,6 +255,10 @@
         background-color: white;
     }
 
+    .logo{
+        width: 130px;
+    }
+
 
     .nav-links{
         display: none;
