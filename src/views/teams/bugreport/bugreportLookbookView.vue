@@ -1,15 +1,17 @@
 <template>
   <mainHeader/>
   <div class="lookbook-background">
-    
-    <Flipbook class="flipbook" 
-    :pages = "pages" 
-    :zooms = [1] 
+    <div class="lookbook-container"> 
+        <img class = "left-icon" @click="flipLeft" src="@/assets/images/icon/left-swipe.png" >
+        <Flipbook class="flipbook" 
+        :pages = "pages" 
+        :zooms = [1] 
 
-    ref="flipbook"
-    
-    >
-  </Flipbook>
+        ref="flipbook">
+        </Flipbook>
+        <img class = "right-icon" @click="flipRight" src="@/assets/images/icon/right-swipe.png" >
+      
+    </div>
   </div>
 </template>
 
@@ -88,15 +90,29 @@ export default {
         
       ]
     };
+  },
+  methods: {
+    flipRight() {
+      this.$refs.flipbook.flipRight();
+    },
+    flipLeft() {
+      this.$refs.flipbook.flipLeft();
+    }
   }
 };
 </script>
 
 <style scoped>
+@keyframes blink-effect {
+  50% {
+    opacity: 0;
+  }
+}
+
 
 .lookbook-background{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
   height: 100%;
   background-image: url('@/assets/images/background_img.jpg'); 
@@ -107,12 +123,36 @@ export default {
   margin-top: 100px;
   overflow: hidden;
 }
+
+.lookbook-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.left-icon{
+  margin-left: 50px;
+  width: 30px;
+}
+.right-icon{
+  margin-right: 50px;
+  width: 30px;
+}
 .flipbook {
-  width: 100vw;
+  width: 80vw;
   height: 80vh;
 }
 
 .flipbook .bounding-box {
   box-shadow: 0 0 20px #000;
+}
+
+@media screen and (max-width: 768px) {
+  .left-icon{
+    display: none;
+  }
+
+  .right-icon{
+    display: none;
+  }
 }
 </style>
