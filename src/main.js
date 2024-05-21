@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router'
 import AOS from 'aos';
 import "aos/dist/aos.css";
+import VueMobileDetection from "vue-mobile-detection";
 
 createApp(App).use(router).mount('#app')
 
@@ -29,3 +30,5 @@ app.use(router)
 
 // 애플리케이션 마운트
 app.mount('#app')
+
+app.use(VueMobileDetection)

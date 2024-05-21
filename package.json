@@ -17,6 +17,7 @@
     "swiper": "^11.1.1",
     "v-click-outside": "^3.2.0",
     "vue": "^3.2.13",
+    "vue-mobile-detection": "^2.0.1",
     "vue-router": "^4.3.0",
     "vue-scroll-snap": "^0.1.11"
   },
