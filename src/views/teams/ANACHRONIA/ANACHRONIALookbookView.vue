@@ -1,17 +1,19 @@
 <template>
-    <mainHeader/>
-    <div class="lookbook-background">
+  <mainHeader/>
+  <div class="lookbook-background">
+    <div class="lookbook-container"> 
+        <img class = "left-icon" @click="flipLeft" src="@/assets/images/icon/left-swipe.png" >
+        <Flipbook class="flipbook" 
+        :pages = "pages" 
+        :zooms = [1] 
+
+        ref="flipbook">
+        </Flipbook>
+        <img class = "right-icon" @click="flipRight" src="@/assets/images/icon/right-swipe.png" >
       
-      <Flipbook class="flipbook" 
-      :pages = "pages" 
-      :zooms = [1] 
-  
-      ref="flipbook"
-      
-      >
-    </Flipbook>
     </div>
-  </template>
+  </div>
+</template>
   
   <script>
   import Flipbook from "flipbook-vue";
@@ -108,7 +110,15 @@
           "https://d2d7g45pzqvt7g.cloudfront.net/ANACHRONIA/1팀-Anachroina_최종72.jpg"
         ]
       };
+    },
+  methods: {
+    flipRight() {
+      this.$refs.flipbook.flipRight();
+    },
+    flipLeft() {
+      this.$refs.flipbook.flipLeft();
     }
+  }
   };
   </script>
   
@@ -127,13 +137,37 @@
     margin-top: 100px;
     overflow: hidden;
   }
-  .flipbook {
-    width: 100vw;
-    height: 80vh;
-  }
+  .lookbook-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.left-icon{
+  margin-left: 50px;
+  width: 30px;
+}
+.right-icon{
+  margin-right: 50px;
+  width: 30px;
+}
+.flipbook {
+  width: 80vw;
+  height: 80vh;
+}
   
   .flipbook .bounding-box {
     box-shadow: 0 0 20px #000;
   }
+
+  @media screen and (max-width: 768px) {
+  .left-icon{
+    display: none;
+  }
+
+  .right-icon{
+    display: none;
+  }
+}
+
   </style>
   
