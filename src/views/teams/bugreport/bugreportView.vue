@@ -3,7 +3,7 @@
     <div class = "bugreport-background">
         <div class ="br-container">
             <div class="br-poster-container" data-aos="fade-up" data-aos-once="true">
-                <img class="br-poster" alt="poster" src="@/assets/images/bugreport/poster.jpeg" />
+                <img class="br-poster" alt="poster" src="https://d2d7g45pzqvt7g.cloudfront.net/bugreport/000버그리포트-표지000.jpg" />
                 <div class ="br-info-container">
                     <div class="br-title">
                         <div class="br-name">BUG REPORT</div>
