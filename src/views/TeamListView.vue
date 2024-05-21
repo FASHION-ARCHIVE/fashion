@@ -19,7 +19,7 @@
           <div class="caption">ANACHRONIA</div>
         </div>
         <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true">
-          <router-link to = "/bugreport"><img src="@/assets/images/bugreport/poster/tmp_bug.png" /></router-link>
+          <router-link to = "/bugreport"><img src="https://d2d7g45pzqvt7g.cloudfront.net/bugreport/000버그리포트-표지000.jpg" /></router-link>
           <div class="caption">BUG REPORT</div>
         </div>
         <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true">
