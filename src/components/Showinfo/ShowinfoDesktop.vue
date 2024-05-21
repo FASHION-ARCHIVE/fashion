@@ -54,11 +54,80 @@
     </div>
 
     <div class="item" ref = "stage4">
-        <div class = map-container>
-
+        <div class = credit-container>
+            <h1>CREDIT</h1>
+            <div class="section">
+                <p class="title">졸업패션쇼준비위원회</p>
+                <p class="items"><b>위원장</b>&nbsp;&nbsp;&nbsp;정경모</p>
+                <p class="items"><b>기획</b>&nbsp;&nbsp;&nbsp;윤소혜&nbsp;&nbsp;&nbsp;강소원</p>
+                <p class="items"><b>연출</b>&nbsp;&nbsp;&nbsp;오승민&nbsp;&nbsp;&nbsp;정솜귤</p>
+                <p class="items"><b>브로셔</b>&nbsp;&nbsp;&nbsp;유하영&nbsp;&nbsp;&nbsp;박혜빈</p>
+                <p class="items"><b>전시</b>&nbsp;&nbsp;&nbsp;곽도훈&nbsp;&nbsp;&nbsp;최준우</p>
+                <p class="items"><b>홍보</b>&nbsp;&nbsp;&nbsp;윤도희&nbsp;&nbsp;&nbsp;김지인</p>
+                <p class="items"><b>회계</b>&nbsp;&nbsp;&nbsp;장예진</p>
+                <p class="items"><b>서기</b>&nbsp;&nbsp;&nbsp;이은지</p>
+            </div>
+            <div class="section">
+                <p class="title">지도교수</p>
+                <p class="items">이소영&nbsp;&nbsp;&nbsp;최선영</p>
+            </div>
+            <div class="section">
+                <p class="title">포스터 그래픽</p>
+                <p class="items">김연우&nbsp;&nbsp;&nbsp;@yeonnuv</p>
+            </div>
         </div>
     </div>
 
+    <div class = "item">
+        <div class = credit-container>
+            <h1>CREDIT</h1>
+            <div class="section">
+                <p class="title">졸업패션쇼준비위원회</p>
+                <p class="items"><b>위원장</b>&nbsp;&nbsp;&nbsp;정경모</p>
+                <p class="items"><b>기획</b>&nbsp;&nbsp;&nbsp;윤소혜&nbsp;&nbsp;&nbsp;강소원</p>
+                <p class="items"><b>연출</b>&nbsp;&nbsp;&nbsp;오승민&nbsp;&nbsp;&nbsp;정솜귤</p>
+                <p class="items"><b>브로셔</b>&nbsp;&nbsp;&nbsp;유하영&nbsp;&nbsp;&nbsp;박혜빈</p>
+                <p class="items"><b>전시</b>&nbsp;&nbsp;&nbsp;곽도훈&nbsp;&nbsp;&nbsp;최준우</p>
+                <p class="items"><b>홍보</b>&nbsp;&nbsp;&nbsp;윤도희&nbsp;&nbsp;&nbsp;김지인</p>
+                <p class="items"><b>회계</b>&nbsp;&nbsp;&nbsp;장예진</p>
+                <p class="items"><b>서기</b>&nbsp;&nbsp;&nbsp;이은지</p>
+            </div>
+            <div class="section">
+                <p class="title">지도교수</p>
+                <p class="items">이소영&nbsp;&nbsp;&nbsp;최선영</p>
+            </div>
+            <div class="section">
+                <p class="title">포스터 그래픽</p>
+                <p class="items">김연우&nbsp;&nbsp;&nbsp;@yeonnuv</p>
+            </div>
+        </div>
+    </div>
+
+    <div class = "item">
+        <div class = credit-container>
+            <h1>CREDIT</h1>
+            <div class="section">
+                <p class="title">졸업패션쇼준비위원회</p>
+                <p class="items"><b>위원장</b>&nbsp;&nbsp;&nbsp;정경모</p>
+                <p class="items"><b>기획</b>&nbsp;&nbsp;&nbsp;윤소혜&nbsp;&nbsp;&nbsp;강소원</p>
+                <p class="items"><b>연출</b>&nbsp;&nbsp;&nbsp;오승민&nbsp;&nbsp;&nbsp;정솜귤</p>
+                <p class="items"><b>브로셔</b>&nbsp;&nbsp;&nbsp;유하영&nbsp;&nbsp;&nbsp;박혜빈</p>
+                <p class="items"><b>전시</b>&nbsp;&nbsp;&nbsp;곽도훈&nbsp;&nbsp;&nbsp;최준우</p>
+                <p class="items"><b>홍보</b>&nbsp;&nbsp;&nbsp;윤도희&nbsp;&nbsp;&nbsp;김지인</p>
+                <p class="items"><b>회계</b>&nbsp;&nbsp;&nbsp;장예진</p>
+                <p class="items"><b>서기</b>&nbsp;&nbsp;&nbsp;이은지</p>
+            </div>
+            <div class="section">
+                <p class="title">지도교수</p>
+                <p class="items">이소영&nbsp;&nbsp;&nbsp;최선영</p>
+            </div>
+            <div class="section">
+                <p class="title">포스터 그래픽</p>
+                <p class="items">김연우&nbsp;&nbsp;&nbsp;@yeonnuv</p>
+            </div>
+        </div>
+    </div>
+    
     </vue-scroll-snap>
     <mainFooter/>
     </div>
@@ -219,8 +288,7 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        /* background-position-y: -144px; */
-        
+        /* background-position-y: -144px; */    
     }
 
     .showinfo-background{
@@ -326,5 +394,42 @@
         height: 70vh;
         object-fit: contain;
         
+    }
+
+    .credit-container{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: rgb(96, 96, 96);
+    }
+
+    .credit-container h1{
+        text-align: center;
+        font-family: 'Pretendard Variable' !important;
+        font-weight: 900;
+        color: rgb(96, 96, 96);
+    }
+
+    .credit-list {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    }
+
+    .section {
+        margin-bottom: 20px;
+    }
+
+    .title {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .items {
+        font-size: 1.2em;
+        margin: 5px 0;
     }
 </style>
