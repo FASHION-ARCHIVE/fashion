@@ -5,27 +5,27 @@
         <div class="team-brochure-container">
             <!-- <div class="team-brochure-text">TEAM BROCHURE</div> -->
             <div class="team-brochure-image-container">
-                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
+                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true">
                   <router-link to = "/protophobia/lookbook"><img src="https://d2d7g45pzqvt7g.cloudfront.net/protophobia/2팀 수정 최종1.jpg" /></router-link>
                   <div class="caption">protophobia</div>
                 </div>
-                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
+                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true">
                   <router-link to = "/OAK/lookbook"><img src="https://d2d7g45pzqvt7g.cloudfront.net/OAK/0.jpg" /></router-link>
                   <div class="caption">OAK</div>
                 </div>
-                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
+                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true">
                   <router-link to = "/coming-soon"><img src="@/assets/images/yy.jpeg" /></router-link>
                   <div class="caption">ANACHRONIA</div>
                 </div>
-                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
+                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true">
                   <router-link to = "/bugreport/lookbook"><img src="https://d2d7g45pzqvt7g.cloudfront.net/bugreport/000%E1%84%87%E1%85%A5%E1%84%80%E1%85%B3%E1%84%85%E1%85%B5%E1%84%91%E1%85%A9%E1%84%90%E1%85%B3-%E1%84%91%E1%85%AD%E1%84%8C%E1%85%B5000.jpg" /></router-link>
                   <div class="caption">BUG REPORT</div>
                 </div>
-                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
+                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true">
                   <router-link to = "/Loft/lookbook"><img src="https://d2d7g45pzqvt7g.cloudfront.net/Loft/3팀_최종.jpg" /></router-link>
                   <div class="caption">Loft 1.0</div>
                 </div>
-                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
+                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true">
                   <router-link to = "/coming-soon"><img src="@/assets/images/yy.jpeg" /></router-link>
                   <div class="caption">Deja vu</div>
                 </div>
