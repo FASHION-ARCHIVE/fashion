@@ -109,7 +109,7 @@ const routes = [
     component: TeamBrochureView
   },
   {
-    path: '/runway',
+    path: '/secret/runway',
     name: 'runway',
     component: RunwayView
   },
@@ -119,7 +119,7 @@ const routes = [
     component: ShowinfoView
   },
   {
-    path: '/behind',
+    path: '/secret/behind',
     name: 'behind',
     component: BehindView
   },
