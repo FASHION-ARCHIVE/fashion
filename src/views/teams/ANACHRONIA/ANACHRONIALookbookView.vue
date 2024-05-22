@@ -167,6 +167,10 @@
   .right-icon{
     display: none;
   }
+  .flipbook {
+    width: 100vw;
+    height: 80vh;
+  }
 }
 
   </style>
