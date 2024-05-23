@@ -83,7 +83,8 @@
             </div>
             <div class="section">
                 <p class="title">포스터&nbsp;그래픽</p>
-                <p class="items">김연우&nbsp;&nbsp;&nbsp;@yeonnuv</p>
+                <p class="items">김연우&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/yeonnuv/"
+                                target="_blank">@yeonnuv</a></p>
             </div>
         </div>
     </div>
@@ -93,20 +94,27 @@
             <div class="credit2-section">
                 <div class="section">
                     <p class="title">웹사이트&nbsp;개발</p>
-                    <p class="items">변상윤&nbsp;&nbsp;&nbsp;@135yoon</p>
-                    <p class="items">정제영&nbsp;&nbsp;&nbsp;@jaboong_ah</p>
-                    <p class="items">박지원&nbsp;&nbsp;&nbsp;@gwon_55</p>
+                    <p class="items">변상윤&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/135yoon/"
+                                target="_blank">@135yoon</a></p>
+                    <p class="items">정제영&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/jaboong_ah/"
+                                target="_blank">@jaboong_ah</a></p>
+                    <p class="items">박지원&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/gwon_55/"
+                                target="_blank">@gwon_55</a></p>
                 </div>
                 <div class="section">
                     <p class="title">PROTOTYPE&nbsp;main&nbsp;teaser</p>
                     <p class="items">전효성&nbsp;&nbsp;&nbsp;김인열</p>
-                    <p class="items">@studio_dwork</p>
+                    <p class="items"><a class="sns-link" href="https://www.instagram.com/studio_dwork/"
+                                target="_blank">@studio_dwork</a></p>
                 </div>
                 <div class="section">
                     <p class="title">USB&nbsp;브로셔&nbsp;프로그래밍</p>
-                    <p class="items">전성철&nbsp;&nbsp;&nbsp;@jeonnn98</p>
-                    <p class="items">최준우&nbsp;&nbsp;&nbsp;@coomunfioy</p>
-                    <p class="items">곽도훈&nbsp;&nbsp;&nbsp;@kwkdohoon</p>
+                    <p class="items">전성철&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/jeonnn98/"
+                                target="_blank">@jeonnn98</a></p>
+                    <p class="items">최준우&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/coomunfioy/"
+                                target="_blank">@coomunfioy</a></p>
+                    <p class="items">곽도훈&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/kwkdohoon/"
+                                target="_blank">@kwkdohoon</a></p>
                 </div>
                 <div class="section">
                     <p class="title">SHOW&nbsp;Directing</p>
@@ -137,21 +145,26 @@
             <div class="credit2-section">
                 <div class ="section">
                     <p class="title">BROCHURE</p>
-                    <p class="items"><b>촬영</b>&nbsp;박청운&nbsp;&nbsp;&nbsp;@lets_pcw</p>
+                    <p class="items"><b>촬영</b>&nbsp;박청운&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/lets_pcw/"
+                                target="_blank">@lets_pcw</a></p>
                     <p class="items"><b>헤어&nbsp;/&nbsp;메이크업</b></p>
-                    <p class="items"><b>메이킹필름</b>&nbsp;허세빈&nbsp;&nbsp;&nbsp;@binbin_hoh</p>
+                    <p class="items"><b>메이킹필름</b>&nbsp;허세빈&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/binbin_hoh/"
+                                target="_blank">@binbin_hoh</a></p>
                 </div>
                 <div class="section">
                     <p class="title">BACKSTAGE&nbsp;PHOTO</p>
-                    <p class="items">김수민&nbsp;&nbsp;&nbsp;@soogimi</p>
+                    <p class="items">김수민&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/soogimi/"
+                                target="_blank">@soogimi</a></p>
                 </div>
                 <div class="section">
                     <p class="title">RUNWAY&nbsp;PHOTO</p>
-                    <p class="items">박청운&nbsp;&nbsp;&nbsp;@lets_pcw</p>
+                    <p class="items">박청운&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/lets_pcw/"
+                                target="_blank">@lets_pcw</a></p>
                 </div>
                 <div class="section">
                     <p class="title">VIP&nbsp;제품&nbsp;협찬</p>
-                    <p class="items">피카커피&nbsp;@fika.workshop</p>
+                    <p class="items">피카커피&nbsp;<a class="sns-link" href="https://www.instagram.com/fika.workshop/"
+                                target="_blank">@fika.workshop</a></p>
                 </div>
             </div>
         </div>
@@ -162,74 +175,94 @@
             <div class="credit3-section1">
                 <div class="section2">
                     <p class="title">protophobia</p>
-                    <p class="items"><b>concept&nbsp;video</b></p>
-                    <p class="items">권해선&nbsp;&nbsp;&nbsp;@kwonhaesun</p>
-                    <p class="items">남우석&nbsp;&nbsp;&nbsp;@ren.isobe</p>
-                    <p class="items"><b>show&nbsp;music</b></p>
-                    <p class="items">김정한&nbsp;&nbsp;&nbsp;@imrealmadein</p>
-                    <p class="items">윤소혜&nbsp;&nbsp;&nbsp;@tony.tony____</p>
-                    <p class="items"><b>brochure</b></p>
-                    <p class="items"></p>
+                    <p class="items2"><b>concept&nbsp;video</b></p>
+                    <p class="items2">권해선&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/kwonhaesun/"
+                                target="_blank">@kwonhaesun</a></p>
+                    <p class="items2">남우석&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/ren.isobe/"
+                                target="_blank">@ren.isobe</a></p>
+                    <p class="items2"><b>show&nbsp;music</b></p>
+                    <p class="items2">김정한&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/imrealmadein/"
+                                target="_blank">@imrealmadein</a></p>
+                    <p class="items2">윤소혜&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/tony.tony____/"
+                                target="_blank">@tony.tony____</a></p>
+                    <p class="items2"><b>brochure</b></p>
+                    <p class="items2"></p>
                 </div>
                 <div class="section2">
                     <p class="title">OAK</p>
-                    <p class="items"><b>concept&nbsp;video</b></p>
-                    <p class="items">김준기&nbsp;&nbsp;&nbsp;@jungiwork</p>
-                    <p class="items"><b>show&nbsp;music</b></p>
-                    <p class="items">이정현&nbsp;&nbsp;&nbsp;@l2_producer</p>
-                    <p class="items"><b>brochure</b></p>
-                    <p class="items">김연우&nbsp;&nbsp;&nbsp;@yeonnuv</p>
-                    <p class="items">양찬주</p>
+                    <p class="items2"><b>concept&nbsp;video</b></p>
+                    <p class="items2">김준기&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/jungiwork/"
+                                target="_blank">@jungiwork</a></p>
+                    <p class="items2"><b>show&nbsp;music</b></p>
+                    <p class="items2">이정현&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/l2_producer/"
+                                target="_blank">@l2_producer</a></p>
+                    <p class="items2"><b>brochure</b></p>
+                    <p class="items2">김연우&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/yeonnuv/"
+                                target="_blank">@yeonnuv</a></p>
+                    <p class="items2">양찬주</p>
                 </div>
                 <div class="section2">
                     <p class="title">Anachronia</p>
-                    <p class="items"><b>concept&nbsp;video&nbsp;/&nbsp;team&nbsp;poster</b></p>
-                    <p class="items">이찬희&nbsp;&nbsp;&nbsp;@2164_2</p>
-                    <p class="items"><b>show&nbsp;music</b></p>
-                    <p class="items">김정한&nbsp;&nbsp;&nbsp;@imrealmadein</p>
-                    <p class="items"><b>brochure</b></p>
-                    <p class="items">양찬주</p>
+                    <p class="items2"><b>concept&nbsp;video&nbsp;/&nbsp;team&nbsp;poster</b></p>
+                    <p class="items2">이찬희&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/2164_2/"
+                                target="_blank">@2164_2</a></p>
+                    <p class="items2"><b>show&nbsp;music</b></p>
+                    <p class="items2">김정한&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/imrealmadein/"
+                                target="_blank">@imrealmadein</a></p>
+                    <p class="items2"><b>brochure</b></p>
+                    <p class="items2">양찬주</p>
                 </div>
             </div>
             <div class="credit3-section2">
                 <div class="section2">
                     <p class="title">Bug&nbsp;report</p>
-                    <p class="items"><b>concept&nbsp;video</b></p>
-                    <p class="items">이찬희&nbsp;&nbsp;&nbsp;@2164_2</p>
-                    <p class="items"><b>show&nbsp;music</b></p>
-                    <p class="items">이정현&nbsp;&nbsp;&nbsp;@l2_producer</p>
-                    <p class="items"><b>brochure</b></p>
-                    <p class="items">송인우&nbsp;&nbsp;&nbsp;@oin__5</p>
-                    <p class="items"><b>team&nbsp;poster</b></p>
-                    <p class="items">구기태&nbsp;&nbsp;&nbsp;@gitae9u</p>
-                    <p class="items"><b>profile&nbsp;photo</b></p>
-                    <p class="items">이동권&nbsp;&nbsp;&nbsp;@isdcyss</p>
+                    <p class="items2"><b>concept&nbsp;video</b></p>
+                    <p class="items2">이찬희&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/2164_2/"
+                                target="_blank">@2164_2</a></p>
+                    <p class="items2"><b>show&nbsp;music</b></p>
+                    <p class="items2">이정현&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/l2_producer/"
+                                target="_blank">@l2_producer</a></p>
+                    <p class="items2"><b>brochure</b></p>
+                    <p class="items2">송인우&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/oin__5/"
+                                target="_blank">@oin__5</a></p>
+                    <p class="items2"><b>team&nbsp;poster</b></p>
+                    <p class="items2">구기태&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/gitae9u/"
+                                target="_blank">@gitae9u</a></p>
+                    <p class="items2"><b>profile&nbsp;photo</b></p>
+                    <p class="items2">이동권&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/isdcyss/"
+                                target="_blank">@isdcyss</a></p>
                 </div>
                 <div class="section2">
                     <p class="title">Loft&nbsp;1.0</p>
-                    <p class="items"><b>concept&nbsp;video</b></p>
-                    <p class="items">양지영&nbsp;&nbsp;&nbsp;@yz_0.0_zy</p>
-                    <p class="items"><b>concept&nbsp;video&nbsp;actor</b></p>
-                    <p class="items">류가연</p>
-                    <p class="items"><b>show&nbsp;music</b></p>
-                    <p class="items">장의하</p>
-                    <p class="items"><b>brochure</b></p>
-                    <p class="items">양찬주</p>
-                    <p class="items"><b>profile&nbsp;photo</b></p>
-                    <p class="items">정다은&nbsp;&nbsp;&nbsp;@plentycamile</p>
+                    <p class="items2"><b>concept&nbsp;video</b></p>
+                    <p class="items2">양지영&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/yz_0.0_zy/"
+                                target="_blank">@yz_0.0_zy</a></p>
+                    <p class="items2"><b>concept&nbsp;video&nbsp;actor</b></p>
+                    <p class="items2">류가연</p>
+                    <p class="items2"><b>show&nbsp;music</b></p>
+                    <p class="items2">장의하</p>
+                    <p class="items2"><b>brochure</b></p>
+                    <p class="items2">양찬주</p>
+                    <p class="items2"><b>profile&nbsp;photo</b></p>
+                    <p class="items2">정다은&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/plentycamile/"
+                                target="_blank">@plentycamile</a></p>
                 </div>
                 <div class="section2">
                     <p class="title">Deja&nbsp;vu</p>
-                    <p class="items"><b>concept&nbsp;video</b></p>
-                    <p class="items">김예서&nbsp;&nbsp;&nbsp;@yes.eor_no</p>
-                    <p class="items"><b>brochure&nbsp;메이킹촬영</b></p>
-                    <p class="items">사이트&nbsp;아카네&nbsp;&nbsp;&nbsp;@jeonjueum</p>
-                    <p class="items"><b>show&nbsp;music</b></p>
-                    <p class="items">김정한&nbsp;&nbsp;&nbsp;@imrealmadein</p>
-                    <p class="items"><b>team&nbsp;poster</b></p>
-                    <p class="items">이수진&nbsp;&nbsp;&nbsp;@treasured_treasure</p>
-                    <p class="items"><b>brochure</b></p>
-                    <p class="items">양찬주</p>
+                    <p class="items2"><b>concept&nbsp;video</b></p>
+                    <p class="items2">김예서&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/yes.eor_no/"
+                                target="_blank">@yes.eor_no</a></p>
+                    <p class="items2"><b>brochure&nbsp;메이킹촬영</b></p>
+                    <p class="items2">사이트&nbsp;아카네&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/jeonjueum/"
+                                target="_blank">@jeonjueum</a></p>
+                    <p class="items2"><b>show&nbsp;music</b></p>
+                    <p class="items2">김정한&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/imrealmadein/"
+                                target="_blank">@imrealmadein</a></p>
+                    <p class="items2"><b>team&nbsp;poster</b></p>
+                    <p class="items2">이수진&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/treasured_treasure/"
+                                target="_blank">@treasured_treasure</a></p>
+                    <p class="items2"><b>brochure</b></p>
+                    <p class="items2">양찬주</p>
                 </div>
             </div>
             
@@ -528,7 +561,7 @@
         gap:70px;
     }
     .credit3-container{
-        margin-top:100px;
+        margin-top:80px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -579,12 +612,16 @@
     }
 
     .items {
-        font-size: 1.2em;
+        font-size: 1.1em;
         margin: 5px 0;
     }
 
-    .items{
-        font-size:1.1em;
+    .items2{
+        font-size:1.0em;
         margin: 5px 0;
+    }
+
+    .sns-link {
+        color: rgb(96, 96, 96);
     }
 </style>
