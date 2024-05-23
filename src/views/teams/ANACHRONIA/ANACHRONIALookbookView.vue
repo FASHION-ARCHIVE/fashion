@@ -29,7 +29,6 @@
         pages: [
           null,
           "https://d2d7g45pzqvt7g.cloudfront.net/ANACHRONIA/ANACHRONIA.jpg",
-          "https://d2d7g45pzqvt7g.cloudfront.net/ANACHRONIA/ANACHRONIA1.jpg",
           "https://d2d7g45pzqvt7g.cloudfront.net/ANACHRONIA/ANACHRONIA2.jpg",
           "https://d2d7g45pzqvt7g.cloudfront.net/ANACHRONIA/ANACHRONIA3.jpg",
           "https://d2d7g45pzqvt7g.cloudfront.net/ANACHRONIA/ANACHRONIA4.jpg",
