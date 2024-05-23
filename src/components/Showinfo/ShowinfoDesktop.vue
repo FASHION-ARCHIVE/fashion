@@ -50,6 +50,16 @@
     <div class="item" ref = "stage3">
         <div class = map-container>
             <img src = "@/assets/images/showinfo/약도.jpg">
+            <div class = map-info-container>
+                <b>[LAYER41]</b>
+                <br>41, Achasan-ro 9-gil, Seongdong-gu, Seoul
+                <br>서울 성동구 성수동2가 277-4 (아차산로9길 41)
+
+                <br><br><b>[유료주차장]</b>
+                <br>KT 성수분국 노상공영주차장 (252m) : 서울 성동구 성수동 2가 280-50 / 평일 9-19시 운영 / 토요일 9-15시 운영 / 공휴일 무료 개방
+                <br>성수에이팩센터 (422m) : 서울 성동구 성수동2가 289-5 / 24시간 운영
+                <br>아이에스 biz타워(419m) : 서울 성동구 성수동2가 289-319 / 24시간 운영
+            </div>
         </div>
     </div>
 
@@ -57,7 +67,7 @@
         <div class = credit-container>
             <h1>CREDIT</h1>
             <div class="section">
-                <p class="title">졸업패션쇼준비위원회</p>
+                <p class="title"><b>졸업패션쇼준비위원회</b></p>
                 <p class="items"><b>위원장</b>&nbsp;&nbsp;&nbsp;정경모</p>
                 <p class="items"><b>기획</b>&nbsp;&nbsp;&nbsp;윤소혜&nbsp;&nbsp;&nbsp;강소원</p>
                 <p class="items"><b>연출</b>&nbsp;&nbsp;&nbsp;오승민&nbsp;&nbsp;&nbsp;정솜귤</p>
@@ -489,9 +499,15 @@
     .map-container img{
         margin-top: 100% - 100px;
         width: 100vw;
-        height: 70vh;
+        height: 60vh;
         object-fit: contain;
         
+    }
+
+    .map-info-container{
+        font-size: 12px;
+        width: 90vw;
+        text-align: center;
     }
 
     .credit-container{
