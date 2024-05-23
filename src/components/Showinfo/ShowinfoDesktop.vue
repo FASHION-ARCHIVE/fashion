@@ -127,7 +127,7 @@
             </div>
         </div>
     </div>
-    
+
     </vue-scroll-snap>
     <mainFooter/>
     </div>
@@ -397,7 +397,7 @@
     }
 
     .credit-container{
-        margin-top: 100px;
+        margin-top:100px;
         display: flex;
         flex-direction: column;
         align-items: center;

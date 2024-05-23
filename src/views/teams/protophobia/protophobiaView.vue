@@ -23,10 +23,10 @@
             <div class = "video-container">
                 <iframe src = "https://www.youtube.com/embed/p7o9C-NtW2M" frameborder = "0" allowfullscreen =""></iframe>
             </div>
-            <p style = "margin-left: 10px;">file by <a class = "sns-link" href="https://www.instagram.com/kwonhaesun/" target="_blank">@kwonhaesun</a>,
+            <!-- <p style = "margin-left: 10px;">file by <a class = "sns-link" href="https://www.instagram.com/kwonhaesun/" target="_blank">@kwonhaesun</a>,
                 <a class = "sns-link" href="https://www.instagram.com/imrealmadein/" target="_blank">@imrealmadein</a>,
                 <a class = "sns-link" href="https://www.instagram.com/l2_producer/" target="_blank">@l2_producer</a>,
-                <a class = "sns-link" href="https://www.instagram.com/tony.tony____/" target="_blank">@tony.tony____</a></p>
+                <a class = "sns-link" href="https://www.instagram.com/tony.tony____/" target="_blank">@tony.tony____</a></p> -->
             <!-- <div class="br-youtube-container" data-aos="fade-up" data-aos-once="true">
                 <div class = "br-youtube">
                     <iframe

@@ -27,7 +27,7 @@
   <style scoped> 
 
   footer {
-    background-color: rgba(0,0,0,0.1); 
+    background-color: rgba(96,96,96,0.1); 
     border-style: solid;
     border-width: 0.5px 0px 0px 0px;
     border-color: black;
