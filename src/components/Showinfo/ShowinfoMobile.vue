@@ -92,7 +92,7 @@
                         <p class="items">정제영&nbsp;&nbsp;&nbsp;<a class="sns-link"
                                 href="https://www.instagram.com/jaboog_ah/" target="_blank">@jaboog_ah</a></p>
                         <p class="items">박지원&nbsp;&nbsp;&nbsp;<a class="sns-link"
-                                href="https://www.instagram.com/gwon_055/" target="_blank">@gwon_055</a></p>
+                                href="https://www.instagram.com/gwon_55/" target="_blank">@gwon_55</a></p>
                     </div>
                     <div class="section">
                         <p class="title">PROTOTYPE main teaser</p>
