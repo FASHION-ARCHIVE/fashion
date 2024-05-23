@@ -72,39 +72,87 @@
                 <p class="items">이소영&nbsp;&nbsp;&nbsp;최선영</p>
             </div>
             <div class="section">
-                <p class="title">포스터 그래픽</p>
+                <p class="title">포스터&nbsp;그래픽</p>
                 <p class="items">김연우&nbsp;&nbsp;&nbsp;@yeonnuv</p>
             </div>
         </div>
     </div>
 
     <div class = "item">
-        <div class = credit-container>
-            <h1>CREDIT</h1>
-            <div class="section">
-                <p class="title">졸업패션쇼준비위원회</p>
-                <p class="items"><b>위원장</b>&nbsp;&nbsp;&nbsp;정경모</p>
-                <p class="items"><b>기획</b>&nbsp;&nbsp;&nbsp;윤소혜&nbsp;&nbsp;&nbsp;강소원</p>
-                <p class="items"><b>연출</b>&nbsp;&nbsp;&nbsp;오승민&nbsp;&nbsp;&nbsp;정솜귤</p>
-                <p class="items"><b>브로셔</b>&nbsp;&nbsp;&nbsp;유하영&nbsp;&nbsp;&nbsp;박혜빈</p>
-                <p class="items"><b>전시</b>&nbsp;&nbsp;&nbsp;곽도훈&nbsp;&nbsp;&nbsp;최준우</p>
-                <p class="items"><b>홍보</b>&nbsp;&nbsp;&nbsp;윤도희&nbsp;&nbsp;&nbsp;김지인</p>
-                <p class="items"><b>회계</b>&nbsp;&nbsp;&nbsp;장예진</p>
-                <p class="items"><b>서기</b>&nbsp;&nbsp;&nbsp;이은지</p>
+        <div class = credit2-container>
+            <div class="credit2-section">
+                <div class="section">
+                    <p class="title">웹사이트&nbsp;개발</p>
+                    <p class="items">변상윤&nbsp;&nbsp;&nbsp;@135yoon</p>
+                    <p class="items">정제영&nbsp;&nbsp;&nbsp;@jaboong_ah</p>
+                    <p class="items">박지원&nbsp;&nbsp;&nbsp;@gwon_55</p>
+                </div>
+                <div class="section">
+                    <p class="title">PROTOTYPE&nbsp;main&nbsp;teaser</p>
+                    <p class="items">전효성&nbsp;&nbsp;&nbsp;김인열</p>
+                    <p class="items">@studio_dwork</p>
+                </div>
+                <div class="section">
+                    <p class="title">USB&nbsp;브로셔&nbsp;프로그래밍</p>
+                    <p class="items">전성철&nbsp;&nbsp;&nbsp;@jeonnn98</p>
+                    <p class="items">최준우&nbsp;&nbsp;&nbsp;@coomunfioy</p>
+                    <p class="items">곽도훈&nbsp;&nbsp;&nbsp;@kwkdohoon</p>
+                </div>
+                <div class="section">
+                    <p class="title">SHOW&nbsp;Directing</p>
+                    <p class="items">MOTIF&nbsp;COMPANY&nbsp;쇼&nbsp;준비&nbsp;대행사</p>
+                    <p class="items">APRO&nbsp;쇼&nbsp;연출사</p>
+                </div>
             </div>
-            <div class="section">
-                <p class="title">지도교수</p>
-                <p class="items">이소영&nbsp;&nbsp;&nbsp;최선영</p>
+            <div class="credit2-section">
+                <div class="section">
+                    <p class="title">SHOW&nbsp;MODEL</p>
+                    <p class="items">yg&nbsp;k+</p>
+                    <p class="items2">김다솔&nbsp;/&nbsp;시오&nbsp;/&nbsp;홍주영&nbsp;/&nbsp;한지영&nbsp;/&nbsp;이예은&nbsp;/&nbsp;길성은</p>
+                    <p class="items2">김가영&nbsp;/&nbsp;심규리&nbsp;/&nbsp;홍채현&nbsp;/&nbsp;장민서&nbsp;/&nbsp;심현정&nbsp;/&nbsp;이다인</p>
+                    <p class="items2">이성민&nbsp;/&nbsp;이준하&nbsp;/&nbsp;배수현&nbsp;/&nbsp;최유미&nbsp;/&nbsp;김세영</p>
+                    <p class="items2">신용국&nbsp;/&nbsp;오병직&nbsp;/&nbsp;김준성&nbsp;/&nbsp;박홍&nbsp;/&nbsp;우찬&nbsp;/&nbsp;천종민</p>
+                    <p class="items2">윤여민&nbsp;/&nbsp;오혜성&nbsp;/&nbsp;구자성&nbsp;/&nbsp;김승비&nbsp;/&nbsp;김태윤</p>
+                    <p class="items"><b>별도&nbsp;섭외</b></p>
+                    <p class="items2">오승민&nbsp;/&nbsp;션&nbsp;/&nbsp;박희주</p>
+                </div>
+
+                <div class="section">
+                    <p class="title">BROCHURE&nbsp;MODEL</p>
+                    <p class="items2">김은서&nbsp;/&nbsp;박다은&nbsp;/&nbsp;김혜민&nbsp;/&nbsp;이민서</p>
+                    <p class="items2">이성민&nbsp;/&nbsp;이준하&nbsp;/&nbsp;이한선&nbsp;/&nbsp;조혜영</p>
+                    <p class="items2">박희주&nbsp;/&nbsp;김승비&nbsp;/&nbsp;김준&nbsp;/&nbsp;박상현</p>
+                </div>
             </div>
-            <div class="section">
-                <p class="title">포스터 그래픽</p>
-                <p class="items">김연우&nbsp;&nbsp;&nbsp;@yeonnuv</p>
+            <div class="credit2-section">
+                <div class ="section">
+                    <p class="title">BROCHURE</p>
+                    <p class="items"><b>촬영</b>&nbsp;박청운&nbsp;&nbsp;&nbsp;@lets_pcw</p>
+                    <p class="items"><b>헤어&nbsp;/&nbsp;메이크업</b></p>
+                    <p class="items"><b>메이킹필름</b>&nbsp;허세빈&nbsp;&nbsp;&nbsp;@binbin_hoh</p>
+                </div>
+                <!-- <div class="section">
+                    <p class="title">헤어&nbsp;/&nbsp;메이크업</p>
+                    <p class="items"><b>메이킹필름</b>&nbsp;허세빈&nbsp;&nbsp;&nbsp;@binbin_hoh</p>
+                </div> -->
+                <div class="section">
+                    <p class="title">BACKSTAGE&nbsp;PHOTO</p>
+                    <p class="items">김수민&nbsp;&nbsp;&nbsp;@soogimi</p>
+                </div>
+                <div class="section">
+                    <p class="title">RUNWAY&nbsp;PHOTO</p>
+                    <p class="items">박청운&nbsp;&nbsp;&nbsp;@lets_pcw</p>
+                </div>
+                <div class="section">
+                    <p class="title">VIP&nbsp;제품&nbsp;협찬</p>
+                    <p class="items">피카커피&nbsp;@fika.workshop</p>
+                </div>
             </div>
         </div>
     </div>
 
     <div class = "item">
-        <div class = credit-container>
+        <div class="credit-container">
             <h1>CREDIT</h1>
             <div class="section">
                 <p class="title">졸업패션쇼준비위원회</p>
@@ -404,6 +452,19 @@
         text-align: center;
         color: rgb(96, 96, 96);
     }
+    .credit2-container{
+        margin-top:100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        color: rgb(96, 96, 96);
+        gap:70px;
+    }
+    .credit2-section{
+        display: flex;
+        flex-direction: column;
+    }
 
     .credit-container h1{
         text-align: center;
@@ -430,6 +491,11 @@
 
     .items {
         font-size: 1.2em;
+        margin: 5px 0;
+    }
+
+    .items{
+        font-size:1.1em;
         margin: 5px 0;
     }
 </style>
