@@ -136,6 +136,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
 .left-icon{
   margin-left: 50px;
