@@ -535,7 +535,7 @@
         justify-content: center;
         text-align: center;
         color: rgb(96, 96, 96);
-        gap:20px;
+        
     }
     .credit2-section{
         display: flex;
