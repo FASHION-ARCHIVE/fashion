@@ -210,7 +210,7 @@ export default defineComponent({
 
     .team-name{
         /* line-height: 0.7; */
-        font-size:64px;
+        font-size:55px;
         font-weight: 700;
     }
 
@@ -219,7 +219,7 @@ export default defineComponent({
     }
 
     .team-context{
-        font-size:20px;
+        font-size:18px;
         margin-top: 20px;
         margin-bottom: 30px;
     }
@@ -229,12 +229,12 @@ export default defineComponent({
 
     .team-info3{
         margin-top: 0px;
-        font-size:28px;
+        font-size:26px;
         font-weight: 700;
     }
 
     .team-info4{
-        font-size:20px;
+        font-size:18px;
     }
 
     .team-youtube-container{

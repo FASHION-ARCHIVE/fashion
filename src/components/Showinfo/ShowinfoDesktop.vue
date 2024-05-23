@@ -148,6 +148,13 @@
                     <p class="items"><b>촬영</b>&nbsp;박청운&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/lets_pcw/"
                                 target="_blank">@lets_pcw</a></p>
                     <p class="items"><b>헤어&nbsp;/&nbsp;메이크업</b></p>
+                    <p class="items">이새온&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/saeonjima/"
+                                target="_blank">@saeonjima</a></p>
+                    <p class="items">김호민&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/hmhm_makeup_119/"
+                                target="_blank">@hmhm_makeup_119</a></p>
+                    <p class="items">김민경&nbsp;&nbsp;&nbsp;</p>
+                    <p class="items">김민지&nbsp;&nbsp;&nbsp;</p>
+                    
                     <p class="items"><b>메이킹필름</b>&nbsp;허세빈&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/binbin_hoh/"
                                 target="_blank">@binbin_hoh</a></p>
                 </div>
@@ -185,8 +192,8 @@
                                 target="_blank">@imrealmadein</a></p>
                     <p class="items2">윤소혜&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/tony.tony____/"
                                 target="_blank">@tony.tony____</a></p>
-                    <p class="items2"><b>brochure</b></p>
-                    <p class="items2"></p>
+                    <p class="items2"><b>brochure&nbsp;배경그래픽&nbsp;및&nbsp;내지&nbsp;작업</b></p>
+                    <p class="items2">양찬주</p>
                 </div>
                 <div class="section2">
                     <p class="title">OAK</p>
@@ -196,7 +203,7 @@
                     <p class="items2"><b>show&nbsp;music</b></p>
                     <p class="items2">이정현&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/l2_producer/"
                                 target="_blank">@l2_producer</a></p>
-                    <p class="items2"><b>brochure</b></p>
+                    <p class="items2"><b>team&nbsp;poster</b></p>
                     <p class="items2">김연우&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/yeonnuv/"
                                 target="_blank">@yeonnuv</a></p>
                     <p class="items2">양찬주</p>
@@ -253,7 +260,7 @@
                     <p class="items2">김예서&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/yes.eor_no/"
                                 target="_blank">@yes.eor_no</a></p>
                     <p class="items2"><b>brochure&nbsp;메이킹촬영</b></p>
-                    <p class="items2">사이트&nbsp;아카네&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/jeonjueum/"
+                    <p class="items2">사이토&nbsp;아카네&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/jeonjueum/"
                                 target="_blank">@jeonjueum</a></p>
                     <p class="items2"><b>show&nbsp;music</b></p>
                     <p class="items2">김정한&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/imrealmadein/"

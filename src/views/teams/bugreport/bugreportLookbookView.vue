@@ -127,6 +127,7 @@ export default {
 .lookbook-container{
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
 }
 .left-icon{
