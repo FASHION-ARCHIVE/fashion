@@ -131,10 +131,6 @@
                     <p class="items"><b>헤어&nbsp;/&nbsp;메이크업</b></p>
                     <p class="items"><b>메이킹필름</b>&nbsp;허세빈&nbsp;&nbsp;&nbsp;@binbin_hoh</p>
                 </div>
-                <!-- <div class="section">
-                    <p class="title">헤어&nbsp;/&nbsp;메이크업</p>
-                    <p class="items"><b>메이킹필름</b>&nbsp;허세빈&nbsp;&nbsp;&nbsp;@binbin_hoh</p>
-                </div> -->
                 <div class="section">
                     <p class="title">BACKSTAGE&nbsp;PHOTO</p>
                     <p class="items">김수민&nbsp;&nbsp;&nbsp;@soogimi</p>
@@ -152,27 +148,81 @@
     </div>
 
     <div class = "item">
-        <div class="credit-container">
-            <h1>CREDIT</h1>
-            <div class="section">
-                <p class="title">졸업패션쇼준비위원회</p>
-                <p class="items"><b>위원장</b>&nbsp;&nbsp;&nbsp;정경모</p>
-                <p class="items"><b>기획</b>&nbsp;&nbsp;&nbsp;윤소혜&nbsp;&nbsp;&nbsp;강소원</p>
-                <p class="items"><b>연출</b>&nbsp;&nbsp;&nbsp;오승민&nbsp;&nbsp;&nbsp;정솜귤</p>
-                <p class="items"><b>브로셔</b>&nbsp;&nbsp;&nbsp;유하영&nbsp;&nbsp;&nbsp;박혜빈</p>
-                <p class="items"><b>전시</b>&nbsp;&nbsp;&nbsp;곽도훈&nbsp;&nbsp;&nbsp;최준우</p>
-                <p class="items"><b>홍보</b>&nbsp;&nbsp;&nbsp;윤도희&nbsp;&nbsp;&nbsp;김지인</p>
-                <p class="items"><b>회계</b>&nbsp;&nbsp;&nbsp;장예진</p>
-                <p class="items"><b>서기</b>&nbsp;&nbsp;&nbsp;이은지</p>
+        <div class="credit3-container">
+            <div class="credit3-section1">
+                <div class="section2">
+                    <p class="title">protophobia</p>
+                    <p class="items"><b>concept&nbsp;video</b></p>
+                    <p class="items">권해선&nbsp;&nbsp;&nbsp;@kwonhaesun</p>
+                    <p class="items">남우석&nbsp;&nbsp;&nbsp;@ren.isobe</p>
+                    <p class="items"><b>show&nbsp;music</b></p>
+                    <p class="items">김정한&nbsp;&nbsp;&nbsp;@imrealmadein</p>
+                    <p class="items">윤소혜&nbsp;&nbsp;&nbsp;@tony.tony____</p>
+                    <p class="items"><b>brochure</b></p>
+                    <p class="items"></p>
+                </div>
+                <div class="section2">
+                    <p class="title">OAK</p>
+                    <p class="items"><b>concept&nbsp;video</b></p>
+                    <p class="items">김준기&nbsp;&nbsp;&nbsp;@jungiwork</p>
+                    <p class="items"><b>show&nbsp;music</b></p>
+                    <p class="items">이정현&nbsp;&nbsp;&nbsp;@l2_producer</p>
+                    <p class="items"><b>brochure</b></p>
+                    <p class="items">김연우&nbsp;&nbsp;&nbsp;@yeonnuv</p>
+                    <p class="items">양찬주</p>
+                </div>
+                <div class="section2">
+                    <p class="title">Anachronia</p>
+                    <p class="items"><b>concept&nbsp;video&nbsp;/&nbsp;team&nbsp;poster</b></p>
+                    <p class="items">이찬희&nbsp;&nbsp;&nbsp;@2164_2</p>
+                    <p class="items"><b>show&nbsp;music</b></p>
+                    <p class="items">김정한&nbsp;&nbsp;&nbsp;@imrealmadein</p>
+                    <p class="items"><b>brochure</b></p>
+                    <p class="items">양찬주</p>
+                </div>
             </div>
-            <div class="section">
-                <p class="title">지도교수</p>
-                <p class="items">이소영&nbsp;&nbsp;&nbsp;최선영</p>
+            <div class="credit3-section2">
+                <div class="section2">
+                    <p class="title">Bug&nbsp;report</p>
+                    <p class="items"><b>concept&nbsp;video</b></p>
+                    <p class="items">이찬희&nbsp;&nbsp;&nbsp;@2164_2</p>
+                    <p class="items"><b>show&nbsp;music</b></p>
+                    <p class="items">이정현&nbsp;&nbsp;&nbsp;@l2_producer</p>
+                    <p class="items"><b>brochure</b></p>
+                    <p class="items">송인우&nbsp;&nbsp;&nbsp;@oin__5</p>
+                    <p class="items"><b>team&nbsp;poster</b></p>
+                    <p class="items">구기태&nbsp;&nbsp;&nbsp;@gitae9u</p>
+                    <p class="items"><b>profile&nbsp;photo</b></p>
+                    <p class="items">이동권&nbsp;&nbsp;&nbsp;@isdcyss</p>
+                </div>
+                <div class="section2">
+                    <p class="title">Loft&nbsp;1.0</p>
+                    <p class="items"><b>concept&nbsp;video</b></p>
+                    <p class="items">양지영&nbsp;&nbsp;&nbsp;@yz_0.0_zy</p>
+                    <p class="items"><b>concept&nbsp;video&nbsp;actor</b></p>
+                    <p class="items">류가연</p>
+                    <p class="items"><b>show&nbsp;music</b></p>
+                    <p class="items">장의하</p>
+                    <p class="items"><b>brochure</b></p>
+                    <p class="items">양찬주</p>
+                    <p class="items"><b>profile&nbsp;photo</b></p>
+                    <p class="items">정다은&nbsp;&nbsp;&nbsp;@plentycamile</p>
+                </div>
+                <div class="section2">
+                    <p class="title">Deja&nbsp;vu</p>
+                    <p class="items"><b>concept&nbsp;video</b></p>
+                    <p class="items">김예서&nbsp;&nbsp;&nbsp;@yes.eor_no</p>
+                    <p class="items"><b>brochure&nbsp;메이킹촬영</b></p>
+                    <p class="items">사이트&nbsp;아카네&nbsp;&nbsp;&nbsp;@jeonjueum</p>
+                    <p class="items"><b>show&nbsp;music</b></p>
+                    <p class="items">김정한&nbsp;&nbsp;&nbsp;@imrealmadein</p>
+                    <p class="items"><b>team&nbsp;poster</b></p>
+                    <p class="items">이수진&nbsp;&nbsp;&nbsp;@treasured_treasure</p>
+                    <p class="items"><b>brochure</b></p>
+                    <p class="items">양찬주</p>
+                </div>
             </div>
-            <div class="section">
-                <p class="title">포스터 그래픽</p>
-                <p class="items">김연우&nbsp;&nbsp;&nbsp;@yeonnuv</p>
-            </div>
+            
         </div>
     </div>
 
@@ -461,9 +511,32 @@
         color: rgb(96, 96, 96);
         gap:70px;
     }
+    .credit3-container{
+        margin-top:100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: rgb(96, 96, 96);
+        gap:20px;
+    }
     .credit2-section{
         display: flex;
         flex-direction: column;
+    }
+    .credit3-section1{
+        display: flex;
+        flex-direction: row;
+        gap: 150px;
+        justify-content: center;
+
+    }
+    .credit3-section2{
+        display: flex;
+        flex-direction: row;
+        gap: 150px;
+        justify-content: center;
     }
 
     .credit-container h1{
