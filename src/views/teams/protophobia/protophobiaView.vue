@@ -10,8 +10,8 @@
                         <!-- <div class="br-info1">JOURNEY TO PERFECT</div> -->
                     </div>
                     <div class="team-context">사람들에겐 내재된 ‘완벽을 좇는 세포’가 있다.
-                    <br><br>이는 우리의 발전을 이끌었지만 동시에 맹목적으로 완벽만을 바라게 만들었다. 이러한 상황 속 각자의 세포는 변이를 일으켜 새로운 질병으로 발현되었고 다양한 형태의 질병으로 전개되었다. 이를 ‘Protophobia’로 명명하였다.
-                    <br><br>우리 9명은 컬렉션을 통해 ‘Protophobia’가 발병한 사람들의 9가지 모습을 보이려 한다. [Tittle:Protophobia]는 각자의 시각으로 바라본 질병 ‘Protophobia’의 발현을 각자의 경험과 생각을 녹여 시각적인 형태로 표현하고자 한다.
+                    <br><br>이는 우리의 발전을 이끌었지만 동시에 맹목적으로 완벽만을 바라게 만들었다. 이러한 상황 속 각자의 세포는 변이를 일으켜 새로운 질병으로 발현되었고<br>다양한 형태의 질병으로 전개되었다. 이를 ‘Protophobia’로 명명하였다.
+                    <br><br>우리 9명은 컬렉션을 통해 ‘Protophobia’가 발병한 사람들의 9가지 모습을<br>보이려 한다. [Tittle:Protophobia]는 각자의 시각으로 바라본 질병 ‘Protophobia’의 발현을 각자의 경험과 생각을 녹여 시각적인 형태로<br>표현하고자 한다.
                     </div>
                     <div class="team-keyword">
                         <div class="team-info3">KEY WORD</div>
