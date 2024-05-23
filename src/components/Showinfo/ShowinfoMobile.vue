@@ -146,6 +146,12 @@
                         <p class="items"><b>촬영</b> 박청운 <a class="sns-link" href="https://www.instagram.com/lets_pcw/"
                                 target="_blank">@lets_pcw</a></p>
                         <p class="items">헤어 / 메이크업</p>
+                        <p class="items">이새온&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/saeonjima/"
+                                target="_blank">@saeonjima</a></p>
+                        <p class="items">김호민&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/hmhm_makeup_119/"
+                                    target="_blank">@hmhm_makeup_119</a></p>
+                        <p class="items">김민경&nbsp;&nbsp;&nbsp;</p>
+                        <p class="items">김민지&nbsp;&nbsp;&nbsp;</p>
                         <p class="items"><b>메이킹필름</b> 허세빈 <a class="sns-link"
                                 href="https://www.instagram.com/binbin_hoh/" target="_blank">@binbin_hoh</a></p>
                     </div>
@@ -181,7 +187,7 @@
                                 target="_blank">@imrealmadein</a></p>
                         <p class="items">윤소혜 <a class="sns-link" href="https://www.instagram.com/tony.tony____/"
                                 target="_blank">@tony.tony____</a></p>
-                        <p class="items"><b>brochure</b></p>
+                        <p class="items"><b>brochure&nbsp;배경그래픽&nbsp;및&nbsp;내지&nbsp;작업</b></p>
                         <p class="items">양찬주</p>
                     </div>
                     <div class="section">
@@ -192,7 +198,7 @@
                         <p class="items"><b>show music</b></p>
                         <p class="items">이정현 <a class="sns-link" href="https://www.instagram.com/l2_producer/"
                                 target="_blank">@l2_producer</a></p>
-                        <p class="items"><b>brochure</b></p>
+                        <p class="items"><b>team poster</b></p>
                         <p class="items">김연우 <a class="sns-link" href="https://www.instagram.com/yeonnuv/"
                                 target="_blank">@yeonnuv</a></p>
                         <p class="items">양찬주</p>
