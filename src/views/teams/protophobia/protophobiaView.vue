@@ -21,7 +21,7 @@
             </div>
 
             <div class = "video-container">
-                <iframe src = "https://www.youtube.com/embed/p7o9C-NtW2M" frameborder = "0" allowfullscreen =""></iframe>
+                <iframe src = "https://www.youtube.com/embed/G-BcIjiYHV4" frameborder = "0" allowfullscreen =""></iframe>
             </div>
             <!-- <p style = "margin-left: 10px;">file by <a class = "sns-link" href="https://www.instagram.com/kwonhaesun/" target="_blank">@kwonhaesun</a>,
                 <a class = "sns-link" href="https://www.instagram.com/imrealmadein/" target="_blank">@imrealmadein</a>,

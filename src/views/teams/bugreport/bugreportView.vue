@@ -21,7 +21,7 @@
             </div>
 
             <div class = "video-container">
-                <iframe src = "https://www.youtube.com/embed/p7o9C-NtW2M" frameborder = "0" allowfullscreen =""></iframe>
+                <iframe src = "https://www.youtube.com/embed/3e67GFEVTdU" frameborder = "0" allowfullscreen =""></iframe>
             </div>
             <!-- <div class="br-youtube-container" data-aos="fade-up" data-aos-once="true">
                 <div class = "br-youtube">
