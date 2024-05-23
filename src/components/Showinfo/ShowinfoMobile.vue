@@ -60,7 +60,7 @@
 
     <div class="item" ref = "stage4">
         <div class = credit-container>
-            <h2>CREDIT</h2>
+            <h1>CREDIT</h1>
             <div class="section">
                 <p class="title">졸업패션쇼준비위원회</p>
                 <p class="items">위원장 정경모</p>
@@ -336,8 +336,11 @@
         text-align: center;
     }
 
-    .credit-container h2{
+    .credit-container h1{
         text-align: center;
+        font-family: 'Pretendard Variable' !important;
+        font-weight: 900;
+        color: rgb(96, 96, 96);
     }
 
     .credit-list {

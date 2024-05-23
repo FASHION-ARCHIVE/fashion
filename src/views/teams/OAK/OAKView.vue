@@ -29,8 +29,8 @@
             <div class = "video-container">
                 <iframe src = "https://www.youtube.com/embed/p7o9C-NtW2M" frameborder = "0" allowfullscreen =""></iframe>
             </div>
-            <p style = "margin-left: 10px;">file by 
-                <a class = "sns-link" href="https://www.instagram.com/jungiwork/" target="_blank">@jungiwork</a></p>
+            <!-- <p style = "margin-left: 10px;">file by  -->
+                <!-- <a class = "sns-link" href="https://www.instagram.com/jungiwork/" target="_blank">@jungiwork</a></p> -->
             <!-- <div class="br-youtube-container" data-aos="fade-up" data-aos-once="true">
                 <div class = "br-youtube">
                     <iframe

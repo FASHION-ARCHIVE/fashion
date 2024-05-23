@@ -25,8 +25,8 @@
             <div class = "video-container">
                 <iframe src = "https://www.youtube.com/embed/p7o9C-NtW2M" frameborder = "0" allowfullscreen =""></iframe>
             </div>
-            <p style = "margin-left: 10px;">file by 
-                <a class = "sns-link" href="https://www.instagram.com/yz_0.0_zy/" target="_blank">@yz_0.0_zy</a>, @장의하</p>
+            <!-- <p style = "margin-left: 10px;">file by  -->
+                <!-- <a class = "sns-link" href="https://www.instagram.com/yz_0.0_zy/" target="_blank">@yz_0.0_zy</a>, @장의하</p> -->
             <!-- <div class="br-youtube-container" data-aos="fade-up" data-aos-once="true">
                 <div class = "br-youtube">
                     <iframe
@@ -46,7 +46,7 @@
             </div> -->
             <div class = "members-info-container">
                 <div class="members" data-aos="fade-up" data-aos-once="true">TEAM MEMBERS</div>
-                <div style="font-size: 14px; margin-left:10px; margin-top: 15px;" data-aos="fade-up" data-aos-once="true">photo by <a class = "sns-link" href="https://www.instagram.com/plentycamille/" target="_blank">@plentycamille</a></div>
+                <!-- <div style="font-size: 14px; margin-left:10px; margin-top: 15px;" data-aos="fade-up" data-aos-once="true">photo by <a class = "sns-link" href="https://www.instagram.com/plentycamille/" target="_blank">@plentycamille</a></div> -->
             </div>
 
             <div class="team-members-list" data-aos="fade-up" data-aos-once="true">

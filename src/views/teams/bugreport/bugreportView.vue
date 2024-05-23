@@ -42,7 +42,7 @@
             </div> -->
             <div class = "team-container">
                 <div class="br-team-members" data-aos="fade-up" data-aos-once="true">TEAM MEMBERS</div>
-                <div style="font-size: 14px; margin-left:10px; margin-top: 15px;" data-aos="fade-up" data-aos-once="true">photo by 이동권</div>
+                <!-- <div style="font-size: 14px; margin-left:10px; margin-top: 15px;" data-aos="fade-up" data-aos-once="true">photo by 이동권</div> -->
             </div>
 
             <div class="br-members" data-aos="fade-up" data-aos-once="true">
