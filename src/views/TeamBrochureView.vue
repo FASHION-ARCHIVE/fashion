@@ -4,28 +4,28 @@
     <div class ="team-brochure-background">
         <div class="team-brochure-container">
             <!-- <div class="team-brochure-text">TEAM BROCHURE</div> -->
-            <div class="team-brochure-image-container" data-aos="zoom-out" data-aos-duration="1000" data-aos-once = "true">
-                <div class="image-item">
+            <div class="team-brochure-image-container">
+                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true" data-aos-offset="-1000">
                   <router-link to = "/protophobia/lookbook"><img src="https://d2d7g45pzqvt7g.cloudfront.net/protophobia/프로토포비아-책표지.jpg" /></router-link>
                   <div class="caption">protophobia</div>
                 </div>
-                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
+                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true" data-aos-offset="-1000">
                   <router-link to = "/OAK/lookbook"><img src="https://d2d7g45pzqvt7g.cloudfront.net/OAK/옥-책표지.jpg" /></router-link>
                   <div class="caption">OAK</div>
                 </div>
-                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
+                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true" data-aos-offset="-1000">
                   <router-link to = "/ANACHRONIA/lookbook"><img src="https://d2d7g45pzqvt7g.cloudfront.net/ANACHRONIA/아나크로니아-책표지.jpg" /></router-link>
                   <div class="caption">ANACHRONIA</div>
                 </div>
-                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
+                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true" data-aos-offset="-1000">
                   <router-link to = "/bugreport/lookbook"><img src="https://d2d7g45pzqvt7g.cloudfront.net/bugreport/버그리포트-책표지.jpg" /></router-link>
                   <div class="caption">BUG REPORT</div>
                 </div>
-                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
+                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true" data-aos-offset="-1000">
                   <router-link to = "/Loft/lookbook"><img src="https://d2d7g45pzqvt7g.cloudfront.net/Loft/로프트-책표지.jpg" /></router-link>
                   <div class="caption">Loft 1.0</div>
                 </div>
-                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000">
+                <div class="image-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true" data-aos-offset="-1000">
                   <router-link to = "/Dejavu/lookbook"><img src="https://d2d7g45pzqvt7g.cloudfront.net/dejavu/데자뷰-책-표지.jpg" /></router-link>
                   <div class="caption">Deja vu</div>
                 </div>
