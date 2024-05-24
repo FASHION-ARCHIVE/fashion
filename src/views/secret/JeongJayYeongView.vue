@@ -17,7 +17,9 @@
           <h5></h5>
 
           <p class = "introduce">
-            거품적당히눈덮인#KR1
+            I like no blueberries in my ice cream cake
+            
+            요즘 롤체 해요 / 거품적당히눈덮인#KR1
 
             <br><br>kuad 화이팅
           </p>
