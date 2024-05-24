@@ -554,6 +554,7 @@
         margin-top:100px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
         text-align: center;
         color: rgb(96, 96, 96);
