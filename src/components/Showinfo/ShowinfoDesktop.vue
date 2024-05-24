@@ -179,7 +179,7 @@
 
     <div class = "item">
         <div class="credit3-container">
-            <div class="credit3-section1">
+            <div class="credit3-section">
                 <div class="section2">
                     <p class="title">protophobia</p>
                     <p class="items2"><b>concept&nbsp;video</b></p>
@@ -195,33 +195,7 @@
                     <p class="items2"><b>brochure&nbsp;배경그래픽&nbsp;및&nbsp;내지&nbsp;작업</b></p>
                     <p class="items2">양찬주</p>
                 </div>
-                <div class="section2">
-                    <p class="title">OAK</p>
-                    <p class="items2"><b>concept&nbsp;video</b></p>
-                    <p class="items2">김준기&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/jungiwork/"
-                                target="_blank">@jungiwork</a></p>
-                    <p class="items2"><b>show&nbsp;music</b></p>
-                    <p class="items2">이정현&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/l2_producer/"
-                                target="_blank">@l2_producer</a></p>
-                    <p class="items2"><b>team&nbsp;poster</b></p>
-                    <p class="items2">김연우&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/yeonnuv/"
-                                target="_blank">@yeonnuv</a></p>
-                    <p class="items2">양찬주</p>
-                </div>
-                <div class="section2">
-                    <p class="title">Anachronia</p>
-                    <p class="items2"><b>concept&nbsp;video&nbsp;/&nbsp;team&nbsp;poster</b></p>
-                    <p class="items2">이찬희&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/2164_2/"
-                                target="_blank">@2164_2</a></p>
-                    <p class="items2"><b>show&nbsp;music</b></p>
-                    <p class="items2">김정한&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/imrealmadein/"
-                                target="_blank">@imrealmadein</a></p>
-                    <p class="items2"><b>brochure</b></p>
-                    <p class="items2">양찬주</p>
-                </div>
-            </div>
-            <div class="credit3-section2">
-                <div class="section2">
+                <div class="section2-1">
                     <p class="title">Bug&nbsp;report</p>
                     <p class="items2"><b>concept&nbsp;video</b></p>
                     <p class="items2">이찬희&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/2164_2/"
@@ -239,7 +213,24 @@
                     <p class="items2">이동권&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/isdcyss/"
                                 target="_blank">@isdcyss</a></p>
                 </div>
+                
+                
+            </div>
+            <div class="credit3-section">
                 <div class="section2">
+                    <p class="title">OAK</p>
+                    <p class="items2"><b>concept&nbsp;video</b></p>
+                    <p class="items2">김준기&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/jungiwork/"
+                                target="_blank">@jungiwork</a></p>
+                    <p class="items2"><b>show&nbsp;music</b></p>
+                    <p class="items2">이정현&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/l2_producer/"
+                                target="_blank">@l2_producer</a></p>
+                    <p class="items2"><b>team&nbsp;poster</b></p>
+                    <p class="items2">김연우&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/yeonnuv/"
+                                target="_blank">@yeonnuv</a></p>
+                    <p class="items2">양찬주</p>
+                </div>
+                <div class="section2-2">
                     <p class="title">Loft&nbsp;1.0</p>
                     <p class="items2"><b>concept&nbsp;video</b></p>
                     <p class="items2">양지영&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/yz_0.0_zy/"
@@ -254,7 +245,21 @@
                     <p class="items2">정다은&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/plentycamile/"
                                 target="_blank">@plentycamile</a></p>
                 </div>
+                
+            </div>
+            <div class="credit3-section">
                 <div class="section2">
+                    <p class="title">Anachronia</p>
+                    <p class="items2"><b>concept&nbsp;video&nbsp;/&nbsp;team&nbsp;poster</b></p>
+                    <p class="items2">이찬희&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/2164_2/"
+                                target="_blank">@2164_2</a></p>
+                    <p class="items2"><b>show&nbsp;music</b></p>
+                    <p class="items2">김정한&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/imrealmadein/"
+                                target="_blank">@imrealmadein</a></p>
+                    <p class="items2"><b>brochure</b></p>
+                    <p class="items2">양찬주</p>
+                </div>
+                <div class="section2-3">
                     <p class="title">Deja&nbsp;vu</p>
                     <p class="items2"><b>concept&nbsp;video</b></p>
                     <p class="items2">김예서&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/yes.eor_no/"
@@ -571,22 +576,20 @@
     .credit3-container{
         margin-top:80px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        justify-content: center;
         text-align: center;
         color: rgb(96, 96, 96);
+        gap:100px;
         
     }
     .credit2-section{
         display: flex;
         flex-direction: column;
     }
-    .credit3-section1{
+    .credit3-section{
         display: flex;
-        flex-direction: row;
-        gap: 150px;
-        justify-content: center;
+        flex-direction: column;
 
     }
     .credit3-section2{
@@ -612,6 +615,13 @@
     .section {
         margin-bottom: 20px;
     }
+    .section2-2{
+        margin-top: 1.8em;
+    }
+    .section2-3{
+        margin-top: 3.6em;
+    }
+
 
     .title {
         font-size: 1.5em;
