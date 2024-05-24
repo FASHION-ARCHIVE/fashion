@@ -7,7 +7,7 @@
                 <div class="theme-container">
                     <div class="theme-poster-container">
                         <div data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true">
-                            <img class="theme-poster" alt="poster" src="@/assets/images/showinfo/mainTheme_poster.jpg"
+                            <img class="theme-poster" alt="poster" src="@/assets/images/showinfo/prototype_poster.jpeg"
                                 @click="click1_1()" />
                         </div>
                     </div>
