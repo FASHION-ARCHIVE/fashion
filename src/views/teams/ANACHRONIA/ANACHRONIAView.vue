@@ -42,10 +42,10 @@
                 </div>
             </div> -->
             <div class = "members-info-container">
-                <div class="members" data-aos="fade-up" data-aos-once="true">TEAM MEMBERS</div>
+                <div class="members" data-aos="fade-up" data-aos-once="true" data-aos-offset="-300">TEAM MEMBERS</div>
             </div>
 
-            <div class="team-members-list" data-aos="fade-up" data-aos-once="true">
+            <div class="team-members-list" data-aos="fade-up" data-aos-once="true" data-aos-offset="-300">
                 <div class="team-image-item">
                     <router-link to = "/ANACHRONIA/kimgyubin"><img alt="member" src="@/assets/images/anachronia/1/PROFILE PHOTO 3_4_ANACHRONIA_GYUBIN KIM.jpg" /></router-link>
                     <div class="caption">TEAM LEADER<br>김규빈</div>

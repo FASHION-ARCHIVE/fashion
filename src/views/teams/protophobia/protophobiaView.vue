@@ -45,10 +45,10 @@
                 </div>
             </div> -->
             <div class = "members-info-container">
-                <div class="members" data-aos="fade-up" data-aos-once="true">TEAM MEMBERS</div>
+                <div class="members" data-aos="fade-up" data-aos-once="true" data-aos-offset="-300">TEAM MEMBERS</div>
             </div>
 
-            <div class="team-members-list" data-aos="fade-up" data-aos-once="true">
+            <div class="team-members-list" data-aos="fade-up" data-aos-once="true" data-aos-offset="-300">
                 <div class="team-image-item">
                     <router-link to = "/protophobia/choi-junwoo"><img alt="member" src="@/assets/images/protophobia/1/PROFILE PHOTO 3_4_protophobia_CHOI JUN WOO.jpg" /></router-link>
                     <div class="caption">TEAM LEADER<br>최준우</div>

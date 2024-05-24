@@ -45,11 +45,11 @@
                 </div>
             </div> -->
             <div class = "members-info-container">
-                <div class="members" data-aos="fade-up" data-aos-once="true">TEAM MEMBERS</div>
+                <div class="members" data-aos="fade-up" data-aos-once="true" data-aos-offset="-300">TEAM MEMBERS</div>
                 <!-- <div style="font-size: 14px; margin-left:10px; margin-top: 15px;" data-aos="fade-up" data-aos-once="true">photo by <a class = "sns-link" href="https://www.instagram.com/plentycamille/" target="_blank">@plentycamille</a></div> -->
             </div>
 
-            <div class="team-members-list" data-aos="fade-up" data-aos-once="true">
+            <div class="team-members-list" data-aos="fade-up" data-aos-once="true" data-aos-offset="-300">
                 <div class="team-image-item">
                     <router-link to = "/Loft/wangchewon"><img alt="member" src="@/assets/images/loft10/1/PROFILE PHOTO 3_4__Loft 1.0_WANG CHEWON.jpg" /></router-link>
                     <div class="caption">TEAM LEADER<br>왕채원</div>
