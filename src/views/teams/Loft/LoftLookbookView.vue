@@ -145,10 +145,12 @@
   justify-content: center;
 }
 .left-icon{
+  cursor: pointer;
   margin-left: 50px;
   width: 30px;
 }
 .right-icon{
+  cursor: pointer;
   margin-right: 50px;
   width: 30px;
 }
