@@ -96,8 +96,8 @@
                     <p class="title">웹사이트&nbsp;개발</p>
                     <p class="items">변상윤&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/135yoon/"
                                 target="_blank">@135yoon</a></p>
-                    <p class="items">정제영&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/jaboong_ah/"
-                                target="_blank">@jaboong_ah</a></p>
+                    <p class="items">정제영&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/jaboog_ah/"
+                                target="_blank">@jaboog_ah</a></p>
                     <p class="items">박지원&nbsp;&nbsp;&nbsp;<a class="sns-link" href="https://www.instagram.com/gwon_55/"
                                 target="_blank">@gwon_55</a></p>
                 </div>
