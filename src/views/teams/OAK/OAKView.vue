@@ -49,10 +49,10 @@
                 </div>
             </div> -->
             <div class = "members-info-container">
-                <div class="members" data-aos="fade-up" data-aos-once="true">TEAM MEMBERS</div>
+                <div class="members" data-aos="fade-up" data-aos-once="true" data-aos-offset="-300">TEAM MEMBERS</div>
             </div>
 
-            <div class="team-members-list" data-aos="fade-up" data-aos-once="true">
+            <div class="team-members-list" data-aos="fade-up" data-aos-once="true" data-aos-offset="-300">
                 <div class="team-image-item">
                     <router-link to = "/OAK/lee-hansol"><img alt="member" src="@/assets/images/OAK/01/PROFILE-PHOTO-34_OAK_LEEHANSOL.jpg" /></router-link>
                     <div class="caption">TEAM LEADER<br>이한솔</div>

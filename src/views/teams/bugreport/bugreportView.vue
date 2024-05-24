@@ -41,11 +41,11 @@
                 </div>
             </div> -->
             <div class = "team-container">
-                <div class="br-team-members" data-aos="fade-up" data-aos-once="true">TEAM MEMBERS</div>
+                <div class="br-team-members" data-aos="fade-up" data-aos-once="true" data-aos-offset="-300">TEAM MEMBERS</div>
                 <!-- <div style="font-size: 14px; margin-left:10px; margin-top: 15px;" data-aos="fade-up" data-aos-once="true">photo by 이동권</div> -->
             </div>
 
-            <div class="br-members" data-aos="fade-up" data-aos-once="true">
+            <div class="br-members" data-aos="fade-up" data-aos-once="true" data-aos-offset="-300">
                 <div class="br-image-item">
                     <router-link to = "/bugreport/byun-sangyoon"><img class="br-member1" alt="member 1" src="@/assets/images/bugreport/profile/PROFILE_PHOTO_3_4_BUGREPORT_BYUN SANGYOON.jpg" /></router-link>
                     <div class="caption">TEAM LEADER<br>변상윤</div>
@@ -191,8 +191,7 @@ export default defineComponent({
 
     .br-poster{
         max-width: 400px;
-        width: auto;
-        height: auto;
+        object-fit: contain;
     }
 
     .br-info-container{
@@ -333,6 +332,12 @@ export default defineComponent({
 
     .br-team-members{   
         margin-left: 10px
+    }
+
+    .br-context{
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 10px;
+        border-radius: 10px;
     }
 }
 
