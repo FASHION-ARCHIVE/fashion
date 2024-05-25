@@ -35,8 +35,8 @@
           "https://d2d7g45pzqvt7g.cloudfront.net/protophobia/PROTOPHOBIA5.jpg",
           "https://d2d7g45pzqvt7g.cloudfront.net/protophobia/PROTOPHOBIA6.jpg",
           "https://d2d7g45pzqvt7g.cloudfront.net/protophobia/PROTOPHOBIA7.jpg",
-          "https://d2d7g45pzqvt7g.cloudfront.net/protophobia/PROTOPHOBIA8.jpg",
-          "https://d2d7g45pzqvt7g.cloudfront.net/protophobia/PROTOPHOBIA9.jpg",
+          "https://d2d7g45pzqvt7g.cloudfront.net/protophobia/PROTOPHOBIA8.jpeg",
+          "https://d2d7g45pzqvt7g.cloudfront.net/protophobia/PROTOPHOBIA9.jpeg",
 
           "https://d2d7g45pzqvt7g.cloudfront.net/protophobia/PROTOPHOBIA10.jpg",
           "https://d2d7g45pzqvt7g.cloudfront.net/protophobia/PROTOPHOBIA11.jpg",
