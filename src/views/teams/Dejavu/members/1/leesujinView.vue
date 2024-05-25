@@ -28,7 +28,7 @@
               <h5 class = "contact-list">
                 <div class="mail-link">
                   <img src = "@/assets/images/icon/mail_icon_bw.png">&nbsp;
-                  haesuri97@gmail.com
+                  dltnwls6061@gmail.com
                 </div>
                 <a class = "sns-link" href="https://www.instagram.com/treasured_treasure/" target="_blank">
                   <img src = "@/assets/images/icon/insta_icon_bw.png">&nbsp;
