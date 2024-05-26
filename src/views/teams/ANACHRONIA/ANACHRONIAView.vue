@@ -20,7 +20,7 @@
             </div>
 
             <div class = "video-container">
-                <iframe src = "https://www.youtube.com/embed/UzacT0HZT8A" frameborder = "0" allowfullscreen =""></iframe>
+                <iframe src = "https://www.youtube.com/embed/x02Sanfaq_o?si=R7KAn8V6C-1Qnv7O" frameborder = "0" allowfullscreen =""></iframe>
             </div>
             <!-- <p style = "margin-left: 10px;">file by 
                 <a class = "sns-link" href="https://www.instagram.com/2164_2/" target="_blank">@2164_2</a></p> -->
