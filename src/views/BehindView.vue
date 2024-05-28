@@ -24,7 +24,7 @@
                 allowfullscreen/>
             </div>
             <div class="behind-youtube-info-container">
-                <div class="behind-yt-info1"> BEHIND FILM</div>
+                <div class="behind-yt-info1">BEHIND FILM</div>
             </div>
         </div>
     </div>
@@ -41,7 +41,7 @@
                 allowfullscreen/>
             </div>
             <div class="behind-youtube-info-container">
-                <div class="behind-yt-info1"> BROCHURE BEHIND FILM</div>
+                <div class="behind-yt-info1">BROCHURE BEHIND FILM</div>
             </div>
         </div>
     </div>

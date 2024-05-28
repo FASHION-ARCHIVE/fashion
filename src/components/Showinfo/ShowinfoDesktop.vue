@@ -1,12 +1,15 @@
 <template>
-    <div class = "remote">
-        <ui style="display: block;">
-            <li style="display: block;"><div data-title = "ABOUT" class = "remote-info"><button class = "show-button" @click="click1()"></button></div></li>
-            <li style="display: block;"><div data-title = "TEASER FILM" class = "remote-info"><button class = "show-button" @click="click2()"></button></div></li>
-            <li style="display: block;"><div data-title = "MAP" class = "remote-info"><button class = "show-button" @click="click3()"></button></div></li>
-            <li style="display: block;"><div data-title = "CREDIT" class = "remote-info"><button style = "margin-bottom: 0px;" class = "show-button" @click="click4()"></button></div></li>
-        </ui>
+    <div class = "remote-container">
+        <div class = "remote">
+            <ui style="display: block;">
+                <li style="display: block;"><button class = "show-button" data-title = "ABOUT" @click="click1()"></button></li>
+                <li style="display: block;"><button class = "show-button" data-title = "TEASER FILM" @click="click2()"></button></li>
+                <li style="display: block;"><button class = "show-button" data-title = "MAP" @click="click3()"></button></li>
+                <li style="display: block;"><button class = "show-button" style="margin-bottom: 0px;" data-title = "CREDIT" @click="click4()"></button></li>
+            </ui>
+        </div>
     </div>
+
     <div class = "showinfo-background">
         
     <vue-scroll-snap :fullscreen="true">
@@ -352,26 +355,36 @@
 </script>
 
 <style scoped>
-
-    .remote-info{
-        position: relative;
+    .remote-container{
+        position: fixed;
+        display: flex;
+        align-items: center;
+        z-index: 10002;
+        height: 100vh;
+        right: 20px;
+        justify-content: center;
     }
 
-
-    .remote-info:hover:before {
-    opacity: 1;
+    .remote{
+        display: flex;
+        flex-direction: column;
+        text-align: right;
     }
 
-    .remote-info::before {
+    .show-button:hover:before {
+        opacity: 1;
+    }
+
+    .show-button::before {
+        transition: all 0.25s ease-in-out;
+        background: rgb(90, 90, 90);
         content: attr(data-title);
         display: block;
         opacity: 0;
         pointer-events: none;
         position: absolute;
-        transition: all 0.15s ease-in-out;
-        background: rgb(90, 90, 90);
         color: #fff;
-        font-size: 15px;
+        font-size: 12px;
         padding: 5px 10px;
         top: -5px;
         right: 0;
@@ -386,13 +399,14 @@
         cursor: pointer;
         border: none;
         display: block;
+        position: relative;
+        margin-bottom: 48px;
         width: 24px;
         height: 24px;
-        margin-bottom: 24px;
         background: url(@/assets/images/icon/bt_gray.png) 0% 0% / 100% 100% no-repeat;
     }
 
-    .show-button:hover{
+    /* .show-button:hover{
         cursor: pointer;
         border: none;
         display: block;
@@ -400,7 +414,7 @@
         height: 24px;
         margin-bottom: 24px;
         background: url(@/assets/images/icon/bt_white.png) 0% 0% / 100% 100% no-repeat;
-    }
+    } */
 
     /* .show-button:focus{
         cursor: pointer;
@@ -412,17 +426,7 @@
         background: url(@/assets/images/bt_white.png) 0% 0% / 100% 100% no-repeat;
     } */
 
-    .remote{
-        position: fixed;
-        right: calc(50vw - 565px);
-        margin-top: 50px;
-        height: 100vh;
-        z-index: 300;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        gap: 2px;
-    }
+    
 
     .item{
         height: 100%;
