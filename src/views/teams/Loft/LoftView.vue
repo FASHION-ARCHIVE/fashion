@@ -23,7 +23,7 @@
             </div>
 
             <div class = "video-container">
-                <iframe src = "https://www.youtube.com/embed/blVwnEXaDig" frameborder = "0" allowfullscreen =""></iframe>
+                <iframe src = "https://www.youtube.com/embed/sZj9kPxZncA" frameborder = "0" allowfullscreen =""></iframe>
             </div>
             <!-- <p style = "margin-left: 10px;">file by  -->
                 <!-- <a class = "sns-link" href="https://www.instagram.com/yz_0.0_zy/" target="_blank">@yz_0.0_zy</a>, @장의하</p> -->
