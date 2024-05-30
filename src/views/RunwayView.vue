@@ -45,9 +45,9 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen/>
             </div>
-            <div class="runway-youtube-info-container">
+            <!-- <div class="runway-youtube-info-container">
                 <div class="runway-yt-info1">전체 영상</div>
-            </div>
+            </div> -->
         </div>
 
  

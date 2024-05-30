@@ -5,7 +5,7 @@
                 <li style="display: block;"><button class = "show-button" data-title = "ABOUT" @click="click1()"></button></li>
                 <li style="display: block;"><button class = "show-button" data-title = "TEASER FILM" @click="click2()"></button></li>
                 <li style="display: block;"><button class = "show-button" data-title = "MAP" @click="click3()"></button></li>
-                <li style="display: block;"><button class = "show-button" style="margin-bottom: 0px;" data-title = "CREDIT" @click="click4()"></button></li>
+                <li style="display: block;"><button class = "show-button" data-title = "CREDIT" @click="click4()"></button></li>
             </ui>
         </div>
     </div>
@@ -16,11 +16,11 @@
    
     <div class="item" ref = "stage1">
         <div class = "theme-container">
-            <div class="theme-poster-container">
-                <div data-aos = "zoom-out" data-aos-once="true">
+            <div class="theme-poster-container" data-aos = "zoom-out" data-aos-duration="1500" data-aos-once="true">
+                <div>
                     <img class = "theme-poster" alt = "poster" src="@/assets/images/showinfo/prototype_poster.jpeg"/>
                 </div>
-                <div class ="theme-info-container" data-aos="fade-left" data-aos-delay = 300 data-aos-once="true">
+                <div class ="theme-info-container">
                     <div class="theme-name" >PROTOTYPE</div>
                     <div class="theme-info1">: The first impression as a designer in society</div>
                     <div class="theme-info2">프로토타입은 단순한 기본형을 넘어 모든 창조의 본질적 출발점입니다. 
@@ -38,7 +38,7 @@
             <div class="theme-youtube">
                 <iframe
                 :style="{ width: state.width, height: state.height }"
-                :src ="`https://www.youtube.com/embed/jA3JfQzYlw4`"
+                :src ="`https://www.youtube.com/embed/Hhx5h4xPrMA`"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -359,9 +359,10 @@
         position: fixed;
         display: flex;
         align-items: center;
-        z-index: 10002;
+        z-index: 1000;
         height: 100vh;
-        right: 20px;
+        top: 3%;
+        right: 10%;
         justify-content: center;
     }
 
@@ -376,19 +377,24 @@
     }
 
     .show-button::before {
-        transition: all 0.25s ease-in-out;
-        background: rgb(90, 90, 90);
         content: attr(data-title);
+        background: rgb(90, 90, 90);
+
+        /* transform: translate3d(20px, 0, 0); */
+        transition: all 0.15s ease-in-out;
+       
+        
         display: block;
         opacity: 0;
         pointer-events: none;
         position: absolute;
         color: #fff;
-        font-size: 12px;
+        font-size: 14px;
         padding: 5px 10px;
         top: -5px;
         right: 0;
         white-space: nowrap;
+        
     }
 
     ::-webkit-scrollbar{
@@ -400,10 +406,11 @@
         border: none;
         display: block;
         position: relative;
-        margin-bottom: 48px;
+        margin-top: 24px;
         width: 24px;
         height: 24px;
         background: url(@/assets/images/icon/bt_gray.png) 0% 0% / 100% 100% no-repeat;
+        will-change: transform;
     }
 
     /* .show-button:hover{
@@ -493,7 +500,6 @@
         display: flex;
         flex-direction: column;
         width: 550px;
-        padding-left: 50px;
         margin-top: 30px;
     }
 
@@ -501,17 +507,20 @@
         line-height: 1;
         font-size:64px;
         font-weight: bold;
+        color: rgb(96, 96, 96);
     }
 
     .theme-info1{
         font-size: 28px;
         line-height: 1;
+        color: rgb(96, 96, 96);
     }
     
     .theme-info2{
-        margin-top: 100px;
+        margin-top: 120px;
         font-size: 20px;
         font-weight: 400;
+        color: rgb(64, 64, 64);
     }
 
     .theme-youtube-container{
@@ -537,26 +546,29 @@
 
     .theme-yt-info1{
             font-size:30px;
+            color: rgb(96, 96, 96);
     }
 
     .map-container{
         margin-top: 100px;
-        display: grid;
-        place-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .map-container img{
-        margin-top: 100% - 100px;
         width: 100vw;
         height: 60vh;
         object-fit: contain;
-        
     }
 
     .map-info-container{
+        margin-top: 10px;
         font-size: 12px;
         width: 90vw;
         text-align: center;
+        color: rgb(64, 64, 64);
     }
 
     .credit-container{
@@ -646,6 +658,12 @@
     .sns-link {
         color: rgb(96, 96, 96);
     }
+
+@media screen and (max-width: 1300px){    
+    .remote-container{
+        display: none;
+    }
+}
 
 @media screen and (max-width: 1000px){    
     .theme-info-container{
