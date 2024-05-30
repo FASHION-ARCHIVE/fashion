@@ -21,7 +21,7 @@
             </div>
 
             <div class = "video-container">
-                <iframe src = "https://www.youtube.com/embed/V0TAZCDeWpA" frameborder = "0" allowfullscreen =""></iframe>
+                <iframe src = "https://www.youtube.com/embed/1dv0S2NkZNM" frameborder = "0" allowfullscreen =""></iframe>
             </div>
             <!-- <p style = "margin-left: 10px;">file by  -->
                 <!-- <a class = "sns-link" href="https://www.instagram.com/jeonjueum/" target="_blank">@jeonjueum</a>, <a class = "sns-link" href="https://www.instagram.com/yes.eor_no/" target="_blank">@yes.eor_no</a></p> -->
