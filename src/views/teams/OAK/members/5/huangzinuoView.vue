@@ -57,8 +57,8 @@
               :loop = "true"
               class = "pg-slide"
             >
-              <swiper-slide><img alt = "runway-img" src="@/assets/images/runway_replace.png"/></swiper-slide>
-              <swiper-slide><img alt = "runway-img" src="@/assets/images/runway_replace.png"/></swiper-slide>
+              <swiper-slide><img alt = "runway-img" src="@/assets/images/OAK/runway/fa_0025.webp"/></swiper-slide>
+              <swiper-slide><img alt = "runway-img" src="@/assets/images/OAK/runway/fa_0026.webp"/></swiper-slide>
             </swiper>
             <p class = "project-info">RUNWAY</p>
           </div>
