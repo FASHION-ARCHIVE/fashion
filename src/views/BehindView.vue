@@ -307,4 +307,16 @@
         border:1px solid black;
     } */
 
+    @media screen and (max-width: 768px) {
+    
+    .image-slide-container{
+         width: 300px;
+         height: 700px;
+         margin-top: 100px;
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        font-family: 'Custom';
+    }
+}
 </style>
