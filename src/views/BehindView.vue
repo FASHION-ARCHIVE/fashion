@@ -311,7 +311,7 @@
     
     .image-slide-container{
          width: 300px;
-         height: 700px;
+         height: 600px;
          margin-top: 5%;
         display: flex;
         /* flex-direction: column; */
