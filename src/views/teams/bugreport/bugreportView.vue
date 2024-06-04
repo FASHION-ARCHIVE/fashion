@@ -21,7 +21,7 @@
             </div>
 
             <div class = "video-container">
-                <iframe src = "https://www.youtube.com/embed/3e67GFEVTdU" frameborder = "0" allowfullscreen =""></iframe>
+                <iframe src = "https://www.youtube.com/embed/9gFC47CMDF4?si=XwUyBFPQlupq8WGm" frameborder = "0" allowfullscreen =""></iframe>
             </div>
             <!-- <div class="br-youtube-container" data-aos="fade-up" data-aos-once="true">
                 <div class = "br-youtube">
@@ -81,10 +81,6 @@
                 <div class="br-image-item">
                     <router-link to = "/bugreport/yu-jimin"><img class="br-member9" alt="member 9" src="@/assets/images/bugreport/profile/PROFILE_PHOTO_3_4_BUGREPORT_YU JIMIN_2.jpg" /></router-link>
                     <div class="caption">TEAM MEMBER<br>유지민</div>
-                </div>
-                <div class="br-image-item">
-                    <router-link to = "/bugreport/ha-nagyeong"><img class="br-member10" alt="member 10" src="@/assets/images/bugreport/profile/PROFILE_PHOTO_3_4_BUGREPORT_HANAGYEONG.jpg" /></router-link>
-                    <div class="caption">TEAM MEMBER<br>하나경</div>
                 </div>
             </div>
         </div>

@@ -304,4 +304,27 @@
     height: 100%;
     object-fit: contain;
     }
+
+    /* .behind-img {
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(@/assets/images/yy.jpeg);
+        border:1px solid black;
+    } */
+
+    @media screen and (max-width: 768px) {
+    
+    .image-slide-container{
+         width: 300px;
+         height: 650px;
+         margin-top: 50px;
+        display: flex;
+        /* flex-direction: column; */
+        font-family: 'Custom';
+        justify-content: center;
+    }
+}
 </style>
