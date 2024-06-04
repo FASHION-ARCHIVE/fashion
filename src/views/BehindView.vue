@@ -311,12 +311,12 @@
     
     .image-slide-container{
          width: 300px;
-         height: 600px;
-         margin-top: 5%;
+         height: 650px;
+         margin-top: 50px;
         display: flex;
         /* flex-direction: column; */
-        align-items: center;
         font-family: 'Custom';
+        justify-content: center;
     }
 }
 </style>
