@@ -312,7 +312,7 @@
     .image-slide-container{
          width: 300px;
          height: 700px;
-         margin-top: 100px;
+         margin-top: 5%;
         display: flex;
         /* flex-direction: column; */
         align-items: center;
