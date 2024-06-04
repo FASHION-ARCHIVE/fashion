@@ -7,9 +7,9 @@
         <div v-click-outside = "onClickOutside" class = "white-bg">
             <!-- <span class="material-symbols-outlined" @click = "onClickOutside">close</span>  -->
             <img size = 100vw alt = "behind-img" src="@/assets/images/test_123.jpeg"/>
-            <div class = "designer-info">
+            <!-- <div class = "designer-info">
                 <div class = "designer-name"><router-link to = "/team-list">정제영</router-link></div>
-            </div>
+            </div> -->
             
         </div>
     </div>
@@ -39,7 +39,7 @@
             <div class="runway-youtube" ref = "stage1">
                 <iframe
                 :style="{ width: state.width, height: state.height }"
-                :src ="`https://www.youtube.com/embed/E-8pyVBvCPQ`"
+                :src ="`https://www.youtube.com/embed/2-C7b48l3TI`"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -459,21 +459,18 @@
         top: -5px;
         right: 0;
         white-space: nowrap;
+
+        z-index: 500;
     }
 
-    .button-info{
-        display: none;
-        position: relative;
-    }
-
-    .button-info::after{
+    /* .button-info::after{
         position: relative;
         display: block;
     }
 
     .show-button:hover .button-info{
         display: block; 
-    }
+    } */
 
     .material-symbols-outlined{
         cursor: pointer;
@@ -546,6 +543,8 @@
         height: 24px;
         margin-bottom: 20px;
         background: url(@/assets/images/icon/bt_gray.png) 0% 0% / 100% 100% no-repeat;
+
+        will-change: transform;
     }
 
     .show-button:hover{
@@ -562,9 +561,10 @@
         position: fixed;
         margin-left: 1200px;
         margin-top: 14%;
-        z-index: 1;
+        z-index: 300;
         display: flex;
         flex-direction: column;
+        gap: 2px;
     }
 
     .runway-background{
@@ -615,6 +615,7 @@
     .runway-yt-info1{
         font-size:30px;
         justify-content: left;
+        color: rgb(96, 96, 96);
     }
  
 

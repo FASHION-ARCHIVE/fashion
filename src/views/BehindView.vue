@@ -57,8 +57,8 @@
                 class="mySwiper"
             >
 
-            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/bh_test0.png"/></swiper-slide>
             <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/bh_test1.jpeg"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/bh_test0.png"/></swiper-slide>
             <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/bh_test2.jpeg"/></swiper-slide>
             <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/bh_test3.jpeg"/></swiper-slide>
             <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/bh_test4.jpeg"/></swiper-slide>
@@ -179,6 +179,7 @@
         height: 24px;
         margin-bottom: 24px;
         background: url(@/assets/images/icon/bt_gray.png) 0% 0% / 100% 100% no-repeat;
+        will-change: transform;
     }
 
     .show-button:hover{
@@ -260,22 +261,29 @@
 
     .behind-yt-info1{
         font-size:30px;
+        color: rgb(96, 96, 96);
     }
 
     .image-slide-container{
-        
-        margin-top: 5%;
+        margin-top: 100px;
         width: 960px;
-        display: flex;
-        /* flex-direction: column; */
+        height: 540px;
+        display: grid;
+
+        place-items: center;
+        align-items: center;
         justify-content: center;
         font-family: 'Custom';
         
+        -webkit-user-select:none;
+        -moz-user-select:none;
+        -ms-user-select:none;
+        user-select:none;
     }
 
     .swiper {
     width: 100%;
-    height: 80%;
+    height: 100%;
     margin: auto;
     }
 
@@ -296,15 +304,4 @@
     height: 100%;
     object-fit: contain;
     }
-
-    /* .behind-img {
-        width: 100%;
-        height: 100%;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-image: url(@/assets/images/yy.jpeg);
-        border:1px solid black;
-    } */
-
 </style>
