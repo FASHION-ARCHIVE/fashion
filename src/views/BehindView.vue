@@ -1,13 +1,15 @@
 <template>
    <mainHeader/>
     <div class = "behind-background">
-        <div class = "remote">
-            <ui style="display: block;">
-                <li style="display: block;"><div data-title = "BEHIND FILM" class = "remote-info"><button class = "show-button" @click="click1()"></button></div></li>
-                <li style="display: block;"><div data-title = "BROCHUE BEHIND FILM" class = "remote-info"><button class = "show-button" @click="click2()"></button></div></li>
-                <li style="display: block;"><div data-title = "BEHIND CUT" class = "remote-info"><button class = "show-button" @click="click3()"></button></div></li>
-            </ui>
-    </div>
+        <div class = "remote-container">
+            <div class = "remote">
+                <ui style="display: block;">
+                    <li style="display: block;"><div data-title = "BEHIND FILM" class = "remote-info"><button class = "show-button" @click="click1()"></button></div></li>
+                    <li style="display: block;"><div data-title = "BROCHUE BEHIND FILM" class = "remote-info"><button class = "show-button" @click="click2()"></button></div></li>
+                    <li style="display: block;"><div data-title = "BEHIND CUT" class = "remote-info"><button class = "show-button" @click="click3()"></button></div></li>
+                </ui>
+            </div>
+        </div>
 
     <vue-scroll-snap :fullscreen="true">
 
@@ -145,6 +147,16 @@
 </script>
 
 <style scoped>
+    .remote-container{
+        position: fixed;
+        display: flex;
+        align-items: center;
+        z-index: 1000;
+        height: 100vh;
+        top: 3%;
+        right: 10%;
+        justify-content: center;
+    }
 
     .remote-info{
         position: relative;
@@ -169,6 +181,8 @@
         top: -5px;
         right: 0;
         white-space: nowrap;
+
+        z-index: 2000;
     }
 
     .show-button{
@@ -182,7 +196,7 @@
         will-change: transform;
     }
 
-    .show-button:hover{
+    /* .show-button:hover{
         cursor: pointer;
         border: none;
         display: block;
@@ -190,16 +204,12 @@
         height: 24px;
         margin-bottom: 24px;
         background: url(@/assets/images/icon/bt_white.png) 0% 0% / 100% 100% no-repeat;
-    }    
+    }     */
 
     .remote{
-        position: fixed;
-        margin-left: 1200px;
-        margin-top: 18%;
-        z-index: 300;
         display: flex;
         flex-direction: column;
-        gap: 2px;
+        text-align: right;
     }
 
     .item{
@@ -267,7 +277,7 @@
     .image-slide-container{
         margin-top: 100px;
         width: 960px;
-        height: 540px;
+        height: 80vh;
         display: grid;
 
         place-items: center;
@@ -319,12 +329,17 @@
     
     .image-slide-container{
          width: 300px;
-         height: 650px;
-         margin-top: 50px;
+         height: 600px;
+         margin-top: 100px;
         display: flex;
         /* flex-direction: column; */
         font-family: 'Custom';
         justify-content: center;
+        align-items: center;
+    }
+
+    .remote-container{
+        display: none;
     }
 }
 </style>
