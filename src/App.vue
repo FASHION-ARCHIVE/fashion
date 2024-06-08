@@ -71,7 +71,7 @@ body {
 }
 
 :root{
-  --swiper-theme-color: #282828 !important;
+  --swiper-theme-color: #969696 !important;
 }
 
 a {
