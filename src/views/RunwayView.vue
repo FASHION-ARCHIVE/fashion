@@ -554,7 +554,7 @@
 
 
     
-
+    <div class = "remote-container">
         <div class = "remote">
              <ui style="display: block;">
                  <li style="display: block;"><div data-title = "전체 영상" class = "remote-info"><button class = "show-button" @click="click1()"></button></div></li>
@@ -566,6 +566,7 @@
                  <li style="display: block;"><div data-title = "Deja vu" class = "remote-info"><button class = "show-button" @click="click7()"></button></div></li>
              </ui>
         </div>
+    </div>
 
 
     <div class = "runway-container">
@@ -1733,6 +1734,23 @@
  
  <style scoped>
 
+    .remote-container{
+        position: fixed;
+        display: flex;
+        align-items: center;
+        z-index: 1000;
+        height: 100vh;
+        top: 5%;
+        right: 10%;
+        justify-content: center;
+    }
+
+    .remote{
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+    }
+
     .remote-info{
         position: relative;
     }
@@ -1802,17 +1820,21 @@
         position: fixed;
         padding: 20px;
         z-index: 100;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .white-bg{
-        width: 30%;
-        height: 50vh;
+        /* width: 30vw; */
+        height: 80vh;
         /* background: white; */
         /* border-radius: 4px; */
         padding: 0px 10px 0px 10px;
 
-        margin: auto;
-        margin-top: 3%;
+        /* margin: auto; */
+        /* margin-top: 3%; */
         -webkit-user-select:none;
         -moz-user-select:none;
         -ms-user-select:none;
@@ -1820,8 +1842,15 @@
 
         display: flex;
         flex-direction: column;
+
     }
 
+    .white-bg img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    
     .close-button{
         cursor: pointer;
         border: none;
@@ -1853,7 +1882,7 @@
         background: url(@/assets/images/icon/bt_white.png) 0% 0% / 100% 100% no-repeat;
     }    
 
-    .remote{
+    /* .remote{
         position: fixed;
         margin-left: 1200px;
         margin-top: 14%;
@@ -1861,15 +1890,15 @@
         display: flex;
         flex-direction: column;
         gap: 2px;
-    }
+    } */
 
     .runway-background{
     /* 배경 이미지 적용 */
     display: flex;
     height: auto;
     background-image: url('@/assets/images/background_img.jpg'); 
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    /* background-size: cover; */
     background-position: center;
     /* background-color: #e1e1e1; */
     justify-content: center;
@@ -1889,7 +1918,7 @@
     flex-direction: column;
     justify-content: center;
     
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 
     }
 
@@ -1901,13 +1930,14 @@
 
     .runway-youtube-info-container{
         display: flex;
-        margin-top: 5px;
+        margin-top: 40px;
         flex-direction: row;
         justify-content: center;
     }
 
     .runway-yt-info1{
-        font-size:30px;
+        font-weight: bold;
+        font-size:36px;
         color: rgb(96, 96, 96);
     }
  
@@ -1963,5 +1993,11 @@
         filter: brightness(1);
         transition-duration:0.1s;
         transform: scale(1.05, 1.05);
+    }
+
+    @media screen and (max-width: 768px) {
+        .remote-container{
+            display: none;
+        }
     }
  </style>
