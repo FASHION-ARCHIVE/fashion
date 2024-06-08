@@ -605,13 +605,35 @@
         </div>
             <div class = "image-slide-container">
                 <swiper
-                    :slidesPerView = "4"
+                    :slidesPerView = "1"
                     :grid="{
-                        rows: 2, 
+                        rows: 1, 
                     }"
                     :navigation="true"
+                    :breakpoints="{
+                        '1024': {
+                            grid: {
+                                rows: 2
+                            },
+                            slidesPerView: 4,
+                        },
+                        '768': {
+                            grid: {
+                                rows: 2
+                            },
+                            slidesPerView: 3,
+                        },
+                        '640': {
+                            grid: {
+                                rows: 2
+                            },
+                            slidesPerView: 2,
+                        },
+                    }"
                     :modules="modules"
                     class="mySwiper"
+
+                    
                 >
 
                 <swiper-slide><img alt = "runway-img" src="@/assets/images/protophobia/runway/fa_0004.webp" @click = "modalOpening4"/></swiper-slide>
@@ -655,11 +677,31 @@
 
         <div class = "image-slide-container">
             <swiper
-                :slidesPerView = "4"
+                :slidesPerView = "1"
                 :grid="{
-                    rows: 2, 
+                    rows: 1, 
                 }"
                 :navigation="true"
+                :breakpoints="{
+                        '1024': {
+                            grid: {
+                                rows: 2
+                            },
+                            slidesPerView: 4,
+                        },
+                        '768': {
+                            grid: {
+                                rows: 2
+                            },
+                            slidesPerView: 3,
+                        },
+                        '640': {
+                            grid: {
+                                rows: 2
+                            },
+                            slidesPerView: 2,
+                        },
+                    }"
                 :modules="modules"
                 class="mySwiper"
             >
@@ -707,11 +749,31 @@
 
         <div class = "image-slide-container">
             <swiper
-                :slidesPerView = "4"
+                :slidesPerView = "1"
                 :grid="{
-                    rows: 2, 
+                    rows: 1, 
                 }"
                 :navigation="true"
+                :breakpoints="{
+                        '1024': {
+                            grid: {
+                                rows: 2
+                            },
+                            slidesPerView: 4,
+                        },
+                        '768': {
+                            grid: {
+                                rows: 2
+                            },
+                            slidesPerView: 3,
+                        },
+                        '640': {
+                            grid: {
+                                rows: 2
+                            },
+                            slidesPerView: 2,
+                        },
+                    }"
                 :modules="modules"
                 class="mySwiper"
             >
@@ -757,11 +819,31 @@
 
         <div class = "image-slide-container">
             <swiper
-                :slidesPerView = "4"
+                :slidesPerView = "1"
                 :grid="{
-                    rows: 2, 
+                    rows: 1, 
                 }"
                 :navigation="true"
+                :breakpoints="{
+                        '1024': {
+                            grid: {
+                                rows: 2
+                            },
+                            slidesPerView: 4,
+                        },
+                        '768': {
+                            grid: {
+                                rows: 2
+                            },
+                            slidesPerView: 3,
+                        },
+                        '640': {
+                            grid: {
+                                rows: 2
+                            },
+                            slidesPerView: 2,
+                        },
+                    }"
                 :modules="modules"
                 class="mySwiper"
             >
@@ -807,11 +889,31 @@
 
         <div class = "image-slide-container">
             <swiper
-                :slidesPerView = "4"
+                :slidesPerView = "1"
                 :grid="{
-                    rows: 2, 
+                    rows: 1, 
                 }"
                 :navigation="true"
+                :breakpoints="{
+                        '1024': {
+                            grid: {
+                                rows: 2
+                            },
+                            slidesPerView: 4,
+                        },
+                        '768': {
+                            grid: {
+                                rows: 2
+                            },
+                            slidesPerView: 3,
+                        },
+                        '640': {
+                            grid: {
+                                rows: 2
+                            },
+                            slidesPerView: 2,
+                        },
+                    }"
                 :modules="modules"
                 class="mySwiper"
             >
@@ -857,11 +959,31 @@
 
         <div class = "image-slide-container">
             <swiper
-                :slidesPerView = "4"
+                :slidesPerView = "1"
                 :grid="{
-                    rows: 2, 
+                    rows: 1, 
                 }"
                 :navigation="true"
+                :breakpoints="{
+                        '1024': {
+                            grid: {
+                                rows: 2
+                            },
+                            slidesPerView: 4,
+                        },
+                        '768': {
+                            grid: {
+                                rows: 2
+                            },
+                            slidesPerView: 3,
+                        },
+                        '640': {
+                            grid: {
+                                rows: 2
+                            },
+                            slidesPerView: 2,
+                        },
+                    }"
                 :modules="modules"
                 class="mySwiper"
             >
@@ -1733,7 +1855,7 @@
  </script>
  
  <style scoped>
-
+ 
     .remote-container{
         position: fixed;
         display: flex;
@@ -1818,7 +1940,6 @@
         height: 100%;
         background: rgba(0,0,0,0.5);
         position: fixed;
-        padding: 20px;
         z-index: 100;
 
         display: flex;
@@ -1998,6 +2119,11 @@
     @media screen and (max-width: 768px) {
         .remote-container{
             display: none;
+        }
+
+        .image-slide-container{
+            width: 80vw;
+            height: 120vw;
         }
     }
  </style>
