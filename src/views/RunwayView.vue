@@ -2125,5 +2125,9 @@
             width: 80vw;
             height: 120vw;
         }
+
+        .black-bg{
+            display: none;
+        }
     }
  </style>
