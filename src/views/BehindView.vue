@@ -59,15 +59,92 @@
                 class="mySwiper"
             >
 
-            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/bh_test1.jpeg"/></swiper-slide>
-            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/bh_test0.png"/></swiper-slide>
-            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/bh_test2.jpeg"/></swiper-slide>
-            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/bh_test3.jpeg"/></swiper-slide>
-            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/bh_test4.jpeg"/></swiper-slide>
-            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/bh_test5.jpeg"/></swiper-slide>
-            <swiper-slide>Slide 7</swiper-slide>
-            <swiper-slide>Slide 8</swiper-slide>
-            <swiper-slide>Slide 9</swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/000008 4.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/000008 5.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/000009 2.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/000010 5.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/000011 4.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/000013 4.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/000015 4.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/000016 4.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/000018 4.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/000022 2.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/000026 2.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/000034.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/000040.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3329.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3331.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3340.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3345.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3353.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3360.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3367.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3378.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3390.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3391.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3393.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3397.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3399.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3404.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3408.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3414.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3423.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3434.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3436.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3441.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3445.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3458.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3463.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3481.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3485.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3489.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3492.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3509.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3510.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3511.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3514.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3519.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3560.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3569.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3572.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3580.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3581.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3583.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3584.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3587.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3591.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3592.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3600.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3607.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3611.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3620.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3625.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3634.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3653.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3678.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3679.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3682.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3693.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3698.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3707.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3709.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3790.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3837.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3883.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3909.webp"/></swiper-slide>            
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3916.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3933.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3945.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3983.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3986.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_3990.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_4011.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_4015.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_4030.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_4033.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_4035.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_4037.webp"/></swiper-slide>
+            <swiper-slide><img alt = "behind-img" src="@/assets/images/behind/GET_4055.webp"/></swiper-slide>
             </swiper>
         </div>
     </div>
@@ -153,7 +230,7 @@
         align-items: center;
         z-index: 1000;
         height: 100vh;
-        top: 3%;
+        top: 7%;
         right: 10%;
         justify-content: center;
     }
@@ -276,9 +353,8 @@
 
     .image-slide-container{
         margin-top: 100px;
-        width: 960px;
-        height: 80vh;
-        display: grid;
+        width: 80vw;
+        display: flex;
 
         place-items: center;
         align-items: center;
@@ -292,9 +368,10 @@
     }
 
     .swiper {
-    width: 100%;
-    height: 100%;
-    margin: auto;
+        
+        width: 80%;
+        height: 85%;
+        margin: auto;
     }
 
     .swiper-slide {
@@ -328,14 +405,7 @@
     @media screen and (max-width: 768px) {
     
     .image-slide-container{
-         width: 300px;
-         height: 600px;
-         margin-top: 100px;
-        display: flex;
-        /* flex-direction: column; */
-        font-family: 'Custom';
-        justify-content: center;
-        align-items: center;
+        width: 95vw;
     }
 
     .remote-container{
