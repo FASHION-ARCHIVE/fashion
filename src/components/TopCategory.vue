@@ -36,9 +36,9 @@
                 <ul class="mobile-menu">
                     <li><router-link to="/team-list">PROJECTS</router-link></li>
                     <li><router-link to="/team-brochuer">LOOKBOOK</router-link></li>
-                    <li @click = "coming_soon"><router-link to="">RUNWAY</router-link></li>
+                    <li><router-link to="/runway">RUNWAY</router-link></li>
                     <li><router-link to="/showinfo">SHOW INFO</router-link></li>
-                    <li @click = "coming_soon"><router-link to="">BEHIND</router-link></li>
+                    <li><router-link to="/behind">BEHIND</router-link></li>
                 </ul>
             </div>
         </div>
