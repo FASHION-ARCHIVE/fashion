@@ -18,9 +18,9 @@
                         <div class="nav-links">
                             <router-link to="/team-list"><div class="category" >PROJECTS</div></router-link>
                             <router-link to="/team-brochuer"><div class="category">LOOKBOOK</div></router-link>
-                            <router-link to=""><div class="category" @click = "coming_soon">RUNWAY</div></router-link>
+                            <router-link to="/runway"><div class="category">RUNWAY</div></router-link>
                             <router-link to="/showinfo"><div class="category">SHOW INFO</div></router-link>
-                            <router-link to=""><div class="category" @click = "coming_soon">BEHIND</div></router-link>
+                            <router-link to="/behind"><div class="category">BEHIND</div></router-link>
                         </div>
                         <div id="hamburger-icon" :class="{open: isOpened}" @click="toggleMenu">
                             <div class="bar1"></div>
