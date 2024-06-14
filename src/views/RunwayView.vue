@@ -592,7 +592,7 @@
             <div class="runway-youtube" ref = "stage2">
                 <iframe
                 :style="{ width: state.width, height: state.height }"
-                :src ="`https://www.youtube.com/embed/xQht_yN7yPE`"
+                :src ="`https://www.youtube.com/embed/9Tc4_zDfIFA`"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -663,7 +663,7 @@
             <div class="runway-youtube" ref = "stage3">
                 <iframe
                 :style="{ width: state.width, height: state.height }"
-                :src ="`https://www.youtube.com/embed/xQht_yN7yPE`"
+                :src ="`https://www.youtube.com/embed/WPdHA3ySDa4`"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -735,7 +735,7 @@
             <div class="runway-youtube" ref = "stage4">
                 <iframe
                 :style="{ width: state.width, height: state.height }"
-                :src ="`https://www.youtube.com/embed/xQht_yN7yPE`"
+                :src ="`https://www.youtube.com/embed/NVpDJKjph1Y`"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -805,7 +805,7 @@
             <div class="runway-youtube" ref = "stage5">
                 <iframe
                 :style="{ width: state.width, height: state.height }"
-                :src ="`https://www.youtube.com/embed/xQht_yN7yPE`"
+                :src ="`https://www.youtube.com/embed/ZZqqYb9sRv8`"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -875,7 +875,7 @@
             <div class="runway-youtube" ref = "stage6">
                 <iframe
                 :style="{ width: state.width, height: state.height }"
-                :src ="`https://www.youtube.com/embed/xQht_yN7yPE`"
+                :src ="`https://www.youtube.com/embed/hfPoAujPT8k`"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -945,7 +945,7 @@
             <div class="runway-youtube" ref = "stage7">
                 <iframe
                 :style="{ width: state.width, height: state.height }"
-                :src ="`https://www.youtube.com/embed/xQht_yN7yPE`"
+                :src ="`https://www.youtube.com/embed/1CxL7NqU77w`"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
