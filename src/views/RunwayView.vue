@@ -576,7 +576,7 @@
             <div class="runway-youtube" ref = "stage1">
                 <iframe
                 :style="{ width: state.width, height: state.height }"
-                :src ="`https://www.youtube.com/embed/2-C7b48l3TI`"
+                :src ="`https://www.youtube.com/embed/eY7DzWi5K9o?si=kusyxjEu7Vi_NqkL`"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
