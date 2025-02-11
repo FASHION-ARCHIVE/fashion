@@ -51,7 +51,7 @@
         >
           <router-link to="/bugreport"
             ><img
-              src="https://d1s42bqib275dv.cloudfront.net/bugreport/000버그리포트-표지000.jpg"
+              src="https://kuad-archive.com/2024/bugreport/000버그리포트-표지000.jpg"
           /></router-link>
           <div class="caption">BUG REPORT</div>
         </div>

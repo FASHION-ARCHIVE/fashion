@@ -13,7 +13,7 @@
         >
           <router-link to="/protophobia/lookbook"
             ><img
-              src="https://d1s42bqib275dv.cloudfront.net/protophobia/프로토포비아-책표지.jpg"
+              src="https://kuad-archive.com/2024/protophobia/프로토포비아-책표지.jpg"
           /></router-link>
           <div class="caption">protophobia</div>
         </div>
@@ -26,7 +26,7 @@
         >
           <router-link to="/OAK/lookbook"
             ><img
-              src="https://d1s42bqib275dv.cloudfront.net/OAK/옥-책표지.jpg"
+              src="https://kuad-archive.com/2024/OAK/옥-책표지.jpg"
           /></router-link>
           <div class="caption">OAK</div>
         </div>
@@ -39,7 +39,7 @@
         >
           <router-link to="/ANACHRONIA/lookbook"
             ><img
-              src="https://d1s42bqib275dv.cloudfront.net/ANACHRONIA/아나크로니아-책표지.jpg"
+              src="https://kuad-archive.com/2024/ANACHRONIA/아나크로니아-책표지.jpg"
           /></router-link>
           <div class="caption">ANACHRONIA</div>
         </div>
@@ -52,7 +52,7 @@
         >
           <router-link to="/bugreport/lookbook"
             ><img
-              src="https://d1s42bqib275dv.cloudfront.net/bugreport/버그리포트-책표지.jpg"
+              src="https://kuad-archive.com/2024/bugreport/버그리포트-책표지.jpg"
           /></router-link>
           <div class="caption">BUG REPORT</div>
         </div>
@@ -65,7 +65,7 @@
         >
           <router-link to="/Loft/lookbook"
             ><img
-              src="https://d1s42bqib275dv.cloudfront.net/Loft/로프트-책표지.jpg"
+              src="https://kuad-archive.com/2024/Loft/로프트-책표지.jpg"
           /></router-link>
           <div class="caption">Loft 1.0</div>
         </div>
@@ -78,7 +78,7 @@
         >
           <router-link to="/Dejavu/lookbook"
             ><img
-              src="https://d1s42bqib275dv.cloudfront.net/dejavu/데자뷰-책-표지.jpg"
+              src="https://kuad-archive.com/2024/dejavu/데자뷰-책-표지.jpg"
           /></router-link>
           <div class="caption">Deja vu</div>
         </div>
